@@ -32,6 +32,8 @@
   .btn-dark, .btn-accent, .btn-ghost { display: inline-flex; align-items: center; justify-content: center; line-height: 1.5; }
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
   .reveal.in { opacity: 1; transform: none; }
+  .hero-slide { opacity: 0; visibility: hidden; transition: opacity .7s ease, visibility 0s linear .7s; position: relative; }
+  .hero-slide.active { opacity: 1; visibility: visible; transition: opacity .7s ease; }
   html.lenis, html.lenis body { height: auto; }
   .lenis.lenis-smooth { scroll-behavior: auto !important; }
   .lenis.lenis-stopped { overflow: hidden; }
@@ -68,7 +70,7 @@
       <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">PLUMBING</a>
       <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">STOVES</a>
       <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">SOLAR THERMAL</a>
-      <a href="#why" class="px-3 py-4 hover:text-[#f5a05a] transition">TESTIMONIAL</a>
+      <a href="#hero" data-goto-slide="3" class="px-3 py-4 hover:text-[#f5a05a] transition">TESTIMONIAL</a>
       <a href="#find" class="px-3 py-4 hover:text-[#f5a05a] transition">CONTACT US</a>
     </nav>
     <a href="tel:01132822056" aria-label="Call 0113 282 2056" class="lg:hidden pill bg-white text-[var(--ink)] display text-sm font-medium !px-5 !py-3 whitespace-nowrap my-3"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 282 2056</span></a>
@@ -93,21 +95,61 @@
   </nav>
 </header>
 
-<!-- HERO (original token: save-money headline + orange call pill) -->
-<section class="max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24">
-  <div class="reveal inline-flex items-center gap-2 pill bg-[var(--mist)] px-4 py-2 text-[12px] sm:text-[13px] font-semibold mb-6 md:mb-8">
-    Worcester Accredited Installer · 12-year guarantee on selected boilers
+<!-- HERO CAROUSEL (original token: 4-slide autumn/boiler/finance/reviews slider; text rendered in HTML) -->
+<section id="hero" class="relative overflow-hidden">
+  <div class="grid">
+    <!-- Slide 1: save money -->
+    <div class="hero-slide active" style="grid-area:1/1">
+      <img src="_internal/resources/images/img_10.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="relative max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="display text-[40px] leading-[1.04] sm:text-6xl text-[#14384f]">You can save money on your energy bills by upgrading your boiler.</h1>
+          <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium mt-8">Call Us today</a>
+        </div>
+        <img src="_internal/resources/images/img_13.png" alt="Worcester Bosch boilers with 12 year guarantee" class="w-full max-w-md mx-auto h-auto" loading="eager" />
+      </div>
+    </div>
+    <!-- Slide 2: finance -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <img src="_internal/resources/images/img_12.png" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="relative max-w-3xl mx-auto px-6 md:px-8 pt-14 md:pt-24 pb-16 md:pb-28 text-center">
+        <p class="display text-[40px] leading-[1.04] sm:text-6xl text-[#14384f]">Call us today</p>
+        <p class="mt-4 text-lg sm:text-xl text-[var(--muted)]">Ask about our 2 year 0% finance deal — 0113 282 2056.</p>
+        <a href="#quote" class="pill btn-accent display text-lg font-medium mt-8">Ask about finance</a>
+      </div>
+    </div>
+    <!-- Slide 3: trustworthy engineers -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <div class="relative max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="display text-[40px] leading-[1.04] sm:text-6xl">Looking for trustworthy and reliable heating engineers? Look no further.</h2>
+          <div class="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+            <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium text-center">0113 282 2056</a>
+            <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get an instant quote</a>
+          </div>
+        </div>
+        <img src="_internal/resources/images/img_11.png" alt="Worcester Bosch boilers with wireless connectivity" class="w-full max-w-md mx-auto h-auto" loading="lazy" />
+      </div>
+    </div>
+    <!-- Slide 4: reviews -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <div class="relative max-w-3xl mx-auto px-6 md:px-8 pt-14 md:pt-24 pb-16 md:pb-28 text-center">
+        <img src="_internal/resources/images/img_14.png" alt="Five star rated" class="h-8 w-auto mx-auto" loading="lazy" />
+        <p class="display text-[40px] leading-[1.04] sm:text-6xl mt-6">Rewarded high ratings by our happy customers.</p>
+        <p class="mt-4 text-lg text-[var(--muted)]">See our top rated Checkatrade reviews.</p>
+        <a href="#quote" class="pill btn-accent display text-lg font-medium mt-8">Get in touch</a>
+      </div>
+    </div>
   </div>
-  <h1 class="reveal display text-[42px] leading-[1.02] sm:text-6xl lg:text-[72px] max-w-4xl">
-    You can save money on your energy bills by upgrading your boiler.
-  </h1>
-  <p class="reveal mt-6 md:mt-8 text-base sm:text-lg leading-[1.56] text-[var(--muted)] max-w-2xl">
-    New Worcester Bosch boiler installations, servicing and repairs — plus plumbing,
-    stoves and solar thermal. Experienced, helpful staff; call today for a no-obligation quotation.
-  </p>
-  <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
-    <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium text-center inline-flex items-center justify-center gap-2"><i class="ri-phone-line text-xl"></i>Call us today</a>
-    <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get an instant quote</a>
+  <div class="absolute bottom-5 left-0 right-0 flex items-center justify-center gap-3">
+    <button class="hero-prev w-10 h-10 rounded-full bg-black/10 hover:bg-black/20 flex items-center justify-center" aria-label="Previous slide"><i class="ri-arrow-left-line text-xl"></i></button>
+    <div class="flex items-center gap-2" role="tablist" aria-label="Slides">
+      <button class="hero-dot w-3 h-3 rounded-full bg-[var(--accent)]" data-i="0" aria-label="Slide 1"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="1" aria-label="Slide 2"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="2" aria-label="Slide 3"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="3" aria-label="Slide 4"></button>
+    </div>
+    <button class="hero-next w-10 h-10 rounded-full bg-black/10 hover:bg-black/20 flex items-center justify-center" aria-label="Next slide"><i class="ri-arrow-right-line text-xl"></i></button>
   </div>
 </section>
 
@@ -275,6 +317,26 @@
   });
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  // Hero carousel
+  const slides = Array.from(document.querySelectorAll('.hero-slide'));
+  const dots = Array.from(document.querySelectorAll('.hero-dot'));
+  let cur = 0, timer = null;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function go(i) {
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s, k) => s.classList.toggle('active', k === cur));
+    dots.forEach((d, k) => { d.classList.toggle('bg-[var(--accent)]', k === cur); d.classList.toggle('bg-black/20', k !== cur); });
+  }
+  function play() { if (!reduceMotion && !timer) timer = setInterval(() => go(cur + 1), 6000); }
+  function stop() { clearInterval(timer); timer = null; }
+  document.querySelector('.hero-prev').addEventListener('click', () => { stop(); go(cur - 1); play(); });
+  document.querySelector('.hero-next').addEventListener('click', () => { stop(); go(cur + 1); play(); });
+  dots.forEach(d => d.addEventListener('click', () => { stop(); go(Number(d.dataset.i)); play(); }));
+  document.querySelectorAll('[data-goto-slide]').forEach(a => a.addEventListener('click', () => go(Number(a.dataset.gotoSlide))));
+  const hero = document.getElementById('hero');
+  hero.addEventListener('mouseenter', stop);
+  hero.addEventListener('mouseleave', play);
+  play();
   document.getElementById('quote-form').addEventListener('submit', e => {
     e.preventDefault();
     document.getElementById('quote-done').classList.remove('hidden');
