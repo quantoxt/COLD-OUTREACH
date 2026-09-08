@@ -14,7 +14,8 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
   its real `styles.css`/theme CSS (fetch it, count hex frequency, eyeball for
   false positives like `#beauty_prod` ID selectors). Ink `#191c1f`, paper white.
 - **Stack only**: single `index.html` — Tailwind CDN (v4 browser), Google Fonts,
-  Lenis (CDN). No build step, no other frameworks.
+  RemixIcon CDN (pinned, e.g. `remixicon@4.6.0` — verify icon names against the
+  real stylesheet before use), Lenis (CDN). No build step, no other frameworks.
 
 ## Variety rule (sites must NOT all look the same)
 - The skeleton order (§Page skeleton) and quality bar (Lenis rules, image rules,
