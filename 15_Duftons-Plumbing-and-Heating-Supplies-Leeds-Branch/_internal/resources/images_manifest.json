@@ -1,0 +1,98 @@
+[
+  {
+    "file": "images/img_00.png",
+    "from": "https://www.duftons.co.uk/images/logo.png",
+    "alt": "Duftons",
+    "bytes": 2284
+  },
+  {
+    "file": "images/img_01.png",
+    "from": "https://www.duftons.co.uk/images/logo-strapline.png",
+    "alt": "Plumbing & Heating Supplies",
+    "bytes": 8123
+  },
+  {
+    "file": "images/img_02.png",
+    "from": "https://www.duftons.co.uk/images/slideshow-sector/slideshow-logos.png",
+    "alt": "Slideshow Logos",
+    "bytes": 28755
+  },
+  {
+    "file": "images/img_03.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/plumbing-tn.jpg",
+    "alt": "Plumbing",
+    "bytes": 24722
+  },
+  {
+    "file": "images/img_04.png",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/plumbing-icon.png",
+    "alt": "",
+    "bytes": 1954
+  },
+  {
+    "file": "images/img_05.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/Heating%20block.jpg",
+    "alt": "Heating",
+    "bytes": 762417
+  },
+  {
+    "file": "images/img_06.png",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/heating-icon.png",
+    "alt": "",
+    "bytes": 2436
+  },
+  {
+    "file": "images/img_07.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/bathroom%20image.jpg",
+    "alt": "Bathrooms",
+    "bytes": 769268
+  },
+  {
+    "file": "images/img_08.png",
+    "from": "https://www.duftons.co.uk/images/ww/feature-panel/bathrooms-icon.png",
+    "alt": "",
+    "bytes": 2030
+  },
+  {
+    "file": "images/img_09.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/Branch%20Info.jpg",
+    "alt": "About Us",
+    "bytes": 238404
+  },
+  {
+    "file": "images/img_10.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/tertiary-feature-panel/_resized/Renewables-Home-Page_562_460_0_0_748_612.jpg",
+    "alt": "Duftons Renewables",
+    "bytes": 15053
+  },
+  {
+    "file": "images/img_11.JPG",
+    "from": "https://www.duftons.co.uk/images/ww/_resized/P1040318_281_281_373_182_3083_2893.JPG",
+    "alt": "Daikin UK Sustainable Home And Training Centre",
+    "bytes": 16006
+  },
+  {
+    "file": "images/img_12.jpg",
+    "from": "https://www.duftons.co.uk/images/ww/_resized/Renewables-V2-Web-Image_281_281_0_0_594_594.jpg",
+    "alt": "Duftons Renewable Energy Guide",
+    "bytes": 10993
+  },
+  {
+    "file": "images/img_13.png",
+    "from": "https://www.duftons.co.uk/images/payment/visa.png",
+    "alt": "Visa",
+    "bytes": 2256
+  },
+  {
+    "file": "images/img_14.svg",
+    "from": "https://www.duftons.co.uk/images/payment/mc_acc.svg",
+    "alt": "MasterCard",
+    "bytes": 3501
+  },
+  {
+    "file": "images/img_15.svg",
+    "from": "https://www.duftons.co.uk/images/payment/ms_acc.svg",
+    "alt": "Maestro",
+    "bytes": 3463
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "text": "Trader",
+    "href": "https://ctb.co.uk/trader-area",
+    "absolute": "https://ctb.co.uk/trader-area"
+  },
+  {
+    "text": "Trader's customer",
+    "href": "https://ctb.co.uk/traders-customer",
+    "absolute": "https://ctb.co.uk/traders-customer"
+  },
+  {
+    "text": "Build a quote",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "",
+    "href": "https://ctb.co.uk",
+    "absolute": "https://ctb.co.uk"
+  },
+  {
+    "text": "",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "Free home measure",
+    "href": "https://ctb.co.uk/free-house-measure",
+    "absolute": "https://ctb.co.uk/free-house-measure"
+  },
+  {
+    "text": "Showrooms",
+    "href": "https://ctb.co.uk/showrooms",
+    "absolute": "https://ctb.co.uk/showrooms"
+  },
+  {
+    "text": "Book appointment",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "Brochure",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "Tile Calculator",
+    "href": "https://ctb.co.uk/tile-calculator",
+    "absolute": "https://ctb.co.uk/tile-calculator"
+  },
+  {
+    "text": "BTU Calculator",
+    "href": "https://ctb.co.uk/bathroom-btu-calculator",
+    "absolute": "https://ctb.co.uk/bathroom-btu-calculator"
+  },
+  {
+    "text": "Bathrooms",
+    "href": "https://ctb.co.uk/bathrooms",
+    "absolute": "https://ctb.co.uk/bathrooms"
+  },
+  {
+    "text": "Furniture",
+    "href": "https://ctb.co.uk/bathrooms/furniture",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture"
+  },
+  {
+    "text": "Modular",
+    "href": "https://ctb.co.uk/bathrooms/furniture/modular",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/modular"
+  },
+  {
+    "text": "Fitted",
+    "href": "https://ctb.co.uk/bathrooms/furniture/fitted",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/fitted"
+  },
+  {
+    "text": "Handles",
+    "href": "https://ctb.co.uk/bathrooms/furniture/handles",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/handles"
+  },
+  {
+    "text": "Worktops",
+    "href": "https://ctb.co.uk/bathrooms/furniture/worktops",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/worktops"
+  },
+  {
+    "text": "Basins",
+    "href": "https://ctb.co.uk/bathrooms/basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins"
+  },
+  {
+    "text": "Basin & pedestal",
+    "href": "https://ctb.co.uk/bathrooms/basins/basin-and-pedestal",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/basin-and-pedestal"
+  },
+  {
+    "text": "Countertop basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/countertop-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/countertop-basins"
+  },
+  {
+    "text": "Semi recessed basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/semi-recessed-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/semi-recessed-basins"
+  },
+  {
+    "text": "Cloakroom basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/cloakroom-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/cloakroom-basins"
+  },
+  {
+    "text": "Toilets",
+    "href": "https://ctb.co.uk/bathrooms/toilets",
+    "absolute": "https://ctb.co.uk/bathrooms/toilets"
+  },
+  {
+    "text": "Toilets",
+    "href": "https://ctb.co.uk/bathrooms/toilets",
+    "absolute": "https://ctb.co.uk/bathrooms/toilets"
+  },
+  {
+    "text": "Frames, Concealed Cisterns & Fittings",
+    "href": "https://ctb.co.uk/bathrooms/frames-concealed-cisterns",
+    "absolute": "https://ctb.co.uk/bathrooms/frames-concealed-cisterns"
+  },
+  {
+    "text": "Taps & showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers"
+  },
+  {
+    "text": "Showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/showers"
+  },
+  {
+    "text": "Taps",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/taps",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/taps"
+  },
+  {
+    "text": "Standard taps & showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/standard-taps-and-showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/standard-taps-and-showers"
+  },
+  {
+    "text": "Baths",
+    "href": "https://ctb.co.uk/bathrooms/baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths"
+  },
+  {
+    "text": "Standard baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/standard-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/standard-baths"
+  },
+  {
+    "text": "Shower baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/shower-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/shower-baths"
+  },
+  {
+    "text": "Freestanding baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/freestanding-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/freestanding-baths"
+  },
+  {
+    "text": "Luxury bath screens",
+    "href": "https://ctb.co.uk/bathrooms/baths/luxury-bath-screens",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/luxury-bath-screens"
+  },
+  {
+    "text": "Panels",
+    "href": "https://ctb.co.uk/bathrooms/baths/panels",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/panels"
+  },
+  {
+    "text": "Wetrooms, shower enclosures & screens",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens"
+  },
+  {
+    "text": "Luxury shower enclosures",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-enclosures",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-enclosures"
+  },
+  {
+    "text": "Standard shower enclosures",
+    "href": "https://ctb.co.uk/standard-shower-enclosures",
+    "absolute": "https://ctb.co.uk/standard-shower-enclosures"
+  },
+  {
+    "text": "Stone shower trays",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/stone-shower-trays",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/stone-shower-trays"
+  },
+  {
+    "text": "Luxury shower trays",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-trays",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-trays"
+  },
+  {
+    "text": "Standard shower trays",
+    "href": "https://ctb.co.uk/standard-shower-trays",
+    "absolute": "https://ctb.co.uk/standard-shower-trays"
+  },
+  {
+    "text": "Wetrooms",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/wetrooms",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/wetrooms"
+  },
+  {
+    "text": "Suite collections",
+    "href": "https://ctb.co.uk/bathrooms/suite-collections",
+    "absolute": "https://ctb.co.uk/bathrooms/suite-collections"
+  },
+  {
+    "text": "Wastes & fittings",
+    "href": "https://ctb.co.uk/bathrooms/wastes-and-fittings",
+    "absolute": "https://ctb.co.uk/bathrooms/wastes-and-fittings"
+  },
+  {
+    "text": "Towel rails & radiators",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators"
+  },
+  {
+    "text": "Heated Towel Rails",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators/heated-towel-rails",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators/heated-towel-rails"
+  },
+  {
+    "text": "Radiators",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators/radiators",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators/radiators"
+  },
+  {
+    "text": "Mirrors & cabinets",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets"
+  },
+  {
+    "text": "Mirrors",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets/mirrors",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets/mirrors"
+  },
+  {
+    "text": "Cabinets",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets/cabinets",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets/cabinets"
+  },
+  {
+    "text": "Accessories",
+    "href": "https://ctb.co.uk/bathrooms/bathroom-accessories",
+    "absolute": "https://ctb.co.uk/bathrooms/bathroom-accessories"
+  },
+  {
+    "text": "Lighting",
+    "href": "https://ctb.co.uk/bathrooms/bathroom-lighting",
+    "absolute": "https://ctb.co.uk/bathrooms/bathroom-lighting"
+  },
+  {
+    "text": "Plugs & Wastes",
+    "href": "https://ctb.co.uk/bathrooms/plugs-and-wastes",
+    "absolute": "https://ctb.co.uk/bathrooms/plugs-and-wastes"
+  },
+  {
+    "text": "Plumbing Fittings & Bathroom Essentials",
+    "href": "https://ctb.co.uk/bathrooms/plumbing-fittings-and-bathroom-essentials",
+    "absolute": "https://ctb.co.uk/bathrooms/plumbing-fittings-and-bathroom-essentials"
+  },
+  {
+    "text": "Get brochure",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "Book appointment",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "Walls, floors & ceilings",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings"
+  },
+  {
+    "text": "Wall tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles"
+  },
+  {
+    "text": "Floor tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles"
+  },
+  {
+    "text": "Wall & floor tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles"
+  },
+  {
+    "text": "Mosaics",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/mosaics",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/mosaics"
+  },
+  {
+    "text": "Luxury wall panels",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels"
+  },
+  {
+    "text": "Ceiling panels",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/ceiling-panels",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/ceiling-panels"
+  },
+  {
+    "text": "Vinyl flooring",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/vinyl-flooring",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/vinyl-flooring"
+  },
+  {
+    "text": "Underfloor heating",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/underfloor-heating",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/underfloor-heating"
+  },
+  {
+    "text": "Tiling essentials",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/tiling-essentials",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/tiling-essentials"
+  },
+  {
+    "text": "Get brochure",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "Book appointment",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "Inspiration",
+    "href": "https://ctb.co.uk/inspiration",
+    "absolute": "https://ctb.co.uk/inspiration"
+  },
+  {
+    "text": "Latest bathroom trends",
+    "href": "https://ctb.co.uk/inspiration",
+    "absolute": "https://ctb.co.uk/inspiration"
+  },
+  {
+    "text": "Real world trader installations",
+    "href": "https://ctb.co.uk/real-home-bathroom-installations",
+    "absolute": "https://ctb.co.uk/real-home-bathroom-installations"
+  },
+  {
+    "text": "Get brochure",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "Book appointment",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "Buying guides",
+    "href": "https://ctb.co.uk/buying-guides",
+    "absolute": "https://ctb.co.uk/buying-guides"
+  },
+  {
+    "text": "About Clifton",
+    "href": "https://ctb.co.uk/the-clifton-way",
+    "absolute": "https://ctb.co.uk/the-clifton-way"
+  },
+  {
+    "text": "Your quote",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "Home",
+    "href": "https://ctb.co.uk",
+    "absolute": "https://ctb.co.uk"
+  },
+  {
+    "text": "",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "Trader login",
+    "href": "https://ctb.co.uk/trader-area",
+    "absolute": "https://ctb.co.uk/trader-area"
+  },
+  {
+    "text": "Trader's customer",
+    "href": "https://ctb.co.uk/traders-customer",
+    "absolute": "https://ctb.co.uk/traders-customer"
+  },
+  {
+    "text": "Free home measure",
+    "href": "https://ctb.co.uk/free-house-measure",
+    "absolute": "https://ctb.co.uk/free-house-measure"
+  },
+  {
+    "text": "Find a showroom",
+    "href": "https://ctb.co.uk/showrooms",
+    "absolute": "https://ctb.co.uk/showrooms"
+  },
+  {
+    "text": "Bathrooms",
+    "href": "https://ctb.co.uk/bathrooms",
+    "absolute": "https://ctb.co.uk/bathrooms"
+  },
+  {
+    "text": "Furniture",
+    "href": "https://ctb.co.uk/bathrooms/furniture",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture"
+  },
+  {
+    "text": "Modular",
+    "href": "https://ctb.co.uk/bathrooms/furniture/modular",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/modular"
+  },
+  {
+    "text": "Fitted",
+    "href": "https://ctb.co.uk/bathrooms/furniture/fitted",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/fitted"
+  },
+  {
+    "text": "Handles",
+    "href": "https://ctb.co.uk/bathrooms/furniture/handles",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/handles"
+  },
+  {
+    "text": "Worktops",
+    "href": "https://ctb.co.uk/bathrooms/furniture/worktops",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture/worktops"
+  },
+  {
+    "text": "Basins",
+    "href": "https://ctb.co.uk/bathrooms/basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins"
+  },
+  {
+    "text": "Basin & pedestal",
+    "href": "https://ctb.co.uk/bathrooms/basins/basin-and-pedestal",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/basin-and-pedestal"
+  },
+  {
+    "text": "Countertop basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/countertop-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/countertop-basins"
+  },
+  {
+    "text": "Semi recessed basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/semi-recessed-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/semi-recessed-basins"
+  },
+  {
+    "text": "Cloakroom basins",
+    "href": "https://ctb.co.uk/bathrooms/basins/cloakroom-basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins/cloakroom-basins"
+  },
+  {
+    "text": "Toilets",
+    "href": "https://ctb.co.uk/bathrooms/toilets",
+    "absolute": "https://ctb.co.uk/bathrooms/toilets"
+  },
+  {
+    "text": "Toilets",
+    "href": "https://ctb.co.uk/bathrooms/toilets",
+    "absolute": "https://ctb.co.uk/bathrooms/toilets"
+  },
+  {
+    "text": "Frames, Concealed Cisterns & Fittings",
+    "href": "https://ctb.co.uk/bathrooms/frames-concealed-cisterns",
+    "absolute": "https://ctb.co.uk/bathrooms/frames-concealed-cisterns"
+  },
+  {
+    "text": "Taps & showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers"
+  },
+  {
+    "text": "Showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/showers"
+  },
+  {
+    "text": "Taps",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/taps",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/taps"
+  },
+  {
+    "text": "Standard taps & showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers/standard-taps-and-showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers/standard-taps-and-showers"
+  },
+  {
+    "text": "Baths",
+    "href": "https://ctb.co.uk/bathrooms/baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths"
+  },
+  {
+    "text": "Standard baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/standard-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/standard-baths"
+  },
+  {
+    "text": "Shower baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/shower-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/shower-baths"
+  },
+  {
+    "text": "Freestanding baths",
+    "href": "https://ctb.co.uk/bathrooms/baths/freestanding-baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/freestanding-baths"
+  },
+  {
+    "text": "Luxury bath screens",
+    "href": "https://ctb.co.uk/bathrooms/baths/luxury-bath-screens",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/luxury-bath-screens"
+  },
+  {
+    "text": "Panels",
+    "href": "https://ctb.co.uk/bathrooms/baths/panels",
+    "absolute": "https://ctb.co.uk/bathrooms/baths/panels"
+  },
+  {
+    "text": "Wetrooms, shower enclosures & screens",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens"
+  },
+  {
+    "text": "Luxury shower enclosures",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-enclosures",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-enclosures"
+  },
+  {
+    "text": "Standard shower enclosures",
+    "href": "https://ctb.co.uk/standard-shower-enclosures",
+    "absolute": "https://ctb.co.uk/standard-shower-enclosures"
+  },
+  {
+    "text": "Stone shower trays",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/stone-shower-trays",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/stone-shower-trays"
+  },
+  {
+    "text": "Luxury shower trays",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-trays",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/luxury-shower-trays"
+  },
+  {
+    "text": "Standard shower trays",
+    "href": "https://ctb.co.uk/standard-shower-trays",
+    "absolute": "https://ctb.co.uk/standard-shower-trays"
+  },
+  {
+    "text": "Wetrooms",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/wetrooms",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens/wetrooms"
+  },
+  {
+    "text": "Suite collections",
+    "href": "https://ctb.co.uk/bathrooms/suite-collections",
+    "absolute": "https://ctb.co.uk/bathrooms/suite-collections"
+  },
+  {
+    "text": "Wastes & fittings",
+    "href": "https://ctb.co.uk/bathrooms/wastes-and-fittings",
+    "absolute": "https://ctb.co.uk/bathrooms/wastes-and-fittings"
+  },
+  {
+    "text": "Towel rails & radiators",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators"
+  },
+  {
+    "text": "Heated Towel Rails",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators/heated-towel-rails",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators/heated-towel-rails"
+  },
+  {
+    "text": "Radiators",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators/radiators",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators/radiators"
+  },
+  {
+    "text": "Mirrors & cabinets",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets"
+  },
+  {
+    "text": "Mirrors",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets/mirrors",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets/mirrors"
+  },
+  {
+    "text": "Cabinets",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets/cabinets",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets/cabinets"
+  },
+  {
+    "text": "Accessories",
+    "href": "https://ctb.co.uk/bathrooms/bathroom-accessories",
+    "absolute": "https://ctb.co.uk/bathrooms/bathroom-accessories"
+  },
+  {
+    "text": "Lighting",
+    "href": "https://ctb.co.uk/bathrooms/bathroom-lighting",
+    "absolute": "https://ctb.co.uk/bathrooms/bathroom-lighting"
+  },
+  {
+    "text": "Plugs & Wastes",
+    "href": "https://ctb.co.uk/bathrooms/plugs-and-wastes",
+    "absolute": "https://ctb.co.uk/bathrooms/plugs-and-wastes"
+  },
+  {
+    "text": "Plumbing Fittings & Bathroom Essentials",
+    "href": "https://ctb.co.uk/bathrooms/plumbing-fittings-and-bathroom-essentials",
+    "absolute": "https://ctb.co.uk/bathrooms/plumbing-fittings-and-bathroom-essentials"
+  },
+  {
+    "text": "Walls, floors & ceilings",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings"
+  },
+  {
+    "text": "Wall tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles"
+  },
+  {
+    "text": "Floor tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles"
+  },
+  {
+    "text": "Wall & floor tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles"
+  },
+  {
+    "text": "Mosaics",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/mosaics",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/mosaics"
+  },
+  {
+    "text": "Luxury wall panels",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels"
+  },
+  {
+    "text": "Ceiling panels",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/ceiling-panels",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/ceiling-panels"
+  },
+  {
+    "text": "Vinyl flooring",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/vinyl-flooring",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/vinyl-flooring"
+  },
+  {
+    "text": "Underfloor heating",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/underfloor-heating",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/underfloor-heating"
+  },
+  {
+    "text": "Tiling essentials",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/tiling-essentials",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/tiling-essentials"
+  },
+  {
+    "text": "Inspiration",
+    "href": "https://ctb.co.uk/inspiration",
+    "absolute": "https://ctb.co.uk/inspiration"
+  },
+  {
+    "text": "Latest bathroom trends",
+    "href": "https://ctb.co.uk/inspiration",
+    "absolute": "https://ctb.co.uk/inspiration"
+  },
+  {
+    "text": "Real world trader installations",
+    "href": "https://ctb.co.uk/real-home-bathroom-installations",
+    "absolute": "https://ctb.co.uk/real-home-bathroom-installations"
+  },
+  {
+    "text": "Buying guides",
+    "href": "https://ctb.co.uk/buying-guides",
+    "absolute": "https://ctb.co.uk/buying-guides"
+  },
+  {
+    "text": "About Clifton",
+    "href": "https://ctb.co.uk/the-clifton-way",
+    "absolute": "https://ctb.co.uk/the-clifton-way"
+  },
+  {
+    "text": "Your quote",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "55+ UK Showrooms",
+    "href": "https://ctb.co.uk/showrooms",
+    "absolute": "https://ctb.co.uk/showrooms"
+  },
+  {
+    "text": "Latest products",
+    "href": "https://ctb.co.uk/bathrooms",
+    "absolute": "https://ctb.co.uk/bathrooms"
+  },
+  {
+    "text": "Showroom appointment",
+    "href": "https://ctb.co.uk/showroom-appointment",
+    "absolute": "https://ctb.co.uk/showroom-appointment"
+  },
+  {
+    "text": "Trustpilot",
+    "href": "https://www.trustpilot.com/review/ctb.co.uk",
+    "absolute": "https://www.trustpilot.com/review/ctb.co.uk"
+  },
+  {
+    "text": "Trustpilot",
+    "href": "https://uk.trustpilot.com/review/ctb.co.uk",
+    "absolute": "https://uk.trustpilot.com/review/ctb.co.uk"
+  },
+  {
+    "text": "Nearest showroom",
+    "href": "https://ctb.co.uk/showrooms",
+    "absolute": "https://ctb.co.uk/showrooms"
+  },
+  {
+    "text": "Read our reviews",
+    "href": "https://www.google.com/maps/search/clifton+trade+bathrooms/@53.6034473,-3.1262434,9z/data=!3m1!4b1",
+    "absolute": "https://www.google.com/maps/search/clifton+trade+bathrooms/@53.6034473,-3.1262434,9z/data=!3m1!4b1"
+  },
+  {
+    "text": "Nearest showroom",
+    "href": "https://ctb.co.uk/showrooms",
+    "absolute": "https://ctb.co.uk/showrooms"
+  },
+  {
+    "text": "Free home measure",
+    "href": "https://ctb.co.uk/free-house-measure",
+    "absolute": "https://ctb.co.uk/free-house-measure"
+  },
+  {
+    "text": "Furniture",
+    "href": "https://ctb.co.uk/bathrooms/furniture",
+    "absolute": "https://ctb.co.uk/bathrooms/furniture"
+  },
+  {
+    "text": "Basins",
+    "href": "https://ctb.co.uk/bathrooms/basins",
+    "absolute": "https://ctb.co.uk/bathrooms/basins"
+  },
+  {
+    "text": "Toilets",
+    "href": "https://ctb.co.uk/bathrooms/toilets",
+    "absolute": "https://ctb.co.uk/bathrooms/toilets"
+  },
+  {
+    "text": "Taps & Showers",
+    "href": "https://ctb.co.uk/bathrooms/taps-showers",
+    "absolute": "https://ctb.co.uk/bathrooms/taps-showers"
+  },
+  {
+    "text": "Wetrooms, Shower Enclosures & Screens",
+    "href": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens",
+    "absolute": "https://ctb.co.uk/bathrooms/wetrooms-enclosures-and-screens"
+  },
+  {
+    "text": "Baths",
+    "href": "https://ctb.co.uk/bathrooms/baths",
+    "absolute": "https://ctb.co.uk/bathrooms/baths"
+  },
+  {
+    "text": "Plugs & Wastes",
+    "href": "https://ctb.co.uk/bathrooms/plugs-and-wastes",
+    "absolute": "https://ctb.co.uk/bathrooms/plugs-and-wastes"
+  },
+  {
+    "text": "Mirrors & Cabinets",
+    "href": "https://ctb.co.uk/bathrooms/mirrors-cabinets",
+    "absolute": "https://ctb.co.uk/bathrooms/mirrors-cabinets"
+  },
+  {
+    "text": "Towel rails & radiators",
+    "href": "https://ctb.co.uk/bathrooms/towel-rails-radiators",
+    "absolute": "https://ctb.co.uk/bathrooms/towel-rails-radiators"
+  },
+  {
+    "text": "Accessories",
+    "href": "https://ctb.co.uk/bathrooms/bathroom-accessories",
+    "absolute": "https://ctb.co.uk/bathrooms/bathroom-accessories"
+  },
+  {
+    "text": "Tile calculator",
+    "href": "https://ctb.co.uk/tile-calculator",
+    "absolute": "https://ctb.co.uk/tile-calculator"
+  },
+  {
+    "text": "Wall Tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-tiles"
+  },
+  {
+    "text": "Floor Tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/floor-tiles"
+  },
+  {
+    "text": "Wall & Floor Tiles",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/wall-and-floor-tiles"
+  },
+  {
+    "text": "Luxury Wall Panels",
+    "href": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels",
+    "absolute": "https://ctb.co.uk/walls-floors-and-ceilings/luxury-wall-panels"
+  },
+  {
+    "text": "The Clifton way",
+    "href": "https://ctb.co.uk/the-clifton-way",
+    "absolute": "https://ctb.co.uk/the-clifton-way"
+  },
+  {
+    "text": "Buying guides",
+    "href": "https://ctb.co.uk/buying-guides",
+    "absolute": "https://ctb.co.uk/buying-guides"
+  },
+  {
+    "text": "Price guide",
+    "href": "https://ctb.co.uk/priceguide",
+    "absolute": "https://ctb.co.uk/priceguide"
+  },
+  {
+    "text": "Brochure",
+    "href": "https://ctb.co.uk/brochure",
+    "absolute": "https://ctb.co.uk/brochure"
+  },
+  {
+    "text": "Inspiration",
+    "href": "https://ctb.co.uk/inspiration",
+    "absolute": "https://ctb.co.uk/inspiration"
+  },
+  {
+    "text": "Build a quote",
+    "href": "https://ctb.co.uk/build-a-quote",
+    "absolute": "https://ctb.co.uk/build-a-quote"
+  },
+  {
+    "text": "Work at Clifton",
+    "href": "https://ctb.co.uk/work-at-clifton",
+    "absolute": "https://ctb.co.uk/work-at-clifton"
+  },
+  {
+    "text": "Privacy",
+    "href": "https://ctb.co.uk/privacy-policy",
+    "absolute": "https://ctb.co.uk/privacy-policy"
+  },
+  {
+    "text": "Cookies",
+    "href": "https://ctb.co.uk/cookie-policy",
+    "absolute": "https://ctb.co.uk/cookie-policy"
+  },
+  {
+    "text": "SMS Policy",
+    "href": "https://ctb.co.uk/files/terms-and-conditions/sms-terms-conditions-aug-2025.pdf",
+    "absolute": "https://ctb.co.uk/files/terms-and-conditions/sms-terms-conditions-aug-2025.pdf"
+  },
+  {
+    "text": "Policies",
+    "href": "https://ctb.co.uk/images/policies/modern-slavery-statement-may-2026.pdf",
+    "absolute": "https://ctb.co.uk/images/policies/modern-slavery-statement-may-2026.pdf"
+  },
+  {
+    "text": "Bog Spenders",
+    "href": "https://ctb.co.uk/files/policies/bog-spenders-t-and-cs-march-2026.pdf",
+    "absolute": "https://ctb.co.uk/files/policies/bog-spenders-t-and-cs-march-2026.pdf"
+  },
+  {
+    "text": "Sitemap",
+    "href": "https://ctb.co.uk/sitemap",
+    "absolute": "https://ctb.co.uk/sitemap"
+  },
+  {
+    "text": "Bespoke web design",
+    "href": "https://www.bespokedigital.agency/",
+    "absolute": "https://www.bespokedigital.agency/"
+  },
+  {
+    "text": "cookie policy",
+    "href": "/cookie-policy",
+    "absolute": "http://www.ctb.co.uk/cookie-policy"
+  },
+  {
+    "text": "Cookie No",
+    "href": "#",
+    "absolute": "http://www.ctb.co.uk/"
+  },
+  {
+    "text": "Cookie Yes",
+    "href": "#",
+    "absolute": "http://www.ctb.co.uk/"
+  }
+]

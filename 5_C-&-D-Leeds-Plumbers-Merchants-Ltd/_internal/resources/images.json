@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/candd-logo.gif",
+    "absolute": "http://www.canddleeds.co.uk/images/candd-logo.gif",
+    "alt": "C&D [Logo]",
+    "srcset": ""
+  },
+  {
+    "src": "images/candd-masthead.jpg",
+    "absolute": "http://www.canddleeds.co.uk/images/candd-masthead.jpg",
+    "alt": "C&D Masthead",
+    "srcset": ""
+  },
+  {
+    "src": "images/Panasonic-Air-Con-Right-Bar.png",
+    "absolute": "http://www.canddleeds.co.uk/images/Panasonic-Air-Con-Right-Bar.png",
+    "alt": "Panasonic Air Con - New!",
+    "srcset": ""
+  },
+  {
+    "src": "images/candd-24hr-delivery.jpg",
+    "absolute": "http://www.canddleeds.co.uk/images/candd-24hr-delivery.jpg",
+    "alt": "24 Hour Delivery",
+    "srcset": ""
+  },
+  {
+    "src": "images/NewStock.jpg",
+    "absolute": "http://www.canddleeds.co.uk/images/NewStock.jpg",
+    "alt": "1000's Of Items In stock",
+    "srcset": ""
+  },
+  {
+    "src": "images/C&D_Jake_Help.jpg",
+    "absolute": "http://www.canddleeds.co.uk/images/C&D_Jake_Help.jpg",
+    "alt": "Help Is At Hand",
+    "srcset": ""
+  },
+  {
+    "src": "images/new-candd-brands-stocked.jpg",
+    "absolute": "http://www.canddleeds.co.uk/images/new-candd-brands-stocked.jpg",
+    "alt": "New C&D Brands Stocked",
+    "srcset": ""
+  }
+]

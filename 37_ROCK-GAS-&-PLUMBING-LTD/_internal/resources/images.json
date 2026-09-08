@@ -1,0 +1,74 @@
+[
+  {
+    "src": "/templates/rt_supra/custom/images/logo.png",
+    "absolute": "http://www.rockgasplumbing.co.uk/templates/rt_supra/custom/images/logo.png",
+    "alt": "",
+    "srcset": ""
+  },
+  {
+    "src": "/templates/rt_supra/custom/images/gas-slide-1.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/templates/rt_supra/custom/images/gas-slide-1.jpg",
+    "alt": "Carousel Item",
+    "srcset": ""
+  },
+  {
+    "src": "/templates/rt_supra/custom/images/combi-slide.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/templates/rt_supra/custom/images/combi-slide.jpg",
+    "alt": "Carousel Item",
+    "srcset": ""
+  },
+  {
+    "src": "/templates/rt_supra/images/home/header/img-01.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/templates/rt_supra/images/home/header/img-01.jpg",
+    "alt": "",
+    "srcset": ""
+  },
+  {
+    "src": "/images/logos.png",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/logos.png",
+    "alt": "logos",
+    "srcset": ""
+  },
+  {
+    "src": "/images/boiler-large.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/boiler-large.jpg",
+    "alt": "Boiler Leeds",
+    "srcset": ""
+  },
+  {
+    "src": "/images/radiators-large.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/radiators-large.jpg",
+    "alt": "Radiators Leeds",
+    "srcset": ""
+  },
+  {
+    "src": "/images/powerflushing-large.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/powerflushing-large.jpg",
+    "alt": "Powerflushing Leeds",
+    "srcset": ""
+  },
+  {
+    "src": "/images/gas-fires-large.jpg",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/gas-fires-large.jpg",
+    "alt": "Gas fires Leeds",
+    "srcset": ""
+  },
+  {
+    "src": "/images/social-top-logos/facebook2.png",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/social-top-logos/facebook2.png",
+    "alt": "facebook2",
+    "srcset": ""
+  },
+  {
+    "src": "/images/social-top-logos/checktrade.png",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/social-top-logos/checktrade.png",
+    "alt": "checktrade",
+    "srcset": ""
+  },
+  {
+    "src": "/images/social-top-logos/my-builder-logo.png",
+    "absolute": "http://www.rockgasplumbing.co.uk/images/social-top-logos/my-builder-logo.png",
+    "alt": "my builder logo",
+    "srcset": ""
+  }
+]

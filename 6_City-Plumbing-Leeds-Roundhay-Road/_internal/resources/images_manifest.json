@@ -1,0 +1,56 @@
+[
+  {
+    "file": "images/img_00.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/1PrrctgGQAlQ8SoKbbRgPD/720d0377d5741e4be5dbaf6d56d1599f/site-header-image-link-bathrooms.svg",
+    "alt": "The Bathrooms Showroom",
+    "bytes": 5836
+  },
+  {
+    "file": "images/img_01.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/3p3Nmml17fzwHFuxp3HxPq/4b95b017b87718c7e5d0c6dc9d2b6f31/Spares_Finder.svg",
+    "alt": "Find the part you need with our Spares Finder",
+    "bytes": 13774
+  },
+  {
+    "file": "images/img_02.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/6wFMUWwSNVRpLZmIABu9H6/71fd52067cb28069f77235d76e2c468f/Frame_6340.svg",
+    "alt": "City Plumbing",
+    "bytes": 3810
+  },
+  {
+    "file": "images/img_03.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/30rUu1jdHLnBpqvAdgneyh/6a2b2c8be10fc273dff331d2de4af34c/D__Nav_Favourites.svg",
+    "alt": "City Plumbing Rewards",
+    "bytes": 9717
+  },
+  {
+    "file": "images/img_06.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/27AAPCYtCSimDevHfbg6df/3bd4fffe9d77e4b7480954033c8e4958/Vector.svg",
+    "alt": "Deals & Promotions",
+    "bytes": 1189
+  },
+  {
+    "file": "images/img_07.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/6j6PFeA5I8nySEGvNhZxUq/56c692dd8eeea2cfbf0d8e4762fe817a/Free_delivery.svg",
+    "alt": "icon",
+    "bytes": 2829
+  },
+  {
+    "file": "images/img_08.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/1XfxLnrKpjXr4dcMhfBLTn/82040fc4ae5b14ba152f2993a264ea6d/Style4.svg",
+    "alt": "icon",
+    "bytes": 991
+  },
+  {
+    "file": "images/img_09.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/1ktcGD8NT3QTN0hZ004u5n/881400c2cc01ec8390f9504a3626ab04/Free_collect.svg",
+    "alt": "icon",
+    "bytes": 1710
+  },
+  {
+    "file": "images/img_10.svg",
+    "from": "https://images.ctfassets.net/qe7gpmexx36g/3F2ZBMVoHO2EBejjQkbeqy/d2b6e5eae4e3555cc54a5ef56354195f/Checked.svg",
+    "alt": "icon",
+    "bytes": 1753
+  }
+]

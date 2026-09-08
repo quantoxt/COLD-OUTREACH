@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bodmin Plumbing Services — Trusted Family Plumbers in Leeds</title>
+<meta name="description" content="Family-run Leeds plumbers with 30+ years' experience. Heating, plumbing, bathrooms & gas safety across West Yorkshire. Which? Trusted Trader. Email bodmin-p@sky.com." />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<style>
+  :root {
+    --ink: #191c1f;
+    --paper: #ffffff;
+    --mist: #f4f4f4;
+    --accent: #ff6900;
+    --muted: #505a63;
+  }
+  body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; }
+  .display { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 500; line-height: 1.0; letter-spacing: -0.03em; }
+  .pill { border-radius: 9999px; }
+  .btn-dark { background: var(--ink); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-dark:hover { opacity: .85; transform: translateY(-2px); }
+  .btn-accent { background: var(--accent); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-accent:hover { opacity: .88; transform: translateY(-2px); }
+  .btn-ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); padding: 12px 30px; transition: all .3s ease; }
+  .btn-ghost:hover { background: var(--ink); color: #fff; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-black/5">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-4">
+    <a href="#" class="flex items-center gap-3 shrink-0">
+      <img src="_internal/resources/images/img_00.png" alt="Bodmin Plumbing Services logo" class="h-9 w-auto" />
+      <span class="display text-lg hidden sm:block">Bodmin</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
+      <a href="#services" class="hover:opacity-60 transition">Services</a>
+      <a href="#why" class="hover:opacity-60 transition">Why us</a>
+      <a href="#quote" class="hover:opacity-60 transition">Contact</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="tel:07876612865" class="pill btn-dark display text-sm sm:text-[15px] font-medium !px-5 !py-3 sm:!px-8 sm:!py-[14px] whitespace-nowrap">07876 612865</a>
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="md:hidden w-11 h-11 rounded-full border border-black/15 flex flex-col items-center justify-center gap-[5px]">
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="hidden md:hidden border-t border-black/5 bg-white/95 backdrop-blur-md">
+    <div class="px-6 py-4 flex flex-col text-lg font-medium">
+      <a href="#services" class="py-3 border-b border-black/5">Services</a>
+      <a href="#why" class="py-3 border-b border-black/5">Why us</a>
+      <a href="#quote" class="py-3 text-[#c25200] font-semibold">Get a free quote</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-6 md:px-8 pt-8 md:pt-14 pb-12 md:pb-16">
+  <div class="max-w-3xl">
+    <div class="reveal inline-flex items-center gap-2 pill bg-[var(--mist)] px-4 py-2 text-[12px] sm:text-[13px] font-semibold mb-6 md:mb-8">
+      Family-run in Leeds · 30+ years · Which? Trusted Trader
+    </div>
+    <h1 class="reveal display text-[42px] leading-[1.02] sm:text-6xl lg:text-[72px]">
+      Plumbing done right, by people you trust.
+    </h1>
+    <p class="reveal mt-6 md:mt-8 text-base sm:text-lg leading-[1.56] text-[var(--muted)] max-w-xl">
+      From central heating and boiler servicing to bathrooms and gas safety —
+      Bodmin Plumbing Services has kept West Yorkshire running for over 30 years.
+    </p>
+    <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+      <a href="tel:07876612865" class="pill btn-accent display text-lg font-medium text-center">Call 07876 612865</a>
+      <a href="#services" class="pill btn-ghost display text-lg font-medium text-center">Our services</a>
+    </div>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<section class="max-w-6xl mx-auto px-6 md:px-8 pb-16 md:pb-24">
+  <div class="reveal relative">
+    <div id="hero-carousel" class="relative w-full aspect-[21/9] overflow-hidden rounded-[20px]">
+      <img src="_internal/resources/images/img_01.jpg" alt="Based in Leeds, covering West Yorkshire — over 30 years experience. Call 07876 612865." class="hero-slide absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-700" loading="eager" />
+      <img src="_internal/resources/images/img_02.jpg" alt="Bodmin Plumbing Services — bathroom and heating specialists" class="hero-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" loading="lazy" />
+    </div>
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+      <button aria-label="Show slide 1" data-slide="0" class="hero-dot w-2.5 h-2.5 rounded-full bg-white transition"></button>
+      <button aria-label="Show slide 2" data-slide="1" class="hero-dot w-2.5 h-2.5 rounded-full bg-white/50 transition"></button>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="bg-[var(--ink)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-8 md:py-10 flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
+    <img src="_internal/resources/images/img_07.png" alt="DIY or water leaks? Call our 24-hour emergency line" class="h-24 sm:h-28 w-auto shrink-0 rounded-lg" loading="lazy" />
+    <p class="display text-2xl md:text-3xl">24-hour call-out for leaks & DIY disasters.</p>
+    <a href="tel:07876612865" class="pill bg-white text-[var(--ink)] px-8 py-[14px] display font-medium md:ml-auto shrink-0 hover:opacity-85 transition text-center">Get help now</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
+  <h2 class="reveal display text-4xl md:text-5xl">Four trades. One trusted team.</h2>
+  <p class="reveal mt-4 text-[var(--muted)] max-w-lg">Every job fully guaranteed and insured — most of our work comes from recommendation.</p>
+  <div class="mt-14 space-y-16 md:space-y-24">
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <div>
+        <h3 class="display text-3xl md:text-4xl">Heating</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Central heating systems, boiler servicing and upgrades — installed to new-build regulations.</p>
+      </div>
+      <img src="_internal/resources/images/img_03.png" alt="Heating services" class="w-full h-auto rounded-[20px]" loading="lazy" />
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <img src="_internal/resources/images/img_04.png" alt="Plumbing services" class="w-full h-auto rounded-[20px] order-first md:order-none" loading="lazy" />
+      <div>
+        <h3 class="display text-3xl md:text-4xl">Plumbing</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Repairs, installs and new-build regulation work — from leaks to full systems.</p>
+      </div>
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <div>
+        <h3 class="display text-3xl md:text-4xl">Bathrooms</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Full bathroom design and installation, fitted around your home.</p>
+      </div>
+      <img src="_internal/resources/images/img_02.jpg" alt="Bathroom installations" class="w-full h-auto rounded-[20px]" loading="lazy" />
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <img src="_internal/resources/images/img_05.png" alt="Gas safety services" class="w-full h-auto rounded-[20px] order-first md:order-none" loading="lazy" />
+      <div>
+        <h3 class="display text-3xl md:text-4xl">Gas Safety</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Certified gas work, done to current safety law. Always check the card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="bg-[var(--mist)]">
+  <div class="max-w-3xl mx-auto px-6 md:px-8 py-16 md:py-32">
+      <h2 class="reveal display text-4xl md:text-5xl">Why Leeds recommends us</h2>
+      <ul class="mt-10 space-y-7">
+        <li class="reveal flex gap-4">
+          <span class="shrink-0 w-12 h-12 rounded-2xl bg-[#ff6900] flex items-center justify-center display text-white text-xl font-semibold">30</span>
+          <div><p class="font-semibold">30+ years of experience</p><p class="text-[var(--muted)]">A family business that stands by every job.</p></div>
+        </li>
+        <li class="reveal flex gap-4">
+          <span class="shrink-0 w-12 h-12 rounded-2xl bg-[#ff6900] flex items-center justify-center display text-white text-xl font-semibold">✓</span>
+          <div><p class="font-semibold">Which? Trusted Trader</p><p class="text-[var(--muted)]">Independently endorsed. Fully guaranteed & insured.</p></div>
+        </li>
+        <li class="reveal flex gap-4">
+          <img src="_internal/resources/images/img_06_badge.png" alt="Gas Safe Register logo" class="shrink-0 w-12 h-12 object-contain" loading="lazy" />
+          <div><p class="font-semibold">Gas Safe registered</p><p class="text-[var(--muted)]">All gas appliances to current safety regulations.</p></div>
+        </li>
+        <li class="reveal flex gap-4">
+          <span class="shrink-0 w-12 h-12 rounded-2xl bg-[#ff6900] flex items-center justify-center display text-white text-xl font-semibold">%</span>
+          <div><p class="font-semibold">OAP discounts</p><p class="text-[var(--muted)]">Discounts on all services for older customers.</p></div>
+        </li>
+      </ul>
+  </div>
+</section>
+
+<!-- QUOTE / FORM -->
+<section id="quote" class="bg-[var(--ink)] text-white">
+  <div class="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-32">
+    <p class="reveal display text-4xl md:text-5xl text-center">Request a free quote</p>
+    <p class="reveal mt-3 text-white/70 text-center">Leeds based, covering West Yorkshire. We reply fast.</p>
+    <form id="quote-form" class="reveal mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900]" />
+      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900]" />
+      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900]" />
+      <input name="phone" type="tel" placeholder="Phone (optional)" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900]" />
+      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900]" />
+      <textarea name="comment" rows="4" placeholder="Tell us about the job…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#ff6900] resize-y"></textarea>
+      <div class="sm:col-span-2 flex flex-col sm:flex-row sm:items-center gap-4">
+        <button type="submit" class="pill btn-accent display font-medium text-center">Request now</button>
+        <a href="tel:07876612865" class="text-white/80 hover:text-white transition font-semibold text-center">or call 07876 612865</a>
+      </div>
+      <p id="quote-done" class="sm:col-span-2 hidden text-[#ff6900] font-semibold">Thanks — request received. We'll be in touch shortly.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-black/10">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 pt-12 pb-6">
+    <div class="grid sm:grid-cols-2 gap-6 items-start">
+      <img src="_internal/resources/images/img_08.jpg" alt="CORGI, Gas Safe Register and City & Guilds accredited — all major cards accepted" class="w-full h-auto rounded-[20px] bg-white" loading="lazy" />
+      <img src="_internal/resources/images/img_09.jpg" alt="Boiler brands we install and service" class="w-full h-auto rounded-[20px] bg-white" loading="lazy" />
+    </div>
+    <p class="mt-4 text-sm text-[var(--muted)]">Accredited, card-friendly, and working with all major boiler brands.</p>
+  </div>
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
+    <p>© 2016 Bodmin Plumbing Services · Leeds, West Yorkshire</p>
+    <span class="flex flex-col sm:flex-row gap-1 sm:gap-5 sm:items-center"><a href="tel:07876612865" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">07876 612865</a><a href="mailto:bodmin-p@sky.com" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">bodmin-p@sky.com</a></span>
+  </div>
+</footer>
+
+<script>
+  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+  function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const el = document.querySelector(a.getAttribute('href'));
+      document.getElementById('mobile-menu').classList.add('hidden');
+      document.getElementById('menu-btn').setAttribute('aria-expanded', 'false');
+      if (el) { e.preventDefault(); lenis.scrollTo(el, { offset: -72 }); }
+    });
+  });
+  document.getElementById('menu-btn').addEventListener('click', () => {
+    const m = document.getElementById('mobile-menu');
+    const open = m.classList.toggle('hidden');
+    document.getElementById('menu-btn').setAttribute('aria-expanded', String(!open));
+  });
+  const slides = document.querySelectorAll('.hero-slide');
+  const dots = document.querySelectorAll('.hero-dot');
+  let current = 0, timer;
+  function show(i) {
+    current = (i + slides.length) % slides.length;
+    slides.forEach((s, k) => { s.classList.toggle('opacity-100', k === current); s.classList.toggle('opacity-0', k !== current); });
+    dots.forEach((d, k) => { d.classList.toggle('bg-white', k === current); d.classList.toggle('bg-white/50', k !== current); });
+  }
+  function autoplay() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    timer = setInterval(() => show(current + 1), 5000);
+  }
+  dots.forEach(d => d.addEventListener('click', () => { clearInterval(timer); show(Number(d.dataset.slide)); autoplay(); }));
+  const carousel = document.getElementById('hero-carousel');
+  carousel.addEventListener('mouseenter', () => clearInterval(timer));
+  carousel.addEventListener('mouseleave', autoplay);
+  autoplay();
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.getElementById('quote-form').addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById('quote-done').classList.remove('hidden');
+    e.target.querySelector('button[type="submit"]').textContent = 'Requested ✓';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "images/img_00.gif",
+    "from": "http://www.canddleeds.co.uk/images/candd-logo.gif",
+    "alt": "C&D [Logo]",
+    "bytes": 2813
+  },
+  {
+    "file": "images/img_01.jpg",
+    "from": "http://www.canddleeds.co.uk/images/candd-masthead.jpg",
+    "alt": "C&D Masthead",
+    "bytes": 54831
+  },
+  {
+    "file": "images/img_02.png",
+    "from": "http://www.canddleeds.co.uk/images/Panasonic-Air-Con-Right-Bar.png",
+    "alt": "Panasonic Air Con - New!",
+    "bytes": 35661
+  },
+  {
+    "file": "images/img_03.jpg",
+    "from": "http://www.canddleeds.co.uk/images/candd-24hr-delivery.jpg",
+    "alt": "24 Hour Delivery",
+    "bytes": 14775
+  },
+  {
+    "file": "images/img_04.jpg",
+    "from": "http://www.canddleeds.co.uk/images/NewStock.jpg",
+    "alt": "1000's Of Items In stock",
+    "bytes": 83370
+  },
+  {
+    "file": "images/img_05.jpg",
+    "from": "http://www.canddleeds.co.uk/images/C&D_Jake_Help.jpg",
+    "alt": "Help Is At Hand",
+    "bytes": 63336
+  },
+  {
+    "file": "images/img_06.jpg",
+    "from": "http://www.canddleeds.co.uk/images/new-candd-brands-stocked.jpg",
+    "alt": "New C&D Brands Stocked",
+    "bytes": 86118
+  }
+]

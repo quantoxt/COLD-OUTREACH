@@ -1,0 +1,50 @@
+[
+  {
+    "src": "assets/images/logo.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/logo.webp",
+    "alt": "Powell's PHG",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/home-1.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/home-1.webp",
+    "alt": "Boiler Installation Yorkshire",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/home-2.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/home-2.webp",
+    "alt": "Boiler Servicing Yorkshire",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/ideal-boiler-accredited.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/ideal-boiler-accredited.webp",
+    "alt": "Ideal Boiler Accredited Installers",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/facebook.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/facebook.webp",
+    "alt": "Facebook",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/footer-logo.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/footer-logo.webp",
+    "alt": "Powell's PHG Logo",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/renewable-energy-hosting.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/renewable-energy-hosting.webp",
+    "alt": "Website Powered by 100% Renewable Energy",
+    "srcset": ""
+  },
+  {
+    "src": "assets/images/1477-logo.webp",
+    "absolute": "https://www.powellsphg.co.uk/assets/images/1477-logo.webp",
+    "alt": "1477 Logo",
+    "srcset": ""
+  }
+]

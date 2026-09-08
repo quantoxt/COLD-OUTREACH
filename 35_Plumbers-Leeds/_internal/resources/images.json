@@ -1,0 +1,20 @@
+[
+  {
+    "src": "/images/plumber1.jpg",
+    "absolute": "http://www.plumbers-leeds.com/images/plumber1.jpg",
+    "alt": "Emergency Plumber Leeds ",
+    "srcset": ""
+  },
+  {
+    "src": "/images/banners/plumber1.jpg",
+    "absolute": "http://www.plumbers-leeds.com/images/banners/plumber1.jpg",
+    "alt": "Emergency Plumber Leeds ",
+    "srcset": ""
+  },
+  {
+    "src": "/images/banners/Plumber.jpg",
+    "absolute": "http://www.plumbers-leeds.com/images/banners/Plumber.jpg",
+    "alt": " Emergency Plumber Leeds ",
+    "srcset": ""
+  }
+]

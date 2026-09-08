@@ -1,0 +1,104 @@
+[
+  {
+    "file": "images/img_00.svg",
+    "from": "https://wbtrade.co.uk/assets/svgs/wbt-logo.svg",
+    "alt": "WB Trade Logo",
+    "bytes": 31902
+  },
+  {
+    "file": "images/img_01.svg",
+    "from": "https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg",
+    "alt": "play icon",
+    "bytes": 511
+  },
+  {
+    "file": "images/img_02.webp",
+    "from": "https://wbtrade.co.uk/_astro/wb-trade-storefront-1.D2icUp6x_Z13b0ts.webp",
+    "alt": "WB Trade Storefront Hero Image",
+    "bytes": 1124070
+  },
+  {
+    "file": "images/img_03.svg",
+    "from": "https://wbtrade.co.uk/assets/svgs/plumbing-icon.svg",
+    "alt": "plumbing icon",
+    "bytes": 1914
+  },
+  {
+    "file": "images/img_04.svg",
+    "from": "https://wbtrade.co.uk/assets/svgs/heating-icon.svg",
+    "alt": "heating icon",
+    "bytes": 1046
+  },
+  {
+    "file": "images/img_05.svg",
+    "from": "https://wbtrade.co.uk/assets/svgs/tiling-icon.svg",
+    "alt": "tiling icon",
+    "bytes": 1892
+  },
+  {
+    "file": "images/img_06.svg",
+    "from": "https://wbtrade.co.uk/assets/svgs/bathrooms-icon.svg",
+    "alt": "bathrooms icon",
+    "bytes": 2184
+  },
+  {
+    "file": "images/img_07.webp",
+    "from": "https://wbtrade.co.uk/assets/images/wb-trade-counter-1.webp",
+    "alt": "trade counter",
+    "bytes": 639032
+  },
+  {
+    "file": "images/img_09.webp",
+    "from": "https://wbtrade.co.uk/assets/images/wb-trade-storefront-1.webp",
+    "alt": "cabinets",
+    "bytes": 905284
+  },
+  {
+    "file": "images/img_10.webp",
+    "from": "https://wbtrade.co.uk/assets/images/brands/ox-tools-logo.webp",
+    "alt": "OX Tools Logo",
+    "bytes": 18346
+  },
+  {
+    "file": "images/img_11.webp",
+    "from": "https://wbtrade.co.uk/assets/images/brands/floplast-logo.webp",
+    "alt": "FloPlast Logo",
+    "bytes": 12426
+  },
+  {
+    "file": "images/img_12.webp",
+    "from": "https://wbtrade.co.uk/assets/images/brands/ideal-heating-logo.webp",
+    "alt": "Ideal Heating Logo",
+    "bytes": 8334
+  },
+  {
+    "file": "images/img_13.webp",
+    "from": "https://wbtrade.co.uk/assets/images/brands/geberit-logo.webp",
+    "alt": "Geberit Logo",
+    "bytes": 6120
+  },
+  {
+    "file": "images/img_14.webp",
+    "from": "https://wbtrade.co.uk/assets/images/bathrooms-image-5.webp",
+    "alt": "plumbing supplies",
+    "bytes": 367988
+  },
+  {
+    "file": "images/img_15.webp",
+    "from": "https://wbtrade.co.uk/assets/images/the-ipg-logo.webp",
+    "alt": "plumbing supplies",
+    "bytes": 16544
+  },
+  {
+    "file": "images/img_17.webp",
+    "from": "https://wbtrade.co.uk/assets/images/wbt-logo.webp",
+    "alt": "logo",
+    "bytes": 19168
+  },
+  {
+    "file": "images/img_18.png",
+    "from": "https://wbtrade.co.uk/assets/images/logo-small.png",
+    "alt": "og:image",
+    "bytes": 28393
+  }
+]

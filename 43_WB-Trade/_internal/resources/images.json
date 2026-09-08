@@ -1,0 +1,116 @@
+[
+  {
+    "src": "/assets/svgs/wbt-logo.svg",
+    "absolute": "https://wbtrade.co.uk/assets/svgs/wbt-logo.svg",
+    "alt": "WB Trade Logo",
+    "srcset": ""
+  },
+  {
+    "src": "https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg",
+    "absolute": "https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg",
+    "alt": "play icon",
+    "srcset": ""
+  },
+  {
+    "src": "/_astro/wb-trade-storefront-1.D2icUp6x_Z13b0ts.webp",
+    "absolute": "https://wbtrade.co.uk/_astro/wb-trade-storefront-1.D2icUp6x_Z13b0ts.webp",
+    "alt": "WB Trade Storefront Hero Image",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/svgs/plumbing-icon.svg",
+    "absolute": "https://wbtrade.co.uk/assets/svgs/plumbing-icon.svg",
+    "alt": "plumbing icon",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/svgs/heating-icon.svg",
+    "absolute": "https://wbtrade.co.uk/assets/svgs/heating-icon.svg",
+    "alt": "heating icon",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/svgs/tiling-icon.svg",
+    "absolute": "https://wbtrade.co.uk/assets/svgs/tiling-icon.svg",
+    "alt": "tiling icon",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/svgs/bathrooms-icon.svg",
+    "absolute": "https://wbtrade.co.uk/assets/svgs/bathrooms-icon.svg",
+    "alt": "bathrooms icon",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/wb-trade-counter-1.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/wb-trade-counter-1.webp",
+    "alt": "trade counter",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/wb-trade-counter-1.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/wb-trade-counter-1.webp",
+    "alt": "house",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/wb-trade-storefront-1.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/wb-trade-storefront-1.webp",
+    "alt": "cabinets",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/brands/ox-tools-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/brands/ox-tools-logo.webp",
+    "alt": "OX Tools Logo",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/brands/floplast-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/brands/floplast-logo.webp",
+    "alt": "FloPlast Logo",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/brands/ideal-heating-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/brands/ideal-heating-logo.webp",
+    "alt": "Ideal Heating Logo",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/brands/geberit-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/brands/geberit-logo.webp",
+    "alt": "Geberit Logo",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/bathrooms-image-5.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/bathrooms-image-5.webp",
+    "alt": "plumbing supplies",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/the-ipg-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/the-ipg-logo.webp",
+    "alt": "plumbing supplies",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/wb-trade-counter-1.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/wb-trade-counter-1.webp",
+    "alt": "kitchen cabinets",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/wbt-logo.webp",
+    "absolute": "https://wbtrade.co.uk/assets/images/wbt-logo.webp",
+    "alt": "logo",
+    "srcset": ""
+  },
+  {
+    "src": "/assets/images/logo-small.png",
+    "absolute": "https://wbtrade.co.uk/assets/images/logo-small.png",
+    "alt": "og:image",
+    "srcset": ""
+  }
+]
