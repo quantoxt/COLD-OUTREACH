@@ -17,6 +17,7 @@
     --paper: #ffffff;
     --mist: #f4f4f4;
     --accent: #0072ae;
+    --accent-soft: #4f9dca;
     --muted: #505a63;
   }
   body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; overflow-x: clip; }
@@ -41,34 +42,43 @@
 </head>
 <body>
 
-<!-- NAV -->
-<header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-black/5">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-4">
-    <a href="#" class="flex items-center gap-3 shrink-0 min-w-0">
-      <img src="_internal/resources/images/img_00.png" alt="Cookridge Plumbing logo" class="h-9 w-auto" />
-    </a>
-    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
-      <a href="#services" class="hover:opacity-60 transition">Services</a>
-      <a href="#why" class="hover:opacity-60 transition">Why us</a>
-      <a href="#areas" class="hover:opacity-60 transition">Areas</a>
-      <a href="#find" class="hover:opacity-60 transition">Contact</a>
+<!-- MASTHEAD (original token: blue band, centred logo, big phone) -->
+<div class="bg-[var(--accent)] text-white text-center px-6 pt-8 pb-6 md:pt-10 md:pb-8">
+  <a href="#" class="inline-block">
+    <img src="_internal/resources/images/img_00.png" alt="Cookridge Plumbing — Plumbing, Gas, Unvented, Drains" class="h-20 md:h-24 w-auto mx-auto brightness-0 invert" />
+  </a>
+  <a href="tel:01134182809" class="display block mt-3 text-3xl md:text-4xl font-semibold tracking-tight">0113 418 2809</a>
+</div>
+
+<!-- NAV (original token: lighter-blue service bar) -->
+<header class="sticky top-0 z-50 bg-[var(--accent-soft)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-0 flex items-center justify-between gap-4">
+    <nav class="hidden md:flex items-center justify-center flex-1 text-[15px] font-medium">
+      <a href="#why" class="px-6 py-4 bg-white/15">About</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Plumbing</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Gas Work</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Unvented</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Drains</a>
+      <a href="#find" class="px-6 py-4 hover:bg-white/15 transition">Contact Us</a>
     </nav>
-    <div class="flex items-center gap-3">
-      <a href="tel:01134182809" aria-label="Call 0113 418 2809" class="pill btn-dark display text-sm sm:text-[15px] font-medium !px-5 !py-3 sm:!px-8 sm:!py-[14px] whitespace-nowrap"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 418 2809</span></a>
-      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="md:hidden w-11 h-11 rounded-full border border-black/15 flex flex-col items-center justify-center gap-[5px] shrink-0">
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+    <a href="tel:01134182809" aria-label="Call 0113 418 2809" class="md:hidden pill bg-white text-[var(--ink)] display text-sm font-medium !px-5 !py-3 whitespace-nowrap my-3"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 418 2809</span></a>
+    <div class="flex items-center gap-3 md:hidden">
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="my-3 w-11 h-11 rounded-full border border-white/40 flex flex-col items-center justify-center gap-[5px] shrink-0">
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
       </button>
     </div>
   </div>
-  <nav id="mobile-menu" class="hidden md:hidden border-t border-black/5 bg-white/95 backdrop-blur-md">
+  <nav id="mobile-menu" class="hidden md:hidden border-t border-white/20 bg-[var(--accent-soft)]">
     <div class="px-6 py-4 flex flex-col text-lg font-medium">
-      <a href="#services" class="py-3 border-b border-black/5">Services</a>
-      <a href="#why" class="py-3 border-b border-black/5">Why us</a>
-      <a href="#areas" class="py-3 border-b border-black/5">Areas</a>
-      <a href="#find" class="py-3 border-b border-black/5">Contact</a>
-      <a href="#quote" class="py-3 text-[#0072ae] font-semibold">Get in touch</a>
+      <a href="#why" class="py-3 border-b border-white/15">About</a>
+      <a href="#services" class="py-3 border-b border-white/15">Plumbing</a>
+      <a href="#services" class="py-3 border-b border-white/15">Gas Work</a>
+      <a href="#services" class="py-3 border-b border-white/15">Unvented</a>
+      <a href="#services" class="py-3 border-b border-white/15">Drains</a>
+      <a href="#find" class="py-3">Contact Us</a>
+      <a href="#quote" class="py-3 font-semibold underline underline-offset-4">Get in touch</a>
     </div>
   </nav>
 </header>
@@ -193,11 +203,38 @@
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="border-t border-black/10">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
-    <p>Cookridge Plumbing · Cookridge & Horsforth, Leeds · Gas Safe & BPEC qualified</p>
-    <a href="tel:01134182809" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">0113 418 2809</a>
+<!-- FOOTER (original token: blue 3-column + legal bar) -->
+<footer class="bg-[var(--accent-soft)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14 md:py-16 grid md:grid-cols-3 gap-10 text-center">
+    <div>
+      <p class="display text-xl">Qualified</p>
+      <p class="mt-4 text-white/90 leading-relaxed">Our plumbers are BPEC qualified and have the certification needed to work on unvented hot water systems. For gas related work we always use Gas Safe Register Engineers.</p>
+    </div>
+    <div>
+      <p class="display text-xl">Contact Us</p>
+      <p class="mt-4 text-white/90 leading-relaxed">We're available 24/7 throughout the year for emergency call outs at no extra cost.</p>
+      <a href="tel:01134182809" class="display inline-block mt-4 text-lg font-semibold">0113 418 2809</a>
+    </div>
+    <div>
+      <p class="display text-xl">Pages</p>
+      <div class="mt-4 flex flex-col gap-2 text-white/90">
+        <a href="#why" class="hover:text-white transition">About</a>
+        <a href="#services" class="hover:text-white transition">Plumbing</a>
+        <a href="#services" class="hover:text-white transition">Gas Work</a>
+        <a href="#services" class="hover:text-white transition">Drains</a>
+        <a href="#services" class="hover:text-white transition">Unvented</a>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-white/20">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 py-6 flex flex-col md:flex-row gap-3 items-center justify-between text-sm text-white/90">
+      <p>© 2026 Cookridge Plumbing</p>
+      <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+        <a href="#" class="hover:text-white transition">Website Terms of Use</a>
+        <a href="#" class="hover:text-white transition">Cookie Policy</a>
+        <a href="#" class="hover:text-white transition">Privacy Policy</a>
+      </div>
+    </div>
   </div>
 </footer>
 
