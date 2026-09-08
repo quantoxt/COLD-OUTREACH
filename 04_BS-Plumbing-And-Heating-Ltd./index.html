@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BS Plumbing & Heating — Your Local Plumbing & Heating Experts in Leeds</title>
+<meta name="description" content="Family-run plumbing & heating experts for 30+ years in Leeds. Boilers, gas servicing, landlord certificates, bathrooms. Gas Safe Reg: 205710. Call 07815 630 388." />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<style>
+  :root {
+    --ink: #191c1f;
+    --paper: #ffffff;
+    --mist: #f4f4f4;
+    --accent: #007acc;
+    --accent-deep: #0c4170;
+    --muted: #505a63;
+  }
+  body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; }
+  .display { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 500; line-height: 1.0; letter-spacing: -0.03em; }
+  .pill { border-radius: 9999px; }
+  .btn-dark { background: var(--ink); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-dark:hover { opacity: .85; transform: translateY(-2px); }
+  .btn-accent { background: var(--accent); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-accent:hover { opacity: .88; transform: translateY(-2px); }
+  .btn-ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); padding: 12px 30px; transition: all .3s ease; }
+  .btn-ghost:hover { background: var(--ink); color: #fff; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-black/5">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-4">
+    <a href="#" class="flex items-center gap-3 shrink-0">
+      <span class="bg-[var(--ink)] rounded-full px-4 py-2 flex items-center">
+        <img src="_internal/resources/images/img_00.png" alt="BS Plumbing and Heating logo" class="h-7 w-auto" />
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
+      <a href="#services" class="hover:opacity-60 transition">Services</a>
+      <a href="#why" class="hover:opacity-60 transition">Why us</a>
+      <a href="#reviews" class="hover:opacity-60 transition">Reviews</a>
+      <a href="#find" class="hover:opacity-60 transition">Find us</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="tel:07815630388" class="pill btn-dark display text-sm sm:text-[15px] font-medium !px-5 !py-3 sm:!px-8 sm:!py-[14px] whitespace-nowrap">07815 630 388</a>
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="md:hidden w-11 h-11 rounded-full border border-black/15 flex flex-col items-center justify-center gap-[5px]">
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="hidden md:hidden border-t border-black/5 bg-white/95 backdrop-blur-md">
+    <div class="px-6 py-4 flex flex-col text-lg font-medium">
+      <a href="#services" class="py-3 border-b border-black/5">Services</a>
+      <a href="#why" class="py-3 border-b border-black/5">Why us</a>
+      <a href="#reviews" class="py-3 border-b border-black/5">Reviews</a>
+      <a href="#find" class="py-3 border-b border-black/5">Find us</a>
+      <a href="#quote" class="py-3 text-[#007acc] font-semibold">Get a free quote</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-6 md:px-8 pt-8 md:pt-14 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+  <div>
+    <div class="reveal inline-flex items-center gap-2 pill bg-[var(--mist)] px-4 py-2 text-[12px] sm:text-[13px] font-semibold mb-6 md:mb-8">
+      Family-run · 30+ years · Gas Safe Reg: 205710
+    </div>
+    <h1 class="reveal display text-[42px] leading-[1.02] sm:text-6xl lg:text-[64px]">
+      Your local plumbing & heating experts.
+    </h1>
+    <p class="reveal mt-6 md:mt-8 text-base sm:text-lg leading-[1.56] text-[var(--muted)] max-w-xl">
+      From new boilers to landlord certificates, bathrooms to emergency repairs —
+      one family team across Leeds and West Yorkshire, all work guaranteed and insured.
+    </p>
+    <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+      <a href="tel:07815630388" class="pill btn-accent display text-lg font-medium text-center">Call 07815 630 388</a>
+      <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get a free quote</a>
+    </div>
+  </div>
+  <div class="reveal flex justify-center">
+    <img src="_internal/resources/images/img_03.png" alt="Boiler installed by BS Plumbing and Heating" class="w-full max-w-[420px] aspect-square object-cover rounded-full" loading="eager" />
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="bg-[var(--ink)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-8 md:py-10 flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
+    <div>
+      <p class="display text-2xl md:text-3xl">24/7 emergency plumbing, no call-out charge.</p>
+      <p class="mt-1 text-white/70">Same-day repairs by fully qualified engineers.</p>
+    </div>
+    <a href="tel:07815630388" class="pill bg-white text-[var(--ink)] px-8 py-[14px] display font-medium md:ml-auto shrink-0 hover:opacity-85 transition text-center">Get help now</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
+  <h2 class="reveal display text-4xl md:text-5xl">Every job, large or small.</h2>
+  <p class="reveal mt-4 text-[var(--muted)] max-w-lg">All work by Gas Safe registered engineers — free help and expert advice included.</p>
+  <div class="mt-12 grid sm:grid-cols-2 gap-x-10 gap-y-7 max-w-4xl">
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Boiler installation & servicing</p><p class="text-[var(--muted)]">The right boiler for your property and budget.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">General plumbing</p><p class="text-[var(--muted)]">From leak fixes to replacement parts and re-piping.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Gas servicing & safety checks</p><p class="text-[var(--muted)]">Thorough checks with a full written report.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Landlord certification</p><p class="text-[var(--muted)]">Competitively priced gas safety certificates.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Bathroom & kitchen fitting</p><p class="text-[var(--muted)]">Pipework second to none, finished to a high standard.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Cookers, hobs & fires</p><p class="text-[var(--muted)]">Professional gas and electric appliance installs.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Sink & drain unblocking</p><p class="text-[var(--muted)]">Fast response when water won't move.</p></div>
+    </div>
+    <div class="reveal flex gap-3 items-start">
+      <svg class="w-6 h-6 shrink-0 mt-0.5 text-[#007acc]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      <div><p class="font-semibold text-lg">Guttering & leadwork</p><p class="text-[var(--muted)]">Roofline work done properly, first time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="bg-[var(--mist)]">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="reveal display text-4xl md:text-5xl">Why choose BS?</h2>
+      <ul class="mt-10 space-y-6 text-[17px]">
+        <li class="reveal">Competitive prices, honest and reliable — no surprises.</li>
+        <li class="reveal">All work guaranteed & fully insured, with accurate timescales.</li>
+        <li class="reveal">Fitters with City & Guilds qualifications, trained for energy-efficient appliances.</li>
+        <li class="reveal">Accredited specialist fitters: Worcester Bosch, Vaillant, Vokèra, Ideal, Baxi & more.</li>
+      </ul>
+    </div>
+    <div class="reveal bg-white rounded-[20px] p-8">
+      <div class="flex items-center gap-5">
+        <img src="_internal/resources/images/img_11.png" alt="Gas Safe Register" class="h-16 w-auto" loading="lazy" />
+        <img src="_internal/resources/images/img_01.png" alt="Gas Safe accredited" class="h-16 w-auto" loading="lazy" />
+        <img src="_internal/resources/images/img_02.png" alt="Accreditation" class="h-16 w-auto" loading="lazy" />
+      </div>
+      <p class="mt-5 text-[var(--muted)]">Gas Safe Reg: 205710. It is illegal for gas work to be carried out by anyone not on the register — always check the card.</p>
+      <div class="mt-6 grid grid-cols-2 gap-4 items-center">
+        <img src="_internal/resources/images/img_04.png" alt="Vaillant boilers" class="h-10 w-auto object-contain" loading="lazy" />
+        <img src="_internal/resources/images/img_05.jpg" alt="Worcester Bosch boilers" class="h-10 w-auto object-contain rounded" loading="lazy" />
+        <img src="_internal/resources/images/img_06.jpg" alt="Baxi boilers" class="h-10 w-auto object-contain rounded" loading="lazy" />
+        <img src="_internal/resources/images/img_07.jpg" alt="Ideal boilers" class="h-10 w-auto object-contain rounded" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
+  <h2 class="reveal display text-4xl md:text-5xl">Don't take our word for it.</h2>
+  <div class="mt-12 grid md:grid-cols-3 gap-6">
+    <figure class="reveal bg-[var(--mist)] rounded-[20px] p-8">
+      <img src="_internal/resources/images/img_08.png" alt="5 star review" class="h-5 w-auto" loading="lazy" />
+      <blockquote class="mt-4">"Great job and great price. Got the boiler working and fixed a leaking toilet. Will use again."</blockquote>
+      <figcaption class="mt-4 font-semibold">M Rowe</figcaption>
+    </figure>
+    <figure class="reveal bg-[var(--mist)] rounded-[20px] p-8">
+      <img src="_internal/resources/images/img_08.png" alt="5 star review" class="h-5 w-auto" loading="lazy" />
+      <blockquote class="mt-4">"When the heating engineer arrived he did a great job."</blockquote>
+      <figcaption class="mt-4 font-semibold">Rebecca Nutter</figcaption>
+    </figure>
+    <figure class="reveal bg-[var(--mist)] rounded-[20px] p-8">
+      <img src="_internal/resources/images/img_08.png" alt="5 star review" class="h-5 w-auto" loading="lazy" />
+      <blockquote class="mt-4">"Very good service, appointment on time. A thorough check with a full report. Would use again."</blockquote>
+      <figcaption class="mt-4 font-semibold">Alf Broadhead</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- FIND + QUOTE -->
+<section id="find" class="max-w-6xl mx-auto px-6 md:px-8 pb-16 md:pb-24">
+  <h2 class="reveal display text-4xl md:text-5xl">Where to find us</h2>
+  <p class="reveal mt-4 text-[var(--muted)] max-w-lg">408 Oakwood Lane, Leeds LS8 3LG — covering Adel, Garforth, Kippax, Pudsey, Farnley, Gledhow, Roundhay and more.</p>
+  <div class="reveal mt-8 rounded-[20px] overflow-hidden">
+    <iframe title="Map — BS Plumbing and Heating, 408 Oakwood Lane, Leeds" src="https://www.google.com/maps?q=408%20Oakwood%20Lane%2C%20Leeds%20LS8%203LG&output=embed" class="w-full h-[240px] sm:h-[320px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="quote" class="bg-[var(--ink)] text-white">
+  <div class="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-32">
+    <p class="reveal display text-4xl md:text-5xl text-center">Request a free quote</p>
+    <p class="reveal mt-3 text-white/70 text-center">Call now for free advice on your plumbing and heating.</p>
+    <form id="quote-form" class="reveal mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc]" />
+      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc]" />
+      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc]" />
+      <input required name="phone" type="tel" placeholder="Phone" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc]" />
+      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc]" />
+      <textarea name="comment" rows="4" placeholder="Tell us about the job…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#007acc] resize-y"></textarea>
+      <div class="sm:col-span-2 flex flex-col sm:flex-row sm:items-center gap-4">
+        <button type="submit" class="pill btn-accent display font-medium text-center">Request now</button>
+        <a href="tel:01133681840" class="text-white/80 hover:text-white transition font-semibold text-center">or call 0113 368 1840</a>
+      </div>
+      <p id="quote-done" class="sm:col-span-2 hidden text-[#5eb2f0] font-semibold">Thanks — request received. We'll be in touch shortly.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-black/10">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
+    <p>© 2020 BS Plumbing & Heating · 408 Oakwood Lane, Leeds LS8 3LG · Gas Safe Reg: 205710</p>
+    <span class="flex flex-col sm:flex-row gap-1 sm:gap-5 sm:items-center">
+      <a href="tel:07815630388" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">07815 630 388</a>
+      <a href="tel:01133681840" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">0113 368 1840</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+  function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const el = document.querySelector(a.getAttribute('href'));
+      document.getElementById('mobile-menu').classList.add('hidden');
+      document.getElementById('menu-btn').setAttribute('aria-expanded', 'false');
+      if (el) { e.preventDefault(); lenis.scrollTo(el, { offset: -72 }); }
+    });
+  });
+  document.getElementById('menu-btn').addEventListener('click', () => {
+    const m = document.getElementById('mobile-menu');
+    const open = m.classList.toggle('hidden');
+    document.getElementById('menu-btn').setAttribute('aria-expanded', String(!open));
+  });
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.getElementById('quote-form').addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById('quote-done').classList.remove('hidden');
+    e.target.querySelector('button[type="submit"]').textContent = 'Requested ✓';
+  });
+</script>
+</body>
+</html>
