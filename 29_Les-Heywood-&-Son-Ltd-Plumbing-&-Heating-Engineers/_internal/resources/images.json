@@ -1,0 +1,86 @@
+[
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/07/lhs-logo.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/07/lhs-logo.png",
+    "alt": "Les Heywood & Son",
+    "srcset": ""
+  },
+  {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "absolute": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "alt": "gas-flame-02",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-flame-02-920x240.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-flame-02-920x240.png",
+    "alt": "gas-flame-02",
+    "srcset": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-flame-02.png 920w, http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-flame-02-300x78.png 300w"
+  },
+  {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "absolute": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "alt": "shower-02",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/shower-02-920x240.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/shower-02-920x240.png",
+    "alt": "shower-02",
+    "srcset": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/shower-02.png 920w, http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/shower-02-300x78.png 300w"
+  },
+  {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "absolute": "data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width='920'%20height='240'%20viewBox=%270%200%20920%20240%27%3E%3C/svg%3E",
+    "alt": "renewables-02",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/renewables-02-920x240.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/renewables-02-920x240.png",
+    "alt": "renewables-02",
+    "srcset": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/renewables-02.png 920w, http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/renewables-02-300x78.png 300w"
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/aphc-logo-1.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/aphc-logo-1.png",
+    "alt": "aphc-logo-1",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-safe-logo-1.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/gas-safe-logo-1.png",
+    "alt": "gas-safe-logo-1",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/hmp-logo-1.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/hmp-logo-1.png",
+    "alt": "hmp-logo-1",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/nt_installer_network.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/nt_installer_network.png",
+    "alt": "nt_installer_network",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/RI-logo-150.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/RI-logo-150.png",
+    "alt": "RI-logo-150",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/baxi-installer-logo-1.png",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/baxi-installer-logo-1.png",
+    "alt": "baxi-installer-logo-1",
+    "srcset": ""
+  },
+  {
+    "src": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/WaterSafe_web_logo.gif",
+    "absolute": "http://www.lesheywoodandson.co.uk/wp-content/uploads/2014/04/WaterSafe_web_logo.gif",
+    "alt": "WaterSafe",
+    "srcset": ""
+  }
+]
