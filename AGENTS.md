@@ -16,6 +16,19 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
 - **Stack only**: single `index.html` — Tailwind CDN (v4 browser), Google Fonts,
   Lenis (CDN). No build step, no other frameworks.
 
+## Variety rule (sites must NOT all look the same)
+- The skeleton order (§Page skeleton) and quality bar (Lenis rules, image rules,
+  sticky nav, mobile-first, validation) are fixed. The VISUAL TREATMENT varies
+  per client — study the screenshots of the original site and borrow its
+  distinctive tokens:
+  - hero treatment (light minimal vs full-bleed duotone photo band),
+  - iconography (inline-SVG ticks vs line-icon cards vs badge chips),
+  - brand devices (logo strips, accreditation cards, checklist bands),
+  - footer character (minimal vs rich navy with link columns).
+- Default to the Same+Airbnb+hyperminimal base, then layer the client's own
+  tokens on top so each rebuild feels like *them*, just modernized.
+  If the original has no distinctive tokens, stay close to base.
+
 ## Page skeleton (in order)
 1. Sticky frosted nav (`sticky top-0 z-50`, `backdrop-blur`, hairline border) —
    logo, section links, tap-to-call pill, hamburger on mobile.
