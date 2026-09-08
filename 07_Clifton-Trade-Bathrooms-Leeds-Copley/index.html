@@ -42,6 +42,17 @@
 </head>
 <body>
 
+<!-- UTILITY BAR -->
+<div class="bg-black text-white text-[13px]">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-2 flex items-center justify-between gap-4">
+    <p class="flex items-center gap-2">
+      <span class="text-[#f5b02f] tracking-tight">★★★★★</span>
+      <span class="text-white/80 hidden sm:inline">4.5/5 customer satisfaction</span>
+    </p>
+    <a href="#quote" class="pill bg-[#da291c] text-white font-semibold px-5 py-1.5 hover:opacity-85 transition">Build a quote</a>
+  </div>
+</div>
+
 <!-- NAV -->
 <header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-black/5">
   <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-4">
@@ -72,6 +83,16 @@
       <a href="#quote" class="py-3 text-[#da291c] font-semibold">Book appointment</a>
     </div>
   </nav>
+  <div class="hidden md:block border-t border-black/5">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 py-2.5 flex items-center gap-7 text-[13px] font-medium text-[var(--muted)]">
+      <a href="#quote" class="hover:text-[var(--ink)] transition">Free home measure</a>
+      <a href="#visit" class="hover:text-[var(--ink)] transition">Showrooms</a>
+      <a href="#quote" class="hover:text-[var(--ink)] transition">Book appointment</a>
+      <a href="#quote" class="hover:text-[var(--ink)] transition">Brochure</a>
+      <a href="#ranges" class="hover:text-[var(--ink)] transition">Tile calculator</a>
+      <a href="#ranges" class="hover:text-[var(--ink)] transition">BTU calculator</a>
+    </div>
+  </div>
 </header>
 
 <!-- HERO -->
@@ -90,7 +111,7 @@
     </p>
     <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
       <a href="#quote" class="pill btn-accent display text-lg font-medium text-center inline-flex items-center justify-center gap-2"><i class="ri-calendar-check-line text-xl"></i>Book appointment</a>
-      <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get the brochure</a>
+      <a href="#ranges" class="pill btn-accent display text-lg font-medium text-center">Latest products</a>
     </div>
   </div>
 </section>
@@ -150,25 +171,30 @@
 <!-- VALUE -->
 <section id="value" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
   <h2 class="reveal display text-4xl md:text-5xl">The Clifton difference.</h2>
-  <div class="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
+  <div class="mt-12 grid grid-cols-2 lg:grid-cols-5 gap-6">
     <div class="reveal bg-[var(--mist)] rounded-[20px] p-8 text-center">
-      <img src="_internal/resources/images/img_14.svg" alt="Best price" class="w-12 h-12 mx-auto" loading="lazy" />
-      <p class="display text-xl mt-4">Best price</p>
-      <p class="mt-2 text-sm text-[var(--muted)]">Won't be beaten on price.</p>
+      <p class="text-[#f5b02f] text-2xl tracking-tight">★★★★★</p>
+      <p class="display text-xl mt-3">4.5/5 rated</p>
+      <p class="mt-2 text-sm text-[var(--muted)]">Review us on Trustpilot.</p>
     </div>
     <div class="reveal bg-[var(--mist)] rounded-[20px] p-8 text-center">
-      <img src="_internal/resources/images/img_12.svg" alt="Quality" class="w-12 h-12 mx-auto" loading="lazy" />
-      <p class="display text-xl mt-4">Quality</p>
-      <p class="mt-2 text-sm text-[var(--muted)]">4.5/5 customer rating.</p>
+      <img src="_internal/resources/images/img_12.svg" alt="Friendly help" class="w-12 h-12 mx-auto" loading="lazy" />
+      <p class="display text-xl mt-4">Friendly local help</p>
+      <p class="mt-2 text-sm text-[var(--muted)]">Guided showroom journey.</p>
     </div>
     <div class="reveal bg-[var(--mist)] rounded-[20px] p-8 text-center">
-      <img src="_internal/resources/images/img_13.svg" alt="Range" class="w-12 h-12 mx-auto" loading="lazy" />
-      <p class="display text-xl mt-4">Range</p>
-      <p class="mt-2 text-sm text-[var(--muted)]">In stock, collect today.</p>
+      <img src="_internal/resources/images/img_13.svg" alt="Huge range" class="w-12 h-12 mx-auto" loading="lazy" />
+      <p class="display text-xl mt-4">Huge in-stock range</p>
+      <p class="mt-2 text-sm text-[var(--muted)]">Collect today.</p>
+    </div>
+    <div class="reveal bg-[var(--mist)] rounded-[20px] p-8 text-center">
+      <img src="_internal/resources/images/img_14.svg" alt="Price guarantee" class="w-12 h-12 mx-auto" loading="lazy" />
+      <p class="display text-xl mt-4">Price guarantee</p>
+      <p class="mt-2 text-sm text-[var(--muted)]">Won't be beaten.</p>
     </div>
     <div class="reveal bg-[var(--mist)] rounded-[20px] p-8 text-center">
       <img src="_internal/resources/images/img_15.svg" alt="Showrooms" class="w-12 h-12 mx-auto" loading="lazy" />
-      <p class="display text-xl mt-4">55+ showrooms</p>
+      <p class="display text-xl mt-4">50+ showrooms</p>
       <p class="mt-2 text-sm text-[var(--muted)]">Friendly depot teams.</p>
     </div>
   </div>
@@ -214,10 +240,55 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="border-t border-black/10">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
-    <p>Clifton Trade Bathrooms · Leeds Copley, Whitehall Road, LS12 1HE</p>
-    <a href="#quote" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">Book appointment</a>
+<footer>
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14">
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="#visit" class="pill btn-accent display font-medium text-center">Nearest showroom</a>
+      <a href="#quote" class="pill btn-accent display font-medium text-center">Free home measure</a>
+    </div>
+    <div class="mt-12 grid sm:grid-cols-3 gap-10">
+      <nav>
+        <p class="display text-xl mb-4">Bathrooms</p>
+        <ul class="space-y-2.5 text-[var(--muted)]">
+          <li>Furniture</li>
+          <li>Basins</li>
+          <li>Toilets</li>
+          <li>Taps & showers</li>
+          <li>Wetrooms & enclosures</li>
+          <li>Baths</li>
+          <li>Mirrors & cabinets</li>
+          <li>Towel rails & radiators</li>
+          <li>Accessories</li>
+        </ul>
+      </nav>
+      <nav>
+        <p class="display text-xl mb-4">Walls, floors & ceilings</p>
+        <ul class="space-y-2.5 text-[var(--muted)]">
+          <li>Tile calculator</li>
+          <li>Wall tiles</li>
+          <li>Floor tiles</li>
+          <li>Wall & floor tiles</li>
+          <li>Luxury wall panels</li>
+        </ul>
+      </nav>
+      <nav>
+        <p class="display text-xl mb-4">Your Clifton</p>
+        <ul class="space-y-2.5 text-[var(--muted)]">
+          <li>The Clifton way</li>
+          <li>Buying guides</li>
+          <li>Price guide</li>
+          <li>Brochure</li>
+          <li>Inspiration</li>
+          <li>Build a quote</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="bg-black text-white/60 text-[13px]">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 py-5 flex flex-col sm:flex-row gap-2 items-center justify-between">
+      <p>© 2026 Clifton Trade Bathrooms LTD · Company No. 05363083 · VAT No. 862 0897 03</p>
+      <p>Leeds Copley · Whitehall Road · LS12 1HE</p>
+    </div>
   </div>
 </footer>
 
