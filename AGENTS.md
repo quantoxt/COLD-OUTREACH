@@ -10,6 +10,9 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
   Inter Tight display (500, tight tracking) + Inter body,
   hyperminimal layout (one idea per section, 128px section rhythm, max 2 colors),
   Airbnb inflection (warm, hospitable copy and imagery).
+- **Buttons**: pill CTAs must be `inline-flex` with `items-center` and a normal
+  `line-height` (1.5) — the display font's tight 1.0 rhythm otherwise rides the
+  text high inside the pill.
 - **Accent color**: always the original site's primary CTA color, extracted from
   its real `styles.css`/theme CSS (fetch it, count hex frequency, eyeball for
   false positives like `#beauty_prod` ID selectors). Ink `#191c1f`, paper white.
