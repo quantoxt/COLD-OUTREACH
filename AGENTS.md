@@ -16,6 +16,13 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
 - **Stack only**: single `index.html` — Tailwind CDN (v4 browser), Google Fonts,
   RemixIcon CDN (pinned, e.g. `remixicon@4.6.0` — verify icon names against the
   real stylesheet before use), Lenis (CDN). No build step, no other frameworks.
+- **Icon vocabulary** (all verified against 4.6.0 — reuse, don't re-guess):
+  plumbing `ri-drop-line`, boilers/heating `ri-fire-line`, gas safety
+  `ri-shield-check-line`, certificates `ri-file-list-line`, cookers/hobs
+  `ri-restaurant-line`, bathrooms `ri-showers-line` (no bath icon exists),
+  tools `ri-tools-line`, quote/booking `ri-calendar-check-line`,
+  emergency `ri-24-hours-line`, reviews `ri-thumb-up-line`,
+  contact `ri-customer-service-line`, offers `ri-percent-line`.
 
 ## Variety rule (sites must NOT all look the same)
 - The skeleton order (§Page skeleton) and quality bar (Lenis rules, image rules,
