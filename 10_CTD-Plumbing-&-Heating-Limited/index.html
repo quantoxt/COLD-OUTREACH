@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>CTD Plumbing & Heating — Boilers, Plumbing, Stoves & Solar in Rothwell, Leeds</title>
-<meta name="description" content="CTD Plumbing and Heating, Rothwell Leeds. Boiler installations, servicing & repairs, plumbing, stoves and solar thermal. Call 0113 282 2056 for a no-obligation quotation." />
+<title>CTD Plumbing & Heating — Boiler Installations, Servicing & Repairs in Rothwell, Leeds</title>
+<meta name="description" content="CTD Plumbing and Heating, Rothwell Leeds. Worcester Accredited Installers — boiler installations with 12-year guarantee, servicing, repairs, plumbing, stoves and solar. Call 0113 282 2056." />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,8 @@
     --ink: #191c1f;
     --paper: #ffffff;
     --mist: #f4f4f4;
-    --accent: #066aab;
+    --accent: #f47521;
+    --navy: #0b3a54;
     --muted: #505a63;
   }
   body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; overflow-x: clip; }
@@ -41,126 +42,176 @@
 </head>
 <body>
 
-<!-- NAV (white logo needs dark chip) -->
-<header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-black/5">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-4">
-    <a href="#" class="shrink-0 bg-[var(--ink)] rounded-full px-5 py-2">
-      <img src="_internal/resources/images/img_00.png" alt="CTD Plumbing and Heating" class="h-7 w-auto" />
+<!-- MASTHEAD (original token: slate bar, logo, quote pills, Google reviews, orange CALL US TODAY) -->
+<div class="bg-[#5b7183] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-5 flex flex-wrap items-center justify-center md:justify-between gap-4">
+    <a href="#" class="bg-[var(--ink)] rounded-2xl px-5 py-2">
+      <img src="_internal/resources/images/img_00.png" alt="CTD Plumbing and Heating" class="h-9 w-auto" />
     </a>
-    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
-      <a href="#services" class="hover:opacity-60 transition">Services</a>
-      <a href="#why" class="hover:opacity-60 transition">Why us</a>
-      <a href="#areas" class="hover:opacity-60 transition">Areas</a>
-      <a href="#find" class="hover:opacity-60 transition">Contact</a>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      <a href="#quote" class="pill bg-[#3aae4e] text-white display text-sm font-medium px-6 py-3 hover:opacity-90 transition">Get an instant quote</a>
+      <a href="tel:01132822056" class="text-center leading-tight">
+        <span class="block text-[12px] font-bold tracking-[0.12em] text-[#f5a05a]">CALL US TODAY</span>
+        <span class="display block text-xl font-semibold">0113 282 2056</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- NAV (original token: slate service menu, orange active item) -->
+<header class="sticky top-0 z-50 bg-[#5b7183] text-white border-t border-white/15">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 flex items-center justify-between gap-4">
+    <nav class="hidden lg:flex items-center text-[13px] font-semibold tracking-wide overflow-x-auto">
+      <a href="#" class="px-3 py-4 text-[#f5a05a]">HOME</a>
+      <a href="#worcester" class="px-3 py-4 hover:text-[#f5a05a] transition">BOILER INSTALLATIONS</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">SERVICES & REPAIRS</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">PLUMBING</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">STOVES</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">SOLAR THERMAL</a>
+      <a href="#why" class="px-3 py-4 hover:text-[#f5a05a] transition">TESTIMONIAL</a>
+      <a href="#find" class="px-3 py-4 hover:text-[#f5a05a] transition">CONTACT US</a>
     </nav>
-    <div class="flex items-center gap-3">
-      <a href="tel:01132822056" aria-label="Call 0113 282 2056" class="pill btn-accent display text-sm sm:text-[15px] font-medium !px-5 !py-3 sm:!px-8 sm:!py-[14px] whitespace-nowrap"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 282 2056</span></a>
-      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="md:hidden w-11 h-11 rounded-full border border-black/15 flex flex-col items-center justify-center gap-[5px] shrink-0">
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
-        <span class="block w-5 h-[2px] bg-[var(--ink)]"></span>
+    <a href="tel:01132822056" aria-label="Call 0113 282 2056" class="lg:hidden pill bg-white text-[var(--ink)] display text-sm font-medium !px-5 !py-3 whitespace-nowrap my-3"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 282 2056</span></a>
+    <div class="flex items-center gap-3 lg:hidden">
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="my-3 w-11 h-11 rounded-full border border-white/40 flex flex-col items-center justify-center gap-[5px] shrink-0">
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
       </button>
     </div>
   </div>
-  <nav id="mobile-menu" class="hidden md:hidden border-t border-black/5 bg-white/95 backdrop-blur-md">
+  <nav id="mobile-menu" class="hidden lg:hidden border-t border-white/20 bg-[#5b7183]">
     <div class="px-6 py-4 flex flex-col text-lg font-medium">
-      <a href="#services" class="py-3 border-b border-black/5">Services</a>
-      <a href="#why" class="py-3 border-b border-black/5">Why us</a>
-      <a href="#areas" class="py-3 border-b border-black/5">Areas</a>
-      <a href="#find" class="py-3 border-b border-black/5">Contact</a>
-      <a href="#quote" class="py-3 text-[#066aab] font-semibold">Request a callback</a>
+      <a href="#worcester" class="py-3 border-b border-white/15">Boiler Installations</a>
+      <a href="#services" class="py-3 border-b border-white/15">Services & Repairs</a>
+      <a href="#services" class="py-3 border-b border-white/15">Plumbing</a>
+      <a href="#services" class="py-3 border-b border-white/15">Stoves</a>
+      <a href="#services" class="py-3 border-b border-white/15">Solar Thermal</a>
+      <a href="#find" class="py-3">Contact Us</a>
+      <a href="#quote" class="py-3 font-semibold underline underline-offset-4">Get an instant quote</a>
     </div>
   </nav>
 </header>
 
-<!-- HERO -->
+<!-- HERO (original token: save-money headline + orange call pill) -->
 <section class="max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24">
   <div class="reveal inline-flex items-center gap-2 pill bg-[var(--mist)] px-4 py-2 text-[12px] sm:text-[13px] font-semibold mb-6 md:mb-8">
-    Rothwell, Leeds · Worcester & Vaillant accredited
+    Worcester Accredited Installer · 12-year guarantee on selected boilers
   </div>
   <h1 class="reveal display text-[42px] leading-[1.02] sm:text-6xl lg:text-[72px] max-w-4xl">
-    Heating, plumbing & renewables — one trusted team.
+    You can save money on your energy bills by upgrading your boiler.
   </h1>
   <p class="reveal mt-6 md:mt-8 text-base sm:text-lg leading-[1.56] text-[var(--muted)] max-w-2xl">
-    Boiler installations, servicing and repairs, plumbing, stoves and solar thermal.
-    Experienced, helpful staff — call today for a no-obligation quotation, or request a callback.
+    New Worcester Bosch boiler installations, servicing and repairs — plus plumbing,
+    stoves and solar thermal. Experienced, helpful staff; call today for a no-obligation quotation.
   </p>
   <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
-    <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium text-center inline-flex items-center justify-center gap-2"><i class="ri-phone-line text-xl"></i>0113 282 2056</a>
-    <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Request a callback</a>
+    <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium text-center inline-flex items-center justify-center gap-2"><i class="ri-phone-line text-xl"></i>Call us today</a>
+    <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get an instant quote</a>
   </div>
 </section>
 
-<!-- STRIP -->
-<section class="bg-[var(--ink)] text-white">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-8 md:py-10 flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
-    <div>
-      <p class="display text-2xl md:text-3xl">Call us today — happy to help.</p>
-      <p class="mt-1 text-white/70">No-obligation quotations. Experienced staff, straightforward advice.</p>
+<!-- WORCESTER (original token: dark band, orange heading, guarantee + Which? copy) -->
+<section id="worcester" class="bg-[var(--ink)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24 grid lg:grid-cols-5 gap-10 lg:gap-14 items-start">
+    <div class="lg:col-span-3">
+      <h2 class="reveal display text-4xl md:text-5xl text-[#f5a05a]">We are a Worcester Accredited Installer</h2>
+      <p class="reveal mt-6 text-lg text-white/85 leading-relaxed">We meet and exceed the highest standards of installation, service and customer care for Worcester Bosch boilers.</p>
+      <p class="reveal mt-4 text-lg text-white/85 leading-relaxed">Whether you need a new Worcester Bosch boiler installation, a regular service, or expert advice on boiler problems, our team is here to help.</p>
+      <p class="reveal mt-4 text-lg text-white/85 leading-relaxed">From routine maintenance to urgent boiler repair, we provide reliable solutions to keep your heating system running efficiently.</p>
+      <a href="#quote" class="reveal pill btn-accent display font-medium mt-8">Find out more</a>
     </div>
-    <a href="tel:01132822056" class="pill bg-white text-[var(--ink)] px-8 py-[14px] display font-medium md:ml-auto shrink-0 hover:opacity-85 transition text-center">0113 282 2056</a>
-  </div>
-</section>
-
-<!-- SERVICES (no photos — checkmarked grid, accent ticks) -->
-<section id="services" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
-  <p class="reveal text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent)]">Our services include</p>
-  <h2 class="reveal display text-4xl md:text-5xl mt-3">Boilers, plumbing, stoves & solar.</h2>
-  <div class="mt-12 grid sm:grid-cols-2 gap-x-10 gap-y-6 max-w-4xl text-[17px]">
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Boiler installations</strong> — Worcester & Vaillant accredited installers.</span></p>
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Services & repairs</strong> — boiler servicing, fault-finding and repairs.</span></p>
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Plumbing</strong> — general plumbing for homes and businesses.</span></p>
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Stoves</strong> — supply and installation.</span></p>
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Solar thermal</strong> — renewable hot water installations.</span></p>
-    <p class="reveal flex gap-3 items-start"><svg class="w-6 h-6 shrink-0 text-[#066aab]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><strong>Landlords & businesses</strong> — dependable cover, clear quotations.</span></p>
-  </div>
-</section>
-
-<!-- WHY + ACCREDITATIONS -->
-<section id="why" class="bg-[var(--mist)]">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
-    <h2 class="reveal display text-4xl md:text-5xl">Accredited. Reviewed. Local.</h2>
-    <div class="mt-12 grid sm:grid-cols-2 gap-x-10 gap-y-7 max-w-4xl text-[17px]">
-      <p class="reveal flex gap-3 items-start"><i class="ri-shield-check-line text-2xl text-[#066aab] shrink-0"></i><span><strong>Gas Safe registered</strong> — certified engineers on every gas job.</span></p>
-      <p class="reveal flex gap-3 items-start"><i class="ri-award-line text-2xl text-[#066aab] shrink-0"></i><span><strong>Manufacturer accredited</strong> — Worcester Bosch & Vaillant.</span></p>
-      <p class="reveal flex gap-3 items-start"><i class="ri-thumb-up-line text-2xl text-[#066aab] shrink-0"></i><span><strong>Google reviewed</strong> — rated by local customers.</span></p>
-      <p class="reveal flex gap-3 items-start"><i class="ri-customer-service-line text-2xl text-[#066aab] shrink-0"></i><span><strong>Helpful staff</strong> — experienced team, happy to assist.</span></p>
-    </div>
-    <div class="reveal mt-12 flex flex-wrap items-center gap-8">
-      <img src="_internal/resources/images/img_05.png" alt="Gas Safe Register" class="h-14 w-auto" loading="lazy" />
-      <img src="_internal/resources/images/img_04.png" alt="Worcester Bosch" class="h-10 w-auto" loading="lazy" />
-      <img src="_internal/resources/images/img_06.png" alt="Vaillant" class="h-10 w-auto" loading="lazy" />
-      <img src="_internal/resources/images/img_02.png" alt="Google reviews" class="h-10 w-auto" loading="lazy" />
+    <div class="lg:col-span-2 grid gap-4">
+      <div class="reveal rounded-[20px] bg-white/10 border border-white/15 p-7">
+        <p class="display text-3xl">12-year guarantee*</p>
+        <p class="mt-2 text-white/75">On selected Worcester Bosch gas boilers. *T&amp;Cs apply.</p>
+      </div>
+      <div class="reveal rounded-[20px] bg-white/10 border border-white/15 p-7">
+        <p class="display text-3xl">Recommended by Which?</p>
+        <p class="mt-2 text-white/75">Best Buy boilers, 2009–2019 — ten years running.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- AREAS -->
-<section id="areas" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
-  <h2 class="reveal display text-4xl md:text-5xl">Based in Rothwell. Covering Leeds.</h2>
-  <p class="reveal mt-4 text-[var(--muted)] max-w-2xl">44 Carlton Lane, Rothwell, Leeds LS26 0DJ — serving Rothwell and surrounding Leeds areas. Not sure we cover you? Call and ask.</p>
+<!-- SERVICES (original token: navy band, 3-column list, orange pills) -->
+<section id="services" class="bg-[var(--navy)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
+    <h2 class="reveal display text-4xl md:text-5xl text-center">Our Services Include:</h2>
+    <p class="reveal mt-3 text-white/75 text-center">We offer you the highest quality workmanship and services</p>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-3 max-w-5xl mx-auto text-[16px]">
+      <p class="reveal py-1">• Bathroom Refurbishments</p>
+      <p class="reveal py-1">• Burst Pipes</p>
+      <p class="reveal py-1">• Central Heating Installations</p>
+      <p class="reveal py-1">• Emergency Plumbers</p>
+      <p class="reveal py-1">• Energy Efficient Advice</p>
+      <p class="reveal py-1">• Gas Boiler Installations</p>
+      <p class="reveal py-1">• Gas Boiler Repairs</p>
+      <p class="reveal py-1">• Gas Boiler Breakdowns</p>
+      <p class="reveal py-1">• Gas Cookers & Hobs</p>
+      <p class="reveal py-1">• Gas Safety Inspections</p>
+      <p class="reveal py-1">• General Plumbing</p>
+      <p class="reveal py-1">• Landlord Safety Certificates</p>
+      <p class="reveal py-1">• LPG Boilers</p>
+      <p class="reveal py-1">• Powerflushing</p>
+      <p class="reveal py-1">• Replacements & Repairs</p>
+      <p class="reveal py-1">• Replacement Radiators</p>
+      <p class="reveal py-1">• Social Housing</p>
+      <p class="reveal py-1">• Solar Hot Water</p>
+      <p class="reveal py-1">• Underfloor Heating</p>
+    </div>
+    <div class="reveal mt-10 flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+      <a href="tel:01132822056" class="pill btn-accent display font-medium text-center">Call us today</a>
+      <a href="#quote" class="pill btn-accent display font-medium text-center">Find out more</a>
+    </div>
+  </div>
+</section>
+
+<!-- ACCREDITATIONS (original token: white band, orange heading, logo row) -->
+<section id="why" class="bg-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24 text-center">
+    <h2 class="reveal display text-4xl md:text-5xl text-[var(--accent)]">Accreditations</h2>
+    <p class="reveal mt-4 text-[var(--muted)] max-w-2xl mx-auto">To ensure our customers receive a high standard of workmanship and professionalism, our company is accredited and monitored by several trade and industry bodies.</p>
+    <div class="reveal mt-10 flex flex-wrap items-center justify-center gap-8 md:gap-12">
+      <img src="_internal/resources/images/img_04.png" alt="Worcester Accredited Installer" class="h-12 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_05.png" alt="Gas Safe Register" class="h-16 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_06.png" alt="Vaillant Advance Installer" class="h-12 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_02.png" alt="Google reviews" class="h-12 w-auto" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- AREAS (original token: grey band — Wakefield, Huddersfield, Selby) -->
+<section id="areas" class="bg-[#9aa5ad] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14 md:py-20">
+    <h2 class="reveal display text-4xl md:text-5xl flex items-center gap-4"><i class="ri-map-pin-line"></i>Areas We Cover</h2>
+    <p class="reveal mt-4 text-white/90 max-w-2xl">We provide plumbing &amp; heating services to homes &amp; businesses across Leeds and the surrounding areas.</p>
+    <div class="reveal mt-6 flex flex-wrap gap-x-8 gap-y-2 text-lg font-medium">
+      <span>• Wakefield</span><span>• Huddersfield</span><span>• Selby</span><span>• Rothwell</span><span>• Leeds</span>
+    </div>
+  </div>
 </section>
 
 <!-- FIND + QUOTE -->
-<section id="find" class="max-w-6xl mx-auto px-6 md:px-8 pb-16 md:pb-24">
+<section id="find" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
   <h2 class="reveal display text-4xl md:text-5xl">Find us</h2>
-  <p class="reveal mt-4 text-[var(--muted)]">44 Carlton Lane, Rothwell, Leeds LS26 0DJ · <a href="tel:01132822056" class="font-semibold text-[var(--ink)]">0113 282 2056</a></p>
+  <p class="reveal mt-4 text-[var(--muted)]">44 Carlton Lane, Rothwell, Leeds LS26 0BJ · <a href="tel:01132822056" class="font-semibold text-[var(--ink)]">0113 282 2056</a></p>
   <div class="reveal mt-8 rounded-[20px] overflow-hidden">
-    <iframe title="Map — CTD Plumbing and Heating, Rothwell Leeds" src="https://www.google.com/maps?q=44+Carlton+Lane,+Rothwell,+Leeds+LS26+0DJ&output=embed" class="w-full h-[240px] sm:h-[320px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <iframe title="Map — CTD Plumbing and Heating, Rothwell Leeds" src="https://www.google.com/maps?q=44+Carlton+Lane,+Rothwell,+Leeds+LS26+0BJ&output=embed" class="w-full h-[240px] sm:h-[320px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
   </div>
 </section>
 
 <section id="quote" class="bg-[var(--ink)] text-white">
   <div class="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-32">
-    <p class="reveal display text-4xl md:text-5xl text-center">Request a callback</p>
-    <p class="reveal mt-3 text-white/70 text-center">For a no-obligation quotation — we'll call you back.</p>
+    <p class="reveal display text-4xl md:text-5xl text-center">Get an instant quote</p>
+    <p class="reveal mt-3 text-white/70 text-center">For a no-obligation quotation — call today or complete the form.</p>
     <form id="quote-form" class="reveal mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
-      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab]" />
-      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab]" />
-      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab]" />
-      <input required name="phone" type="tel" placeholder="Phone" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab]" />
-      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab]" />
-      <textarea name="comment" rows="4" placeholder="What do you need?…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#066aab] resize-y"></textarea>
+      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="phone" type="tel" placeholder="Phone" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <textarea name="comment" rows="4" placeholder="What do you need?…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521] resize-y"></textarea>
       <div class="sm:col-span-2 flex flex-col sm:flex-row sm:items-center gap-4">
         <button type="submit" class="pill btn-accent display font-medium text-center">Request now</button>
         <a href="tel:01132822056" class="text-white/80 hover:text-white transition font-semibold text-center">or call 0113 282 2056</a>
@@ -171,11 +222,37 @@
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="border-t border-black/10">
-  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
-    <p>CTD Plumbing & Heating Ltd · 44 Carlton Lane, Rothwell, Leeds LS26 0DJ · Gas Safe registered</p>
-    <a href="tel:01132822056" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">0113 282 2056</a>
+<!-- FOOTER (original token: navy, logo, address, map, link columns, orange legal bar) -->
+<footer class="bg-[var(--navy)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14 grid gap-10 md:grid-cols-4">
+    <div>
+      <span class="inline-block bg-[var(--ink)] rounded-2xl px-5 py-2">
+        <img src="_internal/resources/images/img_00.png" alt="CTD Plumbing and Heating" class="h-9 w-auto" />
+      </span>
+      <p class="mt-5 text-white/85">0113 282 2056</p>
+      <p class="mt-2 text-white/85">44 Carlton Lane<br />Rothwell<br />Leeds<br />LS26 0BJ</p>
+    </div>
+    <div class="md:col-span-2 rounded-[20px] overflow-hidden min-h-[220px]">
+      <iframe title="Map — CTD Plumbing and Heating" src="https://www.google.com/maps?q=44+Carlton+Lane,+Rothwell,+Leeds+LS26+0BJ&output=embed" class="w-full h-full min-h-[220px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+    <div class="flex gap-10 text-[15px]">
+      <div class="flex flex-col gap-2 text-white/85">
+        <a href="#" class="text-[#f5a05a] font-semibold">Home</a>
+        <a href="#worcester" class="hover:text-white transition">Boiler Installations</a>
+        <a href="#services" class="hover:text-white transition">Services & Repairs</a>
+        <a href="#services" class="hover:text-white transition">Plumbing</a>
+        <a href="#services" class="hover:text-white transition">Stoves</a>
+      </div>
+      <div class="flex flex-col gap-2 text-white/85">
+        <a href="#services" class="hover:text-white transition">Solar Thermal</a>
+        <a href="#find" class="hover:text-white transition">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="bg-[var(--accent)]">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 text-center text-sm font-medium text-white">
+      © Copyright 2020 · CTD Heating and Plumbing LTD, Company number 04677523 · All rights reserved
+    </div>
   </div>
 </footer>
 
