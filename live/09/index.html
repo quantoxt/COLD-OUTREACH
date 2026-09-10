@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crossgates Plumbing — Same-Day Plumber in Crossgates & East Leeds, No Call-Out Fee</title>
+<meta name="description" content="Reliable local plumber in Crossgates, Garforth, Seacroft & East Leeds. Small jobs, blocked drains, boilers, unvented cylinders. Same-day service, 24/7 emergency. Call 0113 418 0042." />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<style>
+  :root {
+    --ink: #191c1f;
+    --paper: #ffffff;
+    --mist: #f4f4f4;
+    --accent: #0080bd;
+    --muted: #505a63;
+  }
+  body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  .display { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 500; line-height: 1.0; letter-spacing: -0.03em; }
+  .pill { border-radius: 9999px; }
+  .btn-dark { background: var(--ink); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-dark:hover { opacity: .85; transform: translateY(-2px); }
+  .btn-accent { background: var(--accent); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-accent:hover { opacity: .88; transform: translateY(-2px); }
+  .btn-ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); padding: 12px 30px; transition: all .3s ease; }
+  .btn-ghost:hover { background: var(--ink); color: #fff; }
+  .btn-dark, .btn-accent, .btn-ghost { display: inline-flex; align-items: center; justify-content: center; line-height: 1.5; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD (original token: white banner — logo + Plumbing | Heating | Drains + orange phone) -->
+<div class="bg-white text-center px-6 py-6 md:py-8">
+  <a href="tel:01134180042" class="inline-block">
+    <img src="_internal/resources/images/img_01.png" alt="Crossgates Plumbing — Plumbing, Heating, Drains — 0113 418 0042" class="w-auto max-w-full h-20 md:h-24 mx-auto" />
+  </a>
+</div>
+
+<!-- NAV (sticky blue service bar) -->
+<header class="sticky top-0 z-50 bg-[var(--accent)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-0 flex items-center justify-between gap-4">
+    <nav class="hidden md:flex items-center justify-center flex-1 text-[15px] font-medium">
+      <a href="#why" class="px-6 py-4 hover:bg-white/15 transition">About</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Plumbing</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Blocked Drains</a>
+      <a href="#services" class="px-6 py-4 hover:bg-white/15 transition">Unvented</a>
+      <a href="#find" class="px-6 py-4 hover:bg-white/15 transition">Contact</a>
+    </nav>
+    <a href="tel:01134180042" aria-label="Call 0113 418 0042" class="md:hidden pill bg-white text-[var(--ink)] display text-sm font-medium !px-5 !py-3 whitespace-nowrap my-3"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 418 0042</span></a>
+    <div class="flex items-center gap-3 md:hidden">
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="my-3 w-11 h-11 rounded-full border border-white/40 flex flex-col items-center justify-center gap-[5px] shrink-0">
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="hidden md:hidden border-t border-white/20 bg-[var(--accent)]">
+    <div class="px-6 py-4 flex flex-col text-lg font-medium">
+      <a href="#why" class="py-3 border-b border-white/15">About</a>
+      <a href="#services" class="py-3 border-b border-white/15">Plumbing</a>
+      <a href="#services" class="py-3 border-b border-white/15">Blocked Drains</a>
+      <a href="#services" class="py-3 border-b border-white/15">Unvented</a>
+      <a href="#find" class="py-3">Contact</a>
+      <a href="#quote" class="py-3 font-semibold underline underline-offset-4">Get in touch</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-6 md:px-8 pt-8 md:pt-14 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+  <div>
+    <div class="reveal inline-flex items-center gap-2 pill bg-[var(--mist)] px-4 py-2 text-[12px] sm:text-[13px] font-semibold mb-6 md:mb-8">
+      Same-day service · No call-out fee · 24/7 emergency
+    </div>
+    <h1 class="reveal display text-[42px] leading-[1.02] sm:text-6xl lg:text-[64px]">
+      Small jobs, fixed today.
+    </h1>
+    <p class="reveal mt-6 md:mt-8 text-base sm:text-lg leading-[1.56] text-[var(--muted)] max-w-xl">
+      Dripping taps, blocked drains, poorly behaving boilers — Crossgates Plumbing
+      handles every small job with speed and care, often arriving within the hour.
+    </p>
+    <div class="reveal mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+      <a href="tel:01134180042" class="pill btn-accent display text-lg font-medium text-center inline-flex items-center justify-center gap-2"><i class="ri-phone-line text-xl"></i>0113 418 0042</a>
+      <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get in touch</a>
+    </div>
+  </div>
+  <div class="reveal">
+    <img src="_internal/resources/images/img_02.jpg" alt="Plumber at work in Crossgates, Leeds" class="w-full aspect-square max-h-[320px] sm:max-h-[460px] object-cover object-top rounded-[20px]" loading="eager" />
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="bg-[var(--ink)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-8 md:py-10 flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
+    <div>
+      <p class="display text-2xl md:text-3xl">Manned 24 hours — billed only from arrival.</p>
+      <p class="mt-1 text-white/70">No call-out fee, no travel charges, no hidden fees. Even at unsociable hours.</p>
+    </div>
+    <a href="tel:01134180042" class="pill bg-white text-[var(--ink)] px-8 py-[14px] display font-medium md:ml-auto shrink-0 hover:opacity-85 transition text-center">Rapid response call</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
+  <p class="reveal text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent)]">What we offer</p>
+  <h2 class="reveal display text-4xl md:text-5xl mt-3">Plumbing, heating and drainage.</h2>
+  <div class="mt-14 space-y-16 md:space-y-24">
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <div>
+        <i class="ri-drop-line text-5xl text-[#0080bd]"></i>
+        <h3 class="display text-3xl md:text-4xl mt-4">Plumbing</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Everything from a dripping tap to a new cylinder — taps, toilets, leaks and general plumbing, same day.</p>
+      </div>
+      <img src="_internal/resources/images/img_03.jpg" alt="Plumbing pipes" class="w-full h-auto rounded-[20px]" loading="lazy" />
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <img src="_internal/resources/images/img_06.jpg" alt="Blocked drain cleared in Crossgates" class="w-full h-auto rounded-[20px] order-first md:order-none" loading="lazy" />
+      <div>
+        <i class="ri-tools-line text-5xl text-[#0080bd]"></i>
+        <h3 class="display text-3xl md:text-4xl mt-4">Blocked drains</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">External and internal blocked drains cleared the same day — sinks, toilets and manholes.</p>
+      </div>
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <div>
+        <i class="ri-fire-line text-5xl text-[#0080bd]"></i>
+        <h3 class="display text-3xl md:text-4xl mt-4">Gas & boilers</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Gas boiler repairs, central heating and more — Gas Safe engineers for every gas job.</p>
+      </div>
+      <img src="_internal/resources/images/img_04.jpg" alt="Gas engineer at work in Crossgates" class="w-full h-auto rounded-[20px]" loading="lazy" />
+    </div>
+    <div class="reveal grid md:grid-cols-2 gap-8 md:gap-14 items-center">
+      <img src="_internal/resources/images/img_05.jpg" alt="Unvented hot water cylinder" class="w-full h-auto rounded-[20px] order-first md:order-none" loading="lazy" />
+      <div>
+        <i class="ri-shield-check-line text-5xl text-[#0080bd]"></i>
+        <h3 class="display text-3xl md:text-4xl mt-4">Unvented hot water</h3>
+        <p class="mt-4 text-lg text-[var(--muted)]">Cylinder and water heater repairs, installations and services — BPEC-qualified.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="bg-[var(--mist)]">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-32">
+    <h2 class="reveal display text-4xl md:text-5xl">Why Crossgates calls us.</h2>
+    <div class="mt-12 grid sm:grid-cols-2 gap-x-10 gap-y-7 max-w-4xl text-[17px]">
+      <p class="reveal flex gap-3 items-start"><i class="ri-award-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>Qualified, experienced, insured</strong> — BPEC-trained engineers, 25+ years at it.</span></p>
+      <p class="reveal flex gap-3 items-start"><i class="ri-thumb-up-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>Only charge from arrival</strong> — fixed hourly rate, no call-out fee.</span></p>
+      <p class="reveal flex gap-3 items-start"><i class="ri-24-hours-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>24/7 emergency</strong> — phone manned round the clock, at no extra cost.</span></p>
+      <p class="reveal flex gap-3 items-start"><i class="ri-shield-check-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>Gas Safe Register</strong> — certified engineers for every gas job.</span></p>
+      <p class="reveal flex gap-3 items-start"><i class="ri-percent-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>OAP discounts</strong> — pensioners, just ask.</span></p>
+      <p class="reveal flex gap-3 items-start"><i class="ri-customer-service-line text-2xl text-[#0080bd] shrink-0"></i><span><strong>Homeowners, landlords, businesses</strong> — professional, friendly, dependable.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
+  <h2 class="reveal display text-4xl md:text-5xl">East Leeds, covered.</h2>
+  <p class="reveal mt-4 text-[var(--muted)] max-w-2xl">Crossgates, Manston, Austhorpe, Colton, Garforth, The Springs, Stanks, Seacroft, Whinmoor, Scholes, Barwick-in-Elmet, Gipton, Harehills, Halton, Killingbeck, Kippax, Whitkirk — and nearby villages. Not listed? Call anyway.</p>
+</section>
+
+<!-- FIND + QUOTE -->
+<section id="find" class="max-w-6xl mx-auto px-6 md:px-8 pb-16 md:pb-24">
+  <h2 class="reveal display text-4xl md:text-5xl">Get in touch</h2>
+  <p class="reveal mt-4 text-[var(--muted)]">The best way to contact us is by phone — <a href="tel:01134180042" class="font-semibold text-[var(--ink)]">0113 418 0042</a>.</p>
+  <div class="reveal mt-8 rounded-[20px] overflow-hidden">
+    <iframe title="Map — Crossgates Plumbing, Leeds" src="https://www.google.com/maps?q=Crossgates,+Leeds&output=embed" class="w-full h-[240px] sm:h-[320px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="quote" class="bg-[var(--ink)] text-white">
+  <div class="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-32">
+    <p class="reveal display text-4xl md:text-5xl text-center">Request a visit</p>
+    <p class="reveal mt-3 text-white/70 text-center">Same-day service, often within the hour.</p>
+    <form id="quote-form" class="reveal mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd]" />
+      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd]" />
+      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd]" />
+      <input required name="phone" type="tel" placeholder="Phone" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd]" />
+      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd]" />
+      <textarea name="comment" rows="4" placeholder="What's the problem?…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#0080bd] resize-y"></textarea>
+      <div class="sm:col-span-2 flex flex-col sm:flex-row sm:items-center gap-4">
+        <button type="submit" class="pill btn-accent display font-medium text-center">Request now</button>
+        <a href="tel:01134180042" class="text-white/80 hover:text-white transition font-semibold text-center">or call 0113 418 0042</a>
+      </div>
+      <p id="quote-done" class="sm:col-span-2 hidden text-white font-semibold">Thanks — request received. We'll call you back shortly.</p>
+    </form>
+    <p class="reveal mt-6 text-white/50 text-sm text-center">Demo form only — front-end validation, no backend. Prefer email? Ask and we'll add a mailto fallback.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-black/10">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-10 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between text-sm text-[var(--muted)]">
+    <p>Crossgates Plumbing · Crossgates, Leeds · BPEC qualified, Gas Safe engineers</p>
+    <a href="tel:01134180042" class="font-semibold text-[var(--ink)] hover:opacity-60 transition">0113 418 0042</a>
+  </div>
+</footer>
+
+<script>
+  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+  function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const el = document.querySelector(a.getAttribute('href'));
+      document.getElementById('mobile-menu').classList.add('hidden');
+      document.getElementById('menu-btn').setAttribute('aria-expanded', 'false');
+      if (el) { e.preventDefault(); lenis.scrollTo(el, { offset: -72 }); }
+    });
+  });
+  document.getElementById('menu-btn').addEventListener('click', () => {
+    const m = document.getElementById('mobile-menu');
+    const open = m.classList.toggle('hidden');
+    document.getElementById('menu-btn').setAttribute('aria-expanded', String(!open));
+  });
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.getElementById('quote-form').addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById('quote-done').classList.remove('hidden');
+    e.target.querySelector('button[type="submit"]').textContent = 'Requested ✓';
+  });
+</script>
+</body>
+</html>

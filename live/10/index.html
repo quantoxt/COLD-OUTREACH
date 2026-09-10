@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CTD Plumbing & Heating — Boiler Installations, Servicing & Repairs in Rothwell, Leeds</title>
+<meta name="description" content="CTD Plumbing and Heating, Rothwell Leeds. Worcester Accredited Installers — boiler installations with 12-year guarantee, servicing, repairs, plumbing, stoves and solar. Call 0113 282 2056." />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<style>
+  :root {
+    --ink: #191c1f;
+    --paper: #ffffff;
+    --mist: #f4f4f4;
+    --accent: #f47521;
+    --navy: #0b3a54;
+    --muted: #505a63;
+  }
+  body { font-family: 'Inter', system-ui, sans-serif; background: var(--paper); color: var(--ink); letter-spacing: 0.16px; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  .display { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 500; line-height: 1.0; letter-spacing: -0.03em; }
+  .pill { border-radius: 9999px; }
+  .btn-dark { background: var(--ink); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-dark:hover { opacity: .85; transform: translateY(-2px); }
+  .btn-accent { background: var(--accent); color: #fff; padding: 14px 32px; transition: opacity .3s ease, transform .3s ease; }
+  .btn-accent:hover { opacity: .88; transform: translateY(-2px); }
+  .btn-ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); padding: 12px 30px; transition: all .3s ease; }
+  .btn-ghost:hover { background: var(--ink); color: #fff; }
+  .btn-dark, .btn-accent, .btn-ghost { display: inline-flex; align-items: center; justify-content: center; line-height: 1.5; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  .hero-slide { opacity: 0; visibility: hidden; transition: opacity .7s ease, visibility 0s linear .7s; position: relative; }
+  .hero-slide.active { opacity: 1; visibility: visible; transition: opacity .7s ease; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD (original token: slate bar, logo, quote pills, Google reviews, orange CALL US TODAY) -->
+<div class="bg-[#5b7183] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-5 flex flex-wrap items-center justify-center md:justify-between gap-4">
+    <a href="#" class="bg-[var(--ink)] rounded-2xl px-5 py-2">
+      <img src="_internal/resources/images/img_00.png" alt="CTD Plumbing and Heating" class="h-9 w-auto" />
+    </a>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      <a href="#quote" class="pill bg-[#3aae4e] text-white display text-sm font-medium px-6 py-3 hover:opacity-90 transition">Get an instant quote</a>
+      <a href="tel:01132822056" class="text-center leading-tight">
+        <span class="block text-[12px] font-bold tracking-[0.12em] text-[#f5a05a]">CALL US TODAY</span>
+        <span class="display block text-xl font-semibold">0113 282 2056</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- NAV (original token: slate service menu, orange active item) -->
+<header class="sticky top-0 z-50 bg-[#5b7183] text-white border-t border-white/15">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 flex items-center justify-between gap-4">
+    <nav class="hidden lg:flex items-center text-[13px] font-semibold tracking-wide overflow-x-auto">
+      <a href="#" class="px-3 py-4 text-[#f5a05a]">HOME</a>
+      <a href="#worcester" class="px-3 py-4 hover:text-[#f5a05a] transition">BOILER INSTALLATIONS</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">SERVICES & REPAIRS</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">PLUMBING</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">STOVES</a>
+      <a href="#services" class="px-3 py-4 hover:text-[#f5a05a] transition">SOLAR THERMAL</a>
+      <a href="#hero" data-goto-slide="3" class="px-3 py-4 hover:text-[#f5a05a] transition">TESTIMONIAL</a>
+      <a href="#find" class="px-3 py-4 hover:text-[#f5a05a] transition">CONTACT US</a>
+    </nav>
+    <a href="tel:01132822056" aria-label="Call 0113 282 2056" class="lg:hidden pill bg-white text-[var(--ink)] display text-sm font-medium !px-5 !py-3 whitespace-nowrap my-3"><i class="ri-phone-line text-lg min-[380px]:hidden"></i><span class="hidden min-[380px]:inline">0113 282 2056</span></a>
+    <div class="flex items-center gap-3 lg:hidden">
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" class="my-3 w-11 h-11 rounded-full border border-white/40 flex flex-col items-center justify-center gap-[5px] shrink-0">
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+        <span class="block w-5 h-[2px] bg-white"></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="hidden lg:hidden border-t border-white/20 bg-[#5b7183]">
+    <div class="px-6 py-4 flex flex-col text-lg font-medium">
+      <a href="#worcester" class="py-3 border-b border-white/15">Boiler Installations</a>
+      <a href="#services" class="py-3 border-b border-white/15">Services & Repairs</a>
+      <a href="#services" class="py-3 border-b border-white/15">Plumbing</a>
+      <a href="#services" class="py-3 border-b border-white/15">Stoves</a>
+      <a href="#services" class="py-3 border-b border-white/15">Solar Thermal</a>
+      <a href="#find" class="py-3">Contact Us</a>
+      <a href="#quote" class="py-3 font-semibold underline underline-offset-4">Get an instant quote</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO CAROUSEL (original token: 4-slide autumn/boiler/finance/reviews slider; text rendered in HTML) -->
+<section id="hero" class="relative overflow-hidden">
+  <div class="grid">
+    <!-- Slide 1: save money -->
+    <div class="hero-slide active" style="grid-area:1/1">
+      <img src="_internal/resources/images/img_10.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="relative max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="display text-[40px] leading-[1.04] sm:text-6xl text-[#14384f]">You can save money on your energy bills by upgrading your boiler.</h1>
+          <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium mt-8">Call Us today</a>
+        </div>
+        <img src="_internal/resources/images/img_13.png" alt="Worcester Bosch boilers with 12 year guarantee" class="w-full max-w-md mx-auto h-auto" loading="eager" />
+      </div>
+    </div>
+    <!-- Slide 2: finance -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <img src="_internal/resources/images/img_12.png" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="relative max-w-3xl mx-auto px-6 md:px-8 pt-14 md:pt-24 pb-16 md:pb-28 text-center">
+        <p class="display text-[40px] leading-[1.04] sm:text-6xl text-[#14384f]">Call us today</p>
+        <p class="mt-4 text-lg sm:text-xl text-[var(--muted)]">Ask about our 2 year 0% finance deal — 0113 282 2056.</p>
+        <a href="#quote" class="pill btn-accent display text-lg font-medium mt-8">Ask about finance</a>
+      </div>
+    </div>
+    <!-- Slide 3: trustworthy engineers -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <div class="relative max-w-6xl mx-auto px-6 md:px-8 pt-12 md:pt-20 pb-16 md:pb-24 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="display text-[40px] leading-[1.04] sm:text-6xl">Looking for trustworthy and reliable heating engineers? Look no further.</h2>
+          <div class="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+            <a href="tel:01132822056" class="pill btn-accent display text-lg font-medium text-center">0113 282 2056</a>
+            <a href="#quote" class="pill btn-ghost display text-lg font-medium text-center">Get an instant quote</a>
+          </div>
+        </div>
+        <img src="_internal/resources/images/img_11.png" alt="Worcester Bosch boilers with wireless connectivity" class="w-full max-w-md mx-auto h-auto" loading="lazy" />
+      </div>
+    </div>
+    <!-- Slide 4: reviews -->
+    <div class="hero-slide" style="grid-area:1/1">
+      <div class="relative max-w-3xl mx-auto px-6 md:px-8 pt-14 md:pt-24 pb-16 md:pb-28 text-center">
+        <img src="_internal/resources/images/img_14.png" alt="Five star rated" class="h-8 w-auto mx-auto" loading="lazy" />
+        <p class="display text-[40px] leading-[1.04] sm:text-6xl mt-6">Rewarded high ratings by our happy customers.</p>
+        <p class="mt-4 text-lg text-[var(--muted)]">See our top rated Checkatrade reviews.</p>
+        <a href="#quote" class="pill btn-accent display text-lg font-medium mt-8">Get in touch</a>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-5 left-0 right-0 flex items-center justify-center gap-3">
+    <button class="hero-prev w-10 h-10 rounded-full bg-black/10 hover:bg-black/20 flex items-center justify-center" aria-label="Previous slide"><i class="ri-arrow-left-line text-xl"></i></button>
+    <div class="flex items-center gap-2" role="tablist" aria-label="Slides">
+      <button class="hero-dot w-3 h-3 rounded-full bg-[var(--accent)]" data-i="0" aria-label="Slide 1"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="1" aria-label="Slide 2"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="2" aria-label="Slide 3"></button>
+      <button class="hero-dot w-3 h-3 rounded-full bg-black/20" data-i="3" aria-label="Slide 4"></button>
+    </div>
+    <button class="hero-next w-10 h-10 rounded-full bg-black/10 hover:bg-black/20 flex items-center justify-center" aria-label="Next slide"><i class="ri-arrow-right-line text-xl"></i></button>
+  </div>
+</section>
+
+<!-- WORCESTER (original token: dark band, orange heading, guarantee + Which? copy) -->
+<section id="worcester" class="bg-[var(--ink)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24 grid lg:grid-cols-5 gap-10 lg:gap-14 items-start">
+    <div class="lg:col-span-3">
+      <h2 class="reveal display text-4xl md:text-5xl text-[#f5a05a]">We are a Worcester Accredited Installer</h2>
+      <p class="reveal mt-6 text-lg text-white/85 leading-relaxed">We meet and exceed the highest standards of installation, service and customer care for Worcester Bosch boilers.</p>
+      <p class="reveal mt-4 text-lg text-white/85 leading-relaxed">Whether you need a new Worcester Bosch boiler installation, a regular service, or expert advice on boiler problems, our team is here to help.</p>
+      <p class="reveal mt-4 text-lg text-white/85 leading-relaxed">From routine maintenance to urgent boiler repair, we provide reliable solutions to keep your heating system running efficiently.</p>
+      <a href="#quote" class="reveal pill btn-accent display font-medium mt-8">Find out more</a>
+    </div>
+    <div class="lg:col-span-2 grid gap-4">
+      <div class="reveal rounded-[20px] bg-white/10 border border-white/15 p-7">
+        <p class="display text-3xl">12-year guarantee*</p>
+        <p class="mt-2 text-white/75">On selected Worcester Bosch gas boilers. *T&amp;Cs apply.</p>
+      </div>
+      <div class="reveal rounded-[20px] bg-white/10 border border-white/15 p-7">
+        <p class="display text-3xl">Recommended by Which?</p>
+        <p class="mt-2 text-white/75">Best Buy boilers, 2009–2019 — ten years running.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (original token: navy band, 3-column list, orange pills) -->
+<section id="services" class="bg-[var(--navy)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
+    <h2 class="reveal display text-4xl md:text-5xl text-center">Our Services Include:</h2>
+    <p class="reveal mt-3 text-white/75 text-center">We offer you the highest quality workmanship and services</p>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-3 max-w-5xl mx-auto text-[16px]">
+      <p class="reveal py-1">• Bathroom Refurbishments</p>
+      <p class="reveal py-1">• Burst Pipes</p>
+      <p class="reveal py-1">• Central Heating Installations</p>
+      <p class="reveal py-1">• Emergency Plumbers</p>
+      <p class="reveal py-1">• Energy Efficient Advice</p>
+      <p class="reveal py-1">• Gas Boiler Installations</p>
+      <p class="reveal py-1">• Gas Boiler Repairs</p>
+      <p class="reveal py-1">• Gas Boiler Breakdowns</p>
+      <p class="reveal py-1">• Gas Cookers & Hobs</p>
+      <p class="reveal py-1">• Gas Safety Inspections</p>
+      <p class="reveal py-1">• General Plumbing</p>
+      <p class="reveal py-1">• Landlord Safety Certificates</p>
+      <p class="reveal py-1">• LPG Boilers</p>
+      <p class="reveal py-1">• Powerflushing</p>
+      <p class="reveal py-1">• Replacements & Repairs</p>
+      <p class="reveal py-1">• Replacement Radiators</p>
+      <p class="reveal py-1">• Social Housing</p>
+      <p class="reveal py-1">• Solar Hot Water</p>
+      <p class="reveal py-1">• Underfloor Heating</p>
+    </div>
+    <div class="reveal mt-10 flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+      <a href="tel:01132822056" class="pill btn-accent display font-medium text-center">Call us today</a>
+      <a href="#quote" class="pill btn-accent display font-medium text-center">Find out more</a>
+    </div>
+  </div>
+</section>
+
+<!-- ACCREDITATIONS (original token: white band, orange heading, logo row) -->
+<section id="why" class="bg-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24 text-center">
+    <h2 class="reveal display text-4xl md:text-5xl text-[var(--accent)]">Accreditations</h2>
+    <p class="reveal mt-4 text-[var(--muted)] max-w-2xl mx-auto">To ensure our customers receive a high standard of workmanship and professionalism, our company is accredited and monitored by several trade and industry bodies.</p>
+    <div class="reveal mt-10 flex flex-wrap items-center justify-center gap-8 md:gap-12">
+      <img src="_internal/resources/images/img_04.png" alt="Worcester Accredited Installer" class="h-12 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_05.png" alt="Gas Safe Register" class="h-16 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_06.png" alt="Vaillant Advance Installer" class="h-12 w-auto" loading="lazy" />
+      <img src="_internal/resources/images/img_02.png" alt="Google reviews" class="h-12 w-auto" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- AREAS (original token: grey band — Wakefield, Huddersfield, Selby) -->
+<section id="areas" class="bg-[#9aa5ad] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14 md:py-20">
+    <h2 class="reveal display text-4xl md:text-5xl flex items-center gap-4"><img src="_internal/resources/images/img_07.png" alt="" class="h-12 w-auto" loading="lazy" />Areas We Cover</h2>
+    <p class="reveal mt-4 text-white/90 max-w-2xl">We provide plumbing &amp; heating services to homes &amp; businesses across Leeds and the surrounding areas.</p>
+    <div class="reveal mt-6 flex flex-wrap gap-x-8 gap-y-2 text-lg font-medium">
+      <span>• Wakefield</span><span>• Huddersfield</span><span>• Selby</span><span>• Rothwell</span><span>• Leeds</span>
+    </div>
+  </div>
+</section>
+
+<!-- FIND + QUOTE -->
+<section id="find" class="max-w-6xl mx-auto px-6 md:px-8 py-16 md:py-24">
+  <h2 class="reveal display text-4xl md:text-5xl">Find us</h2>
+  <p class="reveal mt-4 text-[var(--muted)]">44 Carlton Lane, Rothwell, Leeds LS26 0BJ · <a href="tel:01132822056" class="font-semibold text-[var(--ink)]">0113 282 2056</a></p>
+  <div class="reveal mt-8 rounded-[20px] overflow-hidden">
+    <iframe title="Map — CTD Plumbing and Heating, Rothwell Leeds" src="https://www.google.com/maps?q=44+Carlton+Lane,+Rothwell,+Leeds+LS26+0BJ&output=embed" class="w-full h-[240px] sm:h-[320px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="quote" class="bg-[var(--ink)] text-white">
+  <div class="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-32">
+    <p class="reveal display text-4xl md:text-5xl text-center">Get an instant quote</p>
+    <p class="reveal mt-3 text-white/70 text-center">For a no-obligation quotation — call today or complete the form.</p>
+    <form id="quote-form" class="reveal mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <input required name="first" type="text" placeholder="First name" autocomplete="given-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="last" type="text" placeholder="Last name" autocomplete="family-name" class="rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="email" type="email" placeholder="Email" autocomplete="email" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input required name="phone" type="tel" placeholder="Phone" autocomplete="tel" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <input name="postcode" type="text" placeholder="Postcode" autocomplete="postal-code" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521]" />
+      <textarea name="comment" rows="4" placeholder="What do you need?…" class="sm:col-span-2 rounded-xl bg-white text-[var(--ink)] px-4 py-3 text-[15px] outline-none focus:ring-2 focus:ring-[#f47521] resize-y"></textarea>
+      <div class="sm:col-span-2 flex flex-col sm:flex-row sm:items-center gap-4">
+        <button type="submit" class="pill btn-accent display font-medium text-center">Request now</button>
+        <a href="tel:01132822056" class="text-white/80 hover:text-white transition font-semibold text-center">or call 0113 282 2056</a>
+      </div>
+      <p id="quote-done" class="sm:col-span-2 hidden text-white font-semibold">Thanks — request received. We'll call you back shortly.</p>
+    </form>
+    <p class="reveal mt-6 text-white/50 text-sm text-center">Demo form only — front-end validation, no backend.</p>
+  </div>
+</section>
+
+<!-- FOOTER (original token: navy, logo, address, map, link columns, orange legal bar) -->
+<footer class="bg-[var(--navy)] text-white">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-14 grid gap-10 md:grid-cols-4">
+    <div>
+      <span class="inline-block bg-[var(--ink)] rounded-2xl px-5 py-2">
+        <img src="_internal/resources/images/img_00.png" alt="CTD Plumbing and Heating" class="h-9 w-auto" />
+      </span>
+      <p class="mt-5 text-white/85">0113 282 2056</p>
+      <p class="mt-2 text-white/85">44 Carlton Lane<br />Rothwell<br />Leeds<br />LS26 0BJ</p>
+    </div>
+    <div class="md:col-span-2 rounded-[20px] overflow-hidden min-h-[220px]">
+      <iframe title="Map — CTD Plumbing and Heating" src="https://www.google.com/maps?q=44+Carlton+Lane,+Rothwell,+Leeds+LS26+0BJ&output=embed" class="w-full h-full min-h-[220px] border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+    <div class="flex gap-10 text-[15px]">
+      <div class="flex flex-col gap-2 text-white/85">
+        <a href="#" class="text-[#f5a05a] font-semibold">Home</a>
+        <a href="#worcester" class="hover:text-white transition">Boiler Installations</a>
+        <a href="#services" class="hover:text-white transition">Services & Repairs</a>
+        <a href="#services" class="hover:text-white transition">Plumbing</a>
+        <a href="#services" class="hover:text-white transition">Stoves</a>
+      </div>
+      <div class="flex flex-col gap-2 text-white/85">
+        <a href="#services" class="hover:text-white transition">Solar Thermal</a>
+        <a href="#find" class="hover:text-white transition">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="bg-[var(--accent)]">
+    <div class="max-w-6xl mx-auto px-6 md:px-8 py-4 text-center text-sm font-medium text-white">
+      © Copyright 2020 · CTD Heating and Plumbing LTD, Company number 04677523 · All rights reserved
+    </div>
+  </div>
+</footer>
+
+<script>
+  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+  function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const el = document.querySelector(a.getAttribute('href'));
+      document.getElementById('mobile-menu').classList.add('hidden');
+      document.getElementById('menu-btn').setAttribute('aria-expanded', String(!open));
+      if (el) { e.preventDefault(); lenis.scrollTo(el, { offset: -72 }); }
+    });
+  });
+  document.getElementById('menu-btn').addEventListener('click', () => {
+    const m = document.getElementById('mobile-menu');
+    const open = m.classList.toggle('hidden');
+    document.getElementById('menu-btn').setAttribute('aria-expanded', String(!open));
+  });
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  // Hero carousel
+  const slides = Array.from(document.querySelectorAll('.hero-slide'));
+  const dots = Array.from(document.querySelectorAll('.hero-dot'));
+  let cur = 0, timer = null;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function go(i) {
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s, k) => s.classList.toggle('active', k === cur));
+    dots.forEach((d, k) => { d.classList.toggle('bg-[var(--accent)]', k === cur); d.classList.toggle('bg-black/20', k !== cur); });
+  }
+  function play() { if (!reduceMotion && !timer) timer = setInterval(() => go(cur + 1), 6000); }
+  function stop() { clearInterval(timer); timer = null; }
+  document.querySelector('.hero-prev').addEventListener('click', () => { stop(); go(cur - 1); play(); });
+  document.querySelector('.hero-next').addEventListener('click', () => { stop(); go(cur + 1); play(); });
+  dots.forEach(d => d.addEventListener('click', () => { stop(); go(Number(d.dataset.i)); play(); }));
+  document.querySelectorAll('[data-goto-slide]').forEach(a => a.addEventListener('click', () => go(Number(a.dataset.gotoSlide))));
+  const hero = document.getElementById('hero');
+  hero.addEventListener('mouseenter', stop);
+  hero.addEventListener('mouseleave', play);
+  play();
+  document.getElementById('quote-form').addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById('quote-done').classList.remove('hidden');
+    e.target.querySelector('button[type="submit"]').textContent = 'Requested ✓';
+  });
+</script>
+</body>
+</html>
