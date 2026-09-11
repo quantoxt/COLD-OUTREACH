@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leeds Plumbing Solutions | Plumbers &amp; Drainage for Leeds &amp; Wetherby</title>
+<meta name="description" content="Same day plumbing solutions with no call out fee. Emergency plumber available 24/7 across Leeds and Wetherby.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<style>
+@reference "tailwindcss";
+:root { --accent: #0C77BC; --ink: #191c1f; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); }
+.font-display { font-family: 'Inter Tight', 'Inter', sans-serif; letter-spacing: -0.02em; }
+.btn-pill { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; border-radius: 9999px; padding: 14px 32px; line-height: 1.5; font-weight: 600; }
+section { scroll-margin-top: 88px; }
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur border-b border-black/10">
+  <div class="max-w-6xl mx-auto px-5 h-[72px] flex items-center justify-between gap-4">
+    <a href="#top" class="flex items-center gap-3">
+      <img src="images/img_00.png" alt="Leeds Plumbing Solutions" class="h-10 w-auto">
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
+      <a href="#services" class="hover:opacity-70">Services</a>
+      <a href="#promise" class="hover:opacity-70">Our promise</a>
+      <a href="#find" class="hover:opacity-70">Find us</a>
+      <a href="#quote" class="hover:opacity-70">Contact</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="tel:01134180197" class="btn-pill text-white text-sm !py-2.5 !px-5" style="background:var(--accent)"><i class="ri-phone-line"></i><span class="hidden sm:inline">0113 418 0197</span><span class="sm:hidden">Call</span></a>
+      <button id="menuBtn" class="md:hidden w-10 h-10 inline-flex items-center justify-center rounded-full border border-black/10" aria-label="Menu"><i class="ri-menu-line text-xl"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-black/10 bg-white/95 backdrop-blur px-5 py-4 flex flex-col gap-1 text-[15px] font-medium">
+    <a href="#services" class="py-2">Services</a>
+    <a href="#promise" class="py-2">Our promise</a>
+    <a href="#find" class="py-2">Find us</a>
+    <a href="#quote" class="py-2">Contact</a>
+  </div>
+</header>
+
+<!-- HERO (side-by-side tools photo) -->
+<section id="top" class="bg-white overflow-hidden">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+    <div class="text-center md:text-left">
+      <span class="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-[13px] font-semibold text-white" style="background:var(--accent)"><i class="ri-shield-check-line"></i>No call out charges &mdash; same day service</span>
+      <h1 class="font-display font-medium text-4xl md:text-6xl leading-[1.05] mt-6">Plumbers &amp; drainage for all of Leeds &amp; Wetherby</h1>
+      <p class="mt-5 text-lg text-black/60">Small job specialists that can take care of the larger jobs too &mdash; unvented cylinder specialists. You only ever pay from the time we arrive.</p>
+      <div class="mt-8 flex flex-col sm:flex-row md:justify-start items-center justify-center gap-3">
+        <a href="tel:01134180197" class="btn-pill text-white w-full sm:w-auto" style="background:var(--accent)"><i class="ri-phone-line"></i>0113 418 0197</a>
+        <a href="#quote" class="btn-pill w-full sm:w-auto border border-black/15">Contact us</a>
+      </div>
+    </div>
+    <div class="rounded-3xl overflow-hidden border border-black/10 aspect-square max-h-[520px] w-full">
+      <img src="images/img_01.jpg" alt="Plumber's tools ready for the job" class="w-full h-full object-cover object-top">
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY STRIP -->
+<section class="bg-[#191c1f] text-white">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-20 flex flex-col md:flex-row items-center gap-8">
+    <span class="shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-3xl text-white" style="background:var(--accent)"><i class="ri-24-hours-line"></i></span>
+    <div class="text-center md:text-left flex-1">
+      <p class="text-sm font-semibold uppercase tracking-widest text-white/60">24 hour emergency plumber</p>
+      <h2 class="font-display font-medium text-3xl md:text-4xl leading-tight mt-2">Often with you within the hour</h2>
+      <p class="mt-2 text-white/70">Covering the entire Leeds area. If we can&rsquo;t send an engineer straight away, we&rsquo;ll honestly tell you the next available time.</p>
+    </div>
+    <a href="tel:01134180197" class="btn-pill bg-white text-black shrink-0 w-full md:w-auto"><i class="ri-phone-line"></i>0113 418 0197</a>
+  </div>
+</section>
+
+<!-- SERVICES (scraped icons on blue chips) -->
+<section id="services" class="bg-white">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <p class="text-center text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Our services</p>
+    <h2 class="font-display font-medium text-3xl md:text-5xl text-center mt-3">If it runs through a pipe, we can repair it</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center bg-[#E8F3FA]"><img src="images/img_02.png" alt="General plumbing icon" class="w-10 h-10 object-contain"></span><h3 class="font-display font-medium text-xl mt-4">General Plumbing</h3><p class="text-black/60 mt-2 text-[15px]">From leaking taps to water tank replacement &mdash; dripping taps, running toilets, minor leaks, faulty stop taps and everyday faults.</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center bg-[#E8F3FA]"><img src="images/img_03.png" alt="Gas central heating icon" class="w-10 h-10 object-contain"></span><h3 class="font-display font-medium text-xl mt-4">Gas &amp; Boilers</h3><p class="text-black/60 mt-2 text-[15px]">Gas Safe engineers for boiler repairs, combi boilers and residential &amp; commercial gas appliances.</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center bg-[#E8F3FA]"><img src="images/img_04.png" alt="Unvented water heater icon" class="w-10 h-10 object-contain"></span><h3 class="font-display font-medium text-xl mt-4">Unvented Hot Water</h3><p class="text-black/60 mt-2 text-[15px]">Qualified for all types of unvented hot water heaters and cylinders, including G3 certification.</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center bg-[#E8F3FA]"><img src="images/img_05.png" alt="Bathrooms icon" class="w-10 h-10 object-contain"></span><h3 class="font-display font-medium text-xl mt-4">Bathroom Repairs</h3><p class="text-black/60 mt-2 text-[15px]">Focused on smaller bathroom jobs for a better same-day service &mdash; taps, showers, toilets and leaks.</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center bg-[#E8F3FA]"><img src="images/img_06.png" alt="Blocked drains icon" class="w-10 h-10 object-contain"></span><h3 class="font-display font-medium text-xl mt-4">Blocked Drains</h3><p class="text-black/60 mt-2 text-[15px]">Blocked drains cleared &mdash; high pressure drain jetting and drain camera surveys.</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><span class="w-16 h-16 rounded-2xl inline-flex items-center justify-center text-3xl text-white" style="background:var(--accent)"><i class="ri-snowy-line"></i></span><h3 class="font-display font-medium text-xl mt-4">Pipe Freezing</h3><p class="text-black/60 mt-2 text-[15px]">Faulty stop tap? Our Rothenberger pipe freezing machine isolates your supply without draining down.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMISE (checklist band) -->
+<section id="promise" class="bg-[#E8F3FA]">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Our promise</p>
+        <h2 class="font-display font-medium text-3xl md:text-5xl mt-3">Fixed rates, no surprises</h2>
+        <p class="text-black/60 mt-4">Our hourly rates are fixed, no matter what day or time of day you call. We only charge from arrival &mdash; call us anytime.</p>
+        <a href="tel:01134180197" class="btn-pill text-white mt-8" style="background:var(--accent)"><i class="ri-phone-line"></i>Call anytime</a>
+      </div>
+      <ul class="flex flex-col gap-3">
+        <li class="flex items-start gap-3 rounded-2xl bg-white p-5"><svg class="shrink-0 mt-0.5" width="22" height="22" viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="#0C77BC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>No call-out fee</strong> &mdash; you only pay from the time we arrive.</span></li>
+        <li class="flex items-start gap-3 rounded-2xl bg-white p-5"><svg class="shrink-0 mt-0.5" width="22" height="22" viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="#0C77BC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Fixed hourly rates</strong>, whatever the day or hour.</span></li>
+        <li class="flex items-start gap-3 rounded-2xl bg-white p-5"><svg class="shrink-0 mt-0.5" width="22" height="22" viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="#0C77BC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Qualified</strong> &mdash; BPEC plumbers, Gas Safe engineers, WaterSafe approved.</span></li>
+        <li class="flex items-start gap-3 rounded-2xl bg-white p-5"><svg class="shrink-0 mt-0.5" width="22" height="22" viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="#0C77BC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Fully insured</strong> with clear, itemised invoices &mdash; cash or card.</span></li>
+        <li class="flex items-start gap-3 rounded-2xl bg-white p-5"><svg class="shrink-0 mt-0.5" width="22" height="22" viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="#0C77BC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Stocked vans</strong> mean a permanent fix, often the same day.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section id="find" class="bg-white">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <div class="grid md:grid-cols-5 gap-8 items-stretch">
+      <div class="md:col-span-2 flex flex-col justify-center">
+        <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Service area</p>
+        <h2 class="font-display font-medium text-3xl md:text-4xl mt-3">Leeds city centre to Wetherby &amp; beyond</h2>
+        <p class="text-black/60 mt-4">Barwick, Garforth, Morley, Pudsey, Boston Spa, Tadcaster, Knaresborough, Horsforth, Harewood, Chapel Allerton, Meanwood, Roundhay, Moortown, Headingley, Seacroft and surrounding areas.</p>
+        <div class="mt-6 flex flex-col gap-3 text-[15px]">
+          <a href="tel:01134180197" class="inline-flex items-center gap-2 font-semibold"><i class="ri-phone-line" style="color:var(--accent)"></i>0113 418 0197</a>
+        </div>
+      </div>
+      <div class="md:col-span-3 rounded-3xl overflow-hidden border border-black/10 min-h-[320px]">
+        <iframe title="Map — Wetherby, Leeds" src="https://maps.google.com/maps?q=Wetherby,Leeds,UK&output=embed" class="w-full h-full min-h-[320px]" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section id="quote" class="bg-[#191c1f] text-white">
+  <div class="max-w-3xl mx-auto px-5 py-24 md:py-32 text-center">
+    <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Contact us</p>
+    <h2 class="font-display font-medium text-3xl md:text-5xl mt-3">Send us a message</h2>
+    <p class="text-white/60 mt-4">Need help or simply more information? Call anytime &mdash; or send a message and we&rsquo;ll get back to you.</p>
+    <form id="quoteForm" class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 text-left" novalidate>
+      <div><label class="text-sm font-medium" for="q-name">Name</label><input id="q-name" name="name" required placeholder="Your name" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-email">Email</label><input id="q-email" name="email" type="email" required placeholder="you@example.com" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-phone">Phone</label><input id="q-phone" name="phone" type="tel" required placeholder="Your phone number" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-postcode">Postcode</label><input id="q-postcode" name="postcode" required placeholder="e.g. LS23 6HD" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div class="sm:col-span-2"><label class="text-sm font-medium" for="q-msg">Message</label><textarea id="q-msg" name="message" rows="4" required placeholder="How can we help?…" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></textarea></div>
+      <p id="formError" class="hidden sm:col-span-2 text-sm rounded-2xl bg-red-500/15 border border-red-400/30 px-5 py-3">Please fill in every field with a valid email address.</p>
+      <button type="submit" class="btn-pill sm:col-span-2 w-full text-white" style="background:var(--accent)"><i class="ri-send-plane-line"></i>Send message</button>
+    </form>
+    <div id="formDone" class="hidden mt-10 rounded-3xl bg-white/10 border border-white/15 px-8 py-10">
+      <span class="w-14 h-14 rounded-full inline-flex items-center justify-center text-2xl text-white" style="background:var(--accent)"><i class="ri-check-line"></i></span>
+      <h3 class="font-display font-medium text-2xl mt-4">Thanks &mdash; message received!</h3>
+      <p class="text-white/60 mt-2">We&rsquo;ll be in touch shortly. Urgent? Call <a class="underline" href="tel:01134180197">0113 418 0197</a>.</p>
+    </div>
+    <p class="mt-6 text-[13px] text-white/40">Demo form only &mdash; front-end validation, no backend.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white border-t border-black/10">
+  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-black/60">
+    <p class="font-display font-semibold text-black">Leeds Plumbing Solutions</p>
+    <p>Leeds &amp; Wetherby &middot; <a class="font-semibold" href="tel:01134180197">0113 418 0197</a></p>
+    <p>&copy; 2026 Leeds Plumbing Solutions. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var lenis = null;
+  if (!reduce && typeof Lenis !== 'undefined') {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+    function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+  }
+  function goTo(hash) {
+    var el = document.querySelector(hash);
+    if (!el) return;
+    var y = el.getBoundingClientRect().top + window.scrollY - 72;
+    if (lenis) lenis.scrollTo(y); else window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var h = a.getAttribute('href');
+      if (h.length > 1) { e.preventDefault(); goTo(h); closeMenu(); }
+    });
+  });
+  var btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+  function closeMenu() { menu.classList.add('hidden'); }
+  btn.addEventListener('click', function () { menu.classList.toggle('hidden'); });
+  var form = document.getElementById('quoteForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var ok = true;
+    form.querySelectorAll('[required]').forEach(function (f) {
+      var bad = !f.value.trim() || (f.type === 'email' && !/^\S+@\S+\.\S+$/.test(f.value));
+      f.classList.toggle('!border-red-400', bad);
+      if (bad) ok = false;
+    });
+    document.getElementById('formError').classList.toggle('hidden', ok);
+    if (!ok) return;
+    form.classList.add('hidden');
+    document.getElementById('formDone').classList.remove('hidden');
+  });
+})();
+</script>
+</body>
+</html>

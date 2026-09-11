@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LPS Heating &amp; Plumbing | Boilers, Electrical &amp; Renewables, Guiseley Leeds</title>
+<meta name="description" content="Family-owned heating, plumbing, electrical and home services in Guiseley, Leeds. Worcester Bosch Diamond installers — boilers with up to 12-year warranty.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<style>
+@reference "tailwindcss";
+:root { --accent: #E04E2D; --ink: #191c1f; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); }
+.font-display { font-family: 'Inter Tight', 'Inter', sans-serif; letter-spacing: -0.02em; }
+.btn-pill { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; border-radius: 9999px; padding: 14px 32px; line-height: 1.5; font-weight: 600; }
+section { scroll-margin-top: 88px; }
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur border-b border-black/10">
+  <div class="max-w-6xl mx-auto px-5 h-[72px] flex items-center justify-between gap-4">
+    <a href="#top" class="flex items-center gap-3">
+      <img src="_internal/resources/images/img_00.svg" alt="LPS Heating & Plumbing" class="h-11 w-auto">
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-[15px] font-medium">
+      <a href="#menu" class="hover:opacity-70">Service menu</a>
+      <a href="#finance" class="hover:opacity-70">Finance</a>
+      <a href="#visit" class="hover:opacity-70">Visit us</a>
+      <a href="#quote" class="hover:opacity-70">Contact</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="tel:01943879932" class="btn-pill text-white text-sm !py-2.5 !px-5" style="background:var(--accent)"><i class="ri-phone-line"></i><span class="hidden sm:inline">01943 879932</span><span class="sm:hidden">Call</span></a>
+      <button id="menuBtn" class="md:hidden w-10 h-10 inline-flex items-center justify-center rounded-full border border-black/10" aria-label="Menu"><i class="ri-menu-line text-xl"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-black/10 bg-white/95 backdrop-blur px-5 py-4 flex flex-col gap-1 text-[15px] font-medium">
+    <a href="#menu" class="py-2">Service menu</a>
+    <a href="#finance" class="py-2">Finance</a>
+    <a href="#visit" class="py-2">Visit us</a>
+    <a href="#quote" class="py-2">Contact</a>
+  </div>
+</header>
+
+<!-- HERO (light minimal + Worcester Bosch badge row) -->
+<section id="top" class="bg-white">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 text-center">
+    <span class="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-[13px] font-semibold text-white" style="background:var(--accent)"><i class="ri-fire-line"></i>Worcester Bosch Diamond Accredited Installers</span>
+    <h1 class="font-display font-medium text-4xl md:text-6xl leading-[1.05] mt-6">Heating, plumbing &amp; electrical,<br>done properly</h1>
+    <p class="mt-5 text-lg text-black/60 max-w-2xl mx-auto">LPS of Guiseley, Leeds, is a family-owned business serving family homes and commercial premises &mdash; with over 25 years installing, servicing and repairing all makes of gas and oil boilers.</p>
+    <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+      <a href="tel:01943879932" class="btn-pill text-white w-full sm:w-auto" style="background:var(--accent)"><i class="ri-phone-line"></i>01943 879932</a>
+      <a href="#quote" class="btn-pill w-full sm:w-auto border border-black/15">Get an online quote</a>
+    </div>
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-2 text-[13px] font-medium">
+      <span class="inline-flex items-center gap-1.5 rounded-full border border-black/10 px-4 py-1.5"><i class="ri-shield-check-line" style="color:var(--accent)"></i>Gas Safe</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full border border-black/10 px-4 py-1.5"><i class="ri-shield-check-line" style="color:var(--accent)"></i>OFTEC</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full border border-black/10 px-4 py-1.5"><i class="ri-shield-check-line" style="color:var(--accent)"></i>NAPIT Registered</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full border border-black/10 px-4 py-1.5"><i class="ri-medal-line" style="color:var(--accent)"></i>25+ years&rsquo; experience</span>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY STRIP -->
+<section class="bg-[#191c1f] text-white">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-20 flex flex-col md:flex-row items-center gap-8">
+    <span class="shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-3xl text-white" style="background:var(--accent)"><i class="ri-calendar-check-line"></i></span>
+    <div class="text-center md:text-left flex-1">
+      <p class="text-sm font-semibold uppercase tracking-widest text-white/60">Breakdown cover &amp; servicing included</p>
+      <h2 class="font-display font-medium text-3xl md:text-4xl leading-tight mt-2">Yearly maintenance plans for boiler, heating &amp; fire</h2>
+      <p class="mt-2 text-white/70">Book a home visit or video call with an LPS heating expert &mdash; or get an online quote today.</p>
+    </div>
+    <a href="tel:01943879932" class="btn-pill bg-white text-black shrink-0 w-full md:w-auto"><i class="ri-phone-line"></i>01943 879932</a>
+  </div>
+</section>
+
+<!-- SERVICE MENU (numbered menu cards) -->
+<section id="menu" class="bg-white">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <p class="text-center text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">LPS service menu</p>
+    <h2 class="font-display font-medium text-3xl md:text-5xl text-center mt-3">Everything your home needs</h2>
+    <div class="mt-12 rounded-3xl border border-black/10 divide-y divide-black/10 overflow-hidden">
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">01</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-fire-line" style="color:var(--accent)"></i>Boilers &amp; Central Heating</h3><p class="text-black/60 text-[15px]">Boilers, radiators, smart controls, repairs, servicing, maintenance plans and landlord certificates.</p></div>
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">02</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-plug-line" style="color:var(--accent)"></i>Electrical Services</h3><p class="text-black/60 text-[15px]">Rewires, additional sockets &amp; lighting, electrical testing and electrical maintenance.</p></div>
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">03</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-sun-line" style="color:var(--accent)"></i>Renewables</h3><p class="text-black/60 text-[15px]">Air source heat pump supply &amp; installation, heat pump servicing, solar panels and battery storage.</p></div>
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">04</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-drop-line" style="color:var(--accent)"></i>General Plumbing</h3><p class="text-black/60 text-[15px]">Taps, showers, baths, radiators, outdoor taps, radiator moves, leaks and general repairs.</p></div>
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">05</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-file-list-line" style="color:var(--accent)"></i>Maintenance Plans</h3><p class="text-black/60 text-[15px]">Gas boiler, central heating &amp; fire &mdash; yearly maintenance plans and breakdown cover, servicing included.</p></div>
+      <div class="grid md:grid-cols-[56px_220px_1fr] gap-2 md:gap-6 items-start p-7"><span class="font-display font-medium text-2xl" style="color:var(--accent)">06</span><h3 class="font-display font-medium text-xl flex items-center gap-2"><i class="ri-fireplace-line" style="color:var(--accent)"></i>Stoves &amp; Fires</h3><p class="text-black/60 text-[15px]">Gas, wood burning and electric &mdash; fire surrounds, hearths, chimney sweeping and flue installation.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINANCE BAND -->
+<section id="finance" class="bg-[#FDEEE8]">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32 text-center">
+    <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Boiler finance &amp; warranty</p>
+    <h2 class="font-display font-medium text-3xl md:text-5xl mt-3">A new energy-efficient boiler, your way</h2>
+    <p class="text-black/60 mt-5 max-w-2xl mx-auto">Flexible payment options to suit your needs &#42; &mdash; and up to a 12-year warranty when installed by an LPS heating engineer.</p>
+    <p class="mt-2 text-[13px] text-black/40">&#42;Credit subject to terms &amp; conditions.</p>
+    <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+      <a href="tel:01943879932" class="btn-pill text-white w-full sm:w-auto" style="background:var(--accent)"><i class="ri-phone-line"></i>Ask about finance</a>
+      <a href="#quote" class="btn-pill w-full sm:w-auto bg-white border border-black/15">Book a home visit</a>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT (address + hours cards + map) -->
+<section id="visit" class="bg-white">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Offices &amp; showroom</p>
+    <h2 class="font-display font-medium text-3xl md:text-4xl mt-3">Come and see us in Guiseley</h2>
+    <div class="grid sm:grid-cols-3 gap-4 mt-10">
+      <div class="rounded-3xl border border-black/10 p-7"><i class="ri-map-pin-line text-3xl" style="color:var(--accent)"></i><h3 class="font-display font-medium text-lg mt-3">Find us</h3><p class="text-black/60 text-[15px] mt-2">20 Otley Road, Guiseley,<br>Leeds LS20 8AH</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><i class="ri-time-line text-3xl" style="color:var(--accent)"></i><h3 class="font-display font-medium text-lg mt-3">Showroom hours</h3><p class="text-black/60 text-[15px] mt-2">Mon&ndash;Fri 8:30am&ndash;5:00pm<br>Sat &amp; Sun closed</p></div>
+      <div class="rounded-3xl border border-black/10 p-7"><i class="ri-customer-service-line text-3xl" style="color:var(--accent)"></i><h3 class="font-display font-medium text-lg mt-3">Talk to us</h3><p class="text-black/60 text-[15px] mt-2"><a class="font-semibold underline" href="tel:01943879932">01943 879932</a><br><a class="font-semibold underline" href="mailto:info@lps-limited.co.uk">info@lps-limited.co.uk</a></p></div>
+    </div>
+    <div class="rounded-3xl overflow-hidden border border-black/10 min-h-[320px] mt-4">
+      <iframe title="Map — 20 Otley Road, Guiseley" src="https://maps.google.com/maps?q=Otley%20Road,Guiseley,LS20%208AH,UK&output=embed" class="w-full h-full min-h-[320px]" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section id="quote" class="bg-[#191c1f] text-white">
+  <div class="max-w-3xl mx-auto px-5 py-24 md:py-32 text-center">
+    <p class="text-[13px] font-semibold uppercase tracking-widest" style="color:var(--accent)">Contact form</p>
+    <h2 class="font-display font-medium text-3xl md:text-5xl mt-3">Tell us what you need</h2>
+    <p class="text-white/60 mt-4">Give us as much information as possible so we can deal with your enquiry. We aim to respond promptly.</p>
+    <form id="quoteForm" class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 text-left" novalidate>
+      <div><label class="text-sm font-medium" for="q-name">Name</label><input id="q-name" name="name" required placeholder="Your name" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-email">Email</label><input id="q-email" name="email" type="email" required placeholder="you@example.com" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-phone">Phone</label><input id="q-phone" name="phone" type="tel" required placeholder="Your phone number" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div><label class="text-sm font-medium" for="q-postcode">Postcode</label><input id="q-postcode" name="postcode" required placeholder="e.g. LS20 8AH" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></div>
+      <div class="sm:col-span-2"><label class="text-sm font-medium" for="q-msg">Message</label><textarea id="q-msg" name="message" rows="4" required placeholder="Boiler, electrics, renewables… tell us more" class="mt-1.5 w-full rounded-2xl bg-white/10 border border-white/15 px-5 py-3.5 text-white placeholder:text-white/40 outline-none focus:border-white/40"></textarea></div>
+      <p id="formError" class="hidden sm:col-span-2 text-sm rounded-2xl bg-red-500/15 border border-red-400/30 px-5 py-3">Please fill in every field with a valid email address.</p>
+      <button type="submit" class="btn-pill sm:col-span-2 w-full text-white" style="background:var(--accent)"><i class="ri-send-plane-line"></i>Send enquiry</button>
+    </form>
+    <div id="formDone" class="hidden mt-10 rounded-3xl bg-white/10 border border-white/15 px-8 py-10">
+      <span class="w-14 h-14 rounded-full inline-flex items-center justify-center text-2xl text-white" style="background:var(--accent)"><i class="ri-check-line"></i></span>
+      <h3 class="font-display font-medium text-2xl mt-4">Thanks &mdash; enquiry received!</h3>
+      <p class="text-white/60 mt-2">We&rsquo;ll be in touch shortly. Urgent? Call <a class="underline" href="tel:01943879932">01943 879932</a>.</p>
+    </div>
+    <p class="mt-6 text-[13px] text-white/40">Demo form only &mdash; front-end validation, no backend. Prefer email? <a class="underline" href="mailto:info@lps-limited.co.uk">info@lps-limited.co.uk</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white border-t border-black/10">
+  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-black/60 text-center">
+    <p class="font-display font-semibold text-black">LPS Heating &amp; Plumbing</p>
+    <p>20 Otley Road, Guiseley, Leeds LS20 8AH &middot; <a class="font-semibold" href="tel:01943879932">01943 879932</a></p>
+    <p>&copy; 2026 LPS Heating &amp; Plumbing. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var lenis = null;
+  if (!reduce && typeof Lenis !== 'undefined') {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+    function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+  }
+  function goTo(hash) {
+    var el = document.querySelector(hash);
+    if (!el) return;
+    var y = el.getBoundingClientRect().top + window.scrollY - 72;
+    if (lenis) lenis.scrollTo(y); else window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var h = a.getAttribute('href');
+      if (h.length > 1) { e.preventDefault(); goTo(h); closeMenu(); }
+    });
+  });
+  var btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+  function closeMenu() { menu.classList.add('hidden'); }
+  btn.addEventListener('click', function () { menu.classList.toggle('hidden'); });
+  var form = document.getElementById('quoteForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var ok = true;
+    form.querySelectorAll('[required]').forEach(function (f) {
+      var bad = !f.value.trim() || (f.type === 'email' && !/^\S+@\S+\.\S+$/.test(f.value));
+      f.classList.toggle('!border-red-400', bad);
+      if (bad) ok = false;
+    });
+    document.getElementById('formError').classList.toggle('hidden', ok);
+    if (!ok) return;
+    form.classList.add('hidden');
+    document.getElementById('formDone').classList.remove('hidden');
+  });
+})();
+</script>
+</body>
+</html>
