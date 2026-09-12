@@ -1,8 +1,11 @@
 # AGENTS.md — COLD-OUTREACH landing-page rebuilds
 
 ## Job
-Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resources
-(`NN_Name/_internal/resources/`), for cold-email outreach. One project at a time.
+Rebuild outdated trade landing pages (`NN_Name/index.html`) from scraped resources
+(`NN_Name/_internal/resources/`), for cold-email outreach. One project — or one
+parallel batch — at a time. Originally plumbers; now ANY local trade
+(roofers, joiners, gardeners, electricians, locksmiths, cleaners, builders…).
+Adjust copy, services and iconography to the trade; the system below still holds.
 
 ## Locked design system (do not deviate without being asked)
 - **Same design + Airbnb + hyperminimalism**: Revolut component language
@@ -19,7 +22,8 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
 - **Stack only**: single `index.html` — Tailwind CDN (v4 browser), Google Fonts,
   RemixIcon CDN (pinned, e.g. `remixicon@4.6.0` — verify icon names against the
   real stylesheet before use), Lenis (CDN). No build step, no other frameworks.
-- **Icon vocabulary** (all verified against 4.6.0 — reuse, don't re-guess):
+- **Icon vocabulary** (verified against 4.6.0 — reuse, don't re-guess; for other
+  trades ONLY use names you have verified against the real 4.6.0 stylesheet):
   plumbing `ri-drop-line`, boilers/heating `ri-fire-line`, gas safety
   `ri-shield-check-line`, certificates `ri-file-list-line`, cookers/hobs
   `ri-restaurant-line`, bathrooms `ri-showers-line` (no bath icon exists),
@@ -76,7 +80,14 @@ Rebuild outdated plumber landing pages (`NN_Name/index.html`) from scraped resou
 
 ## Scrape notes
 - Per project: `texts.json` + `links.json` + `images.json` + `raw.html` +
-  `images/` + `images_manifest.json`.
+  `images/` + `images_manifest.json`. NEWER scrapes differ: `texts.json` is a
+  FLAT LIST of strings (no h1/h2 structure — extract headlines, services and
+  USPs by reading it), a `styles.css` may be present (use it for the accent),
+  and phone numbers often appear ONLY in `raw.html` (grep `tel:` plus
+  `0\d[\d\s]{8,}` patterns) — never invent a number; if none exists use
+  email/`mailto:` CTAs only.
+- SKIP a project if it has no usable content at all (no texts AND no images) —
+  record it in your report, don't build it.
 - Expect: `data:` placeholder URIs, hotlink-blocked images, 403s → retry with
   `StealthyFetcher(..., solve_cloudflare=True)`; if images still fail, write
   `_internal/resources/NOTE.md` with manual steps, never silently skip.

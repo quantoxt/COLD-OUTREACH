@@ -1,0 +1,21 @@
+{
+ "page": "https://www.mannixphg.co.uk/",
+ "count": 3,
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://www.mannixphg.co.uk/wp-content/uploads/2018/04/slide1-bg-min.jpg",
+   "bytes": 149784
+  },
+  {
+   "file": "images/img_01.png",
+   "source": "https://www.mannixphg.co.uk/wp-content/uploads/2018/05/mannixphg-logo-x2-min-300x100.png",
+   "bytes": 15395
+  },
+  {
+   "file": "images/img_02.png",
+   "source": "https://www.mannixphg.co.uk/wp-content/uploads/2018/05/mx-cards.png",
+   "bytes": 8529
+  }
+ ]
+}

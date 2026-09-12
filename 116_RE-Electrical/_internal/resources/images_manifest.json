@@ -1,0 +1,44 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2014/08/logo3-e1689406939427.jpg",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2014/08/logo3-e1689406939427.jpg",
+  "alt": "",
+  "bytes": 8639
+ },
+ {
+  "file": "images/img02.jpg",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2014/07/lights-1.jpg",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2014/07/lights-1.jpg",
+  "alt": "",
+  "bytes": 23663
+ },
+ {
+  "file": "images/img03.jpeg",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2023/07/NICEIC-logo.jpeg",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2023/07/NICEIC-logo.jpeg",
+  "alt": "",
+  "bytes": 18180
+ },
+ {
+  "file": "images/img04.png",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2023/07/elecsa-logo.png",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2023/07/elecsa-logo.png",
+  "alt": "",
+  "bytes": 13005
+ },
+ {
+  "file": "images/img05.png",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2023/07/Screenshot-2023-07-16-at-16.23.17.png",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2023/07/Screenshot-2023-07-16-at-16.23.17.png",
+  "alt": "",
+  "bytes": 121935
+ },
+ {
+  "file": "images/img06.png",
+  "src": "https://reelectrical.co.uk/wp-content/uploads/2023/07/Screenshot-2023-07-16-at-16.25.28.png",
+  "absolute": "https://reelectrical.co.uk/wp-content/uploads/2023/07/Screenshot-2023-07-16-at-16.25.28.png",
+  "alt": "",
+  "bytes": 396366
+ }
+]

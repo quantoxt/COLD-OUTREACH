@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halifax Plumbers Merchants — Plumbing Parts, Bathroom Spares & Showroom</title>
+<meta name="description" content="Halifax Plumbers Merchants: suppliers of quality bathrooms and plumbing supplies since 1995. Check stock before you visit, get a price on spares, or browse the showroom at 150 Jubilee Rd, Halifax.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<style>
+  @reference "tailwindcss";
+  :root { --accent: #7fb539; --accent-bright: #a0ce4e; --ink: #191c1f; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); }
+  .font-display { font-family: 'Inter Tight', 'Inter', sans-serif; }
+  .btn { display: inline-flex; align-items: center; line-height: 1.5; }
+  section { scroll-margin-top: 72px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur border-b border-neutral-200">
+  <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-2 font-display font-semibold tracking-tight text-lg">
+      <span class="w-9 h-9 rounded-full inline-flex items-center justify-center text-white" style="background:var(--accent)"><i class="ri-drop-line text-xl"></i></span>
+      Halifax Plumbers Merchants
+    </a>
+    <nav class="hidden md:flex items-center gap-7 text-sm text-neutral-600">
+      <a href="#services" class="hover:text-neutral-900">Stock</a>
+      <a href="#why" class="hover:text-neutral-900">Why us</a>
+      <a href="#quote" class="hover:text-neutral-900">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="tel:01422363589" class="btn text-sm font-medium text-white rounded-full px-4 sm:px-6 py-2.5" style="background:var(--accent)"><i class="ri-phone-line mr-2"></i><span class="hidden sm:inline">01422 363 589</span><span class="sm:hidden">Call</span></a>
+      <button id="menuBtn" class="md:hidden w-10 h-10 inline-flex items-center justify-center rounded-full border border-neutral-200" aria-label="Open menu"><i class="ri-menu-line text-xl"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-neutral-200 bg-white px-5 py-4">
+    <nav class="flex flex-col gap-1 text-base">
+      <a href="#services" class="mob-link py-2 border-b border-neutral-100">Stock</a>
+      <a href="#why" class="mob-link py-2 border-b border-neutral-100">Why us</a>
+      <a href="#quote" class="mob-link py-2">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="max-w-6xl mx-auto px-5 pt-14 pb-16 md:pt-24 md:pb-32">
+  <span class="inline-flex items-center gap-2 text-xs font-medium rounded-full px-4 py-2 bg-neutral-100"><i class="ri-store-2-line" style="color:var(--accent)"></i>Suppliers of quality bathrooms & plumbing supplies since 1995</span>
+  <h1 class="font-display font-medium tracking-tight text-4xl md:text-6xl leading-[1.05] mt-5 max-w-3xl">We know plumbing. Ask us to check stock before you visit.</h1>
+  <p class="text-neutral-600 text-lg mt-5 max-w-2xl">Know what you need already? Tell us the part and we'll confirm it's on the shelf — or visit the showroom and we'll beat any quote.</p>
+  <div class="flex flex-col sm:flex-row gap-3 mt-8">
+    <a href="tel:01422363589" class="btn justify-center font-medium text-white rounded-full px-8 py-3.5" style="background:var(--accent)"><i class="ri-phone-line mr-2"></i>Call 01422 363 589</a>
+    <a href="#quote" class="btn justify-center font-medium rounded-full px-8 py-3.5 border border-neutral-300"><i class="ri-file-list-line mr-2"></i>Get me a price</a>
+  </div>
+</section>
+
+<!-- CHECKLIST BAND -->
+<section id="services" class="text-white" style="background:var(--ink)">
+  <div class="max-w-6xl mx-auto px-5 py-14 md:py-20">
+    <p class="text-sm font-medium text-white/60">What we stock</p>
+    <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3">Three counters, one visit.</h2>
+    <div class="grid md:grid-cols-3 gap-4 mt-10">
+      <div class="rounded-3xl bg-white/5 border border-white/10 p-7">
+        <i class="ri-tools-line text-3xl" style="color:var(--accent-bright)"></i>
+        <h3 class="font-display font-medium text-xl mt-3">Plumbing parts</h3>
+        <p class="text-white/70 text-sm mt-2 leading-relaxed">Know what you need? Ask us to check stock ahead of visiting — describe the part and your phone number, and we'll confirm.</p>
+      </div>
+      <div class="rounded-3xl bg-white/5 border border-white/10 p-7">
+        <i class="ri-showers-line text-3xl" style="color:var(--accent-bright)"></i>
+        <h3 class="font-display font-medium text-xl mt-3">Bathroom spares</h3>
+        <p class="text-white/70 text-sm mt-2 leading-relaxed">Brand and model in hand? Send a picture and a description — we'll get you a price on the exact spare.</p>
+      </div>
+      <div class="rounded-3xl bg-white/5 border border-white/10 p-7">
+        <i class="ri-home-smile-line text-3xl" style="color:var(--accent-bright)"></i>
+        <h3 class="font-display font-medium text-xl mt-3">Complete bathrooms</h3>
+        <p class="text-white/70 text-sm mt-2 leading-relaxed">Come and visit the showroom. We supply the majority of brands — and we'll beat any quote.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="max-w-6xl mx-auto px-5 py-16 md:py-32">
+  <p class="text-sm font-medium" style="color:var(--accent)">Why shop with us</p>
+  <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3">Established for over 25 years.</h2>
+  <ul class="mt-10 grid md:grid-cols-2 gap-x-10 gap-y-5 max-w-4xl">
+    <li class="flex gap-3"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="var(--accent)" opacity="0.15"/><path d="M8 12.5l2.5 2.5L16 9.5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-neutral-700">Independent merchant — real advice from people who know plumbing</span></li>
+    <li class="flex gap-3"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="var(--accent)" opacity="0.15"/><path d="M8 12.5l2.5 2.5L16 9.5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-neutral-700">Stock checked before you travel — no wasted trips</span></li>
+    <li class="flex gap-3"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="var(--accent)" opacity="0.15"/><path d="M8 12.5l2.5 2.5L16 9.5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-neutral-700">Showroom with the majority of brands — we'll beat any quote</span></li>
+    <li class="flex gap-3"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="var(--accent)" opacity="0.15"/><path d="M8 12.5l2.5 2.5L16 9.5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-neutral-700">Easy to find — after McDonald's and the petrol station, coming down Salterhebble hill</span></li>
+  </ul>
+</section>
+
+<!-- MAP -->
+<section id="find" class="max-w-6xl mx-auto px-5 pb-16 md:pb-32">
+  <div class="rounded-3xl overflow-hidden border border-neutral-200 grid md:grid-cols-2">
+    <div class="p-7 md:p-10">
+      <p class="text-sm font-medium" style="color:var(--accent)">Find us</p>
+      <h2 class="font-display font-medium tracking-tight text-2xl md:text-3xl mt-2">The showroom on Jubilee Road.</h2>
+      <p class="text-neutral-600 mt-3">150 Jubilee Rd,<br>Halifax HX3 9LL<br><span class="text-sm">(After McDonald's and the petrol station if coming down Salterhebble hill)</span></p>
+      <p class="mt-4 space-y-2 text-sm">
+        <a href="tel:01422363589" class="flex items-center gap-2 hover:underline"><i class="ri-phone-line" style="color:var(--accent)"></i>01422 363 589</a>
+        <a href="mailto:info@halifaxplumbersmerchant.uk" class="flex items-center gap-2 hover:underline"><i class="ri-mail-line" style="color:var(--accent)"></i>info@halifaxplumbersmerchant.uk</a>
+      </p>
+    </div>
+    <iframe title="Map — Halifax Plumbers Merchants, 150 Jubilee Rd" src="https://maps.google.com/maps?q=150%20Jubilee%20Rd%2C%20Halifax%20HX3%209LL&output=embed" class="w-full h-64 md:h-full min-h-64 border-0" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="quote" class="text-white" style="background:var(--ink)">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-32 grid md:grid-cols-2 gap-10">
+    <div>
+      <p class="text-sm font-medium text-white/60">Get a price</p>
+      <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3">Describe what you need.</h2>
+      <p class="text-white/70 mt-4">Call <a href="tel:01422363589" class="underline">01422 363 589</a>, email <a href="mailto:info@halifaxplumbersmerchant.uk" class="underline">info@halifaxplumbersmerchant.uk</a>, or send the form. Demo form: front-end only, nothing is sent anywhere.</p>
+    </div>
+    <form id="quoteForm" class="bg-white text-neutral-900 rounded-3xl p-6 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4" novalidate>
+      <div><label class="text-sm font-medium" for="q-name">Name</label><input id="q-name" required class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="Your name"></div>
+      <div><label class="text-sm font-medium" for="q-phone">Phone</label><input id="q-phone" type="tel" required class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="01422 …"></div>
+      <div class="sm:col-span-2"><label class="text-sm font-medium" for="q-email">Email</label><input id="q-email" type="email" class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="you@example.com"></div>
+      <div class="sm:col-span-2"><label class="text-sm font-medium" for="q-msg">Brand of part · model / description</label><textarea id="q-msg" required rows="4" class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="e.g. Mira shower cartridge, model…"></textarea></div>
+      <p id="formError" class="hidden sm:col-span-2 text-sm text-red-600">Please fill in your name, a valid phone and a description.</p>
+      <button type="submit" class="btn sm:col-span-2 justify-center font-medium text-white rounded-full px-8 py-3.5" style="background:var(--accent)"><i class="ri-file-list-line mr-2"></i>Check stock / get a price</button>
+      <p id="formDone" class="hidden sm:col-span-2 text-sm rounded-2xl bg-green-50 border border-green-200 text-green-800 px-4 py-3">Thanks — that's us notified (demo). For a faster reply, call 01422 363 589.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="max-w-6xl mx-auto px-5 py-10 text-sm text-neutral-500 flex flex-col md:flex-row gap-3 md:items-center justify-between">
+  <p>© 2026 Halifax Plumbers Merchants · 150 Jubilee Rd, Halifax HX3 9LL</p>
+  <p class="flex flex-wrap gap-x-5 gap-y-1"><a href="tel:01422363589" class="hover:underline">01422 363 589</a><a href="mailto:info@halifaxplumbersmerchant.uk" class="hover:underline">info@halifaxplumbersmerchant.uk</a></p>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var lenis = null;
+  if (!reduce && typeof Lenis !== 'undefined') {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+    function raf(t){ lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (id.length < 2) return;
+      var el = document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      document.getElementById('mobileMenu').classList.add('hidden');
+      var y = el.getBoundingClientRect().top + window.scrollY - 72;
+      if (lenis) lenis.scrollTo(y); else window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+  document.getElementById('menuBtn').addEventListener('click', function(){ document.getElementById('mobileMenu').classList.toggle('hidden'); });
+  var f = document.getElementById('quoteForm');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var ok = document.getElementById('q-name').value.trim() && /^[0-9 +]{7,}$/.test(document.getElementById('q-phone').value.trim()) && document.getElementById('q-msg').value.trim();
+    document.getElementById('formError').classList.toggle('hidden', !!ok);
+    document.getElementById('formDone').classList.toggle('hidden', !ok);
+    if (ok) f.querySelectorAll('input,textarea').forEach(function(i){ i.value=''; });
+  });
+})();
+</script>
+</body>
+</html>

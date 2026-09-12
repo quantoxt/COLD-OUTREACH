@@ -1,0 +1,31 @@
+{
+ "page": "https://www.samandguysdecor.co.uk/",
+ "count": 5,
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://www.samandguysdecor.co.uk/wp-content/uploads/2022/08/logo.jpg",
+   "bytes": 19479
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://www.samandguysdecor.co.uk/wp-content/uploads/2022/08/15.jpg",
+   "bytes": 88735
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://www.samandguysdecor.co.uk/wp-content/uploads/2022/08/7.jpg",
+   "bytes": 90935
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://www.samandguysdecor.co.uk/wp-content/uploads/2022/05/menu3.jpg",
+   "bytes": 119942
+  },
+  {
+   "file": "images/img_04.png",
+   "source": "https://www.samandguysdecor.co.uk/wp-content/uploads/2019/06/checkatrade-300x76-1.png",
+   "bytes": 75475
+  }
+ ]
+}

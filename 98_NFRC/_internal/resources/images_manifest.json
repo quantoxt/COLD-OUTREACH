@@ -1,0 +1,107 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "https://www.nfrc.co.uk/static/f3d24c1b-a6bb-4162-b6eb44481f915d99/megamenuimagea1148e265142707eacf0ce7677a0ab20_4a7c7e45a350/Find-local-roofer.jpg",
+  "absolute": "https://www.nfrc.co.uk/static/f3d24c1b-a6bb-4162-b6eb44481f915d99/megamenuimagea1148e265142707eacf0ce7677a0ab20_4a7c7e45a350/Find-local-roofer.jpg",
+  "alt": "Find a local roofer",
+  "bytes": 22933
+ },
+ {
+  "file": "images/img02.png",
+  "src": "https://www.nfrc.co.uk/static/06511abb-4cd1-4114-ba6b5bee1b3e65ea/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-a-roofer-790x515.png",
+  "absolute": "https://www.nfrc.co.uk/static/06511abb-4cd1-4114-ba6b5bee1b3e65ea/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-a-roofer-790x515.png",
+  "alt": "Find a roofer-790x515.png",
+  "bytes": 172854
+ },
+ {
+  "file": "images/img03.png",
+  "src": "https://www.nfrc.co.uk/static/39b09b0d-f401-4417-977e398715c3437e/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-materials-790x515.png",
+  "absolute": "https://www.nfrc.co.uk/static/39b09b0d-f401-4417-977e398715c3437e/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-materials-790x515.png",
+  "alt": "Find materials-790x515.png",
+  "bytes": 241478
+ },
+ {
+  "file": "images/img04.png",
+  "src": "https://www.nfrc.co.uk/static/27ba1d79-6985-4bc5-8dc1906b8baa0d49/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-services-790x515.png",
+  "absolute": "https://www.nfrc.co.uk/static/27ba1d79-6985-4bc5-8dc1906b8baa0d49/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-services-790x515.png",
+  "alt": "Find services-790x515.png",
+  "bytes": 221380
+ },
+ {
+  "file": "images/img05.png",
+  "src": "https://www.nfrc.co.uk/static/bc92dbbe-32e9-40ac-90c5a09679f6478c/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-information-790x515.png",
+  "absolute": "https://www.nfrc.co.uk/static/bc92dbbe-32e9-40ac-90c5a09679f6478c/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/Find-information-790x515.png",
+  "alt": "Find information-790x515.png",
+  "bytes": 166401
+ },
+ {
+  "file": "images/img06.png",
+  "src": "https://www.nfrc.co.uk/static/3f0116c4-c40a-4dd6-8422117524f3dbfa/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RCPS2x.png",
+  "absolute": "https://www.nfrc.co.uk/static/3f0116c4-c40a-4dd6-8422117524f3dbfa/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RCPS2x.png",
+  "alt": "RCPS@2x.png",
+  "bytes": 21719
+ },
+ {
+  "file": "images/img07.png",
+  "src": "https://www.nfrc.co.uk/static/8a62b636-4e69-44d9-a0a2dd457575cc59/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RCS2x.png",
+  "absolute": "https://www.nfrc.co.uk/static/8a62b636-4e69-44d9-a0a2dd457575cc59/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RCS2x.png",
+  "alt": "RCS@2x.png",
+  "bytes": 18266
+ },
+ {
+  "file": "images/img08.png",
+  "src": "https://www.nfrc.co.uk/static/23a8021c-0cb6-4485-98bd2c91802d12a9/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/UKRA2x.png",
+  "absolute": "https://www.nfrc.co.uk/static/23a8021c-0cb6-4485-98bd2c91802d12a9/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/UKRA2x.png",
+  "alt": "UKRA@2x.png",
+  "bytes": 14245
+ },
+ {
+  "file": "images/img09.png",
+  "src": "https://www.nfrc.co.uk/static/903f89ef-b7f1-4784-b5ea3c7dc11fb969/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RRA2x.png",
+  "absolute": "https://www.nfrc.co.uk/static/903f89ef-b7f1-4784-b5ea3c7dc11fb969/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/RRA2x.png",
+  "alt": "RRA@2x.png",
+  "bytes": 21136
+ },
+ {
+  "file": "images/img10.png",
+  "src": "https://www.nfrc.co.uk/static/694030c4-fda1-43a7-88c12b976cd4c9fc/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/NHRCR2x.png",
+  "absolute": "https://www.nfrc.co.uk/static/694030c4-fda1-43a7-88c12b976cd4c9fc/toc_d333720560e279be8ea4c96c6f19c1f6_4a7c7e45a350/NHRCR2x.png",
+  "alt": "NHRCR@2x.png",
+  "bytes": 26478
+ },
+ {
+  "file": "images/img11.png",
+  "src": "https://www.nfrc.co.uk/static/6011ecce-6234-44e1-8833cd1b92791077/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Jason-Manford-UKRA27-Host.png",
+  "absolute": "https://www.nfrc.co.uk/static/6011ecce-6234-44e1-8833cd1b92791077/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Jason-Manford-UKRA27-Host.png",
+  "alt": "Jason-Manford-UKRA27-Host.png",
+  "bytes": 209453
+ },
+ {
+  "file": "images/img12.png",
+  "src": "https://www.nfrc.co.uk/static/0de725f5-5366-4fbb-9c86f6d5f90c5423/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/DiIC-2026.png",
+  "absolute": "https://www.nfrc.co.uk/static/0de725f5-5366-4fbb-9c86f6d5f90c5423/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/DiIC-2026.png",
+  "alt": "DiIC 2026.png",
+  "bytes": 201860
+ },
+ {
+  "file": "images/img13.png",
+  "src": "https://www.nfrc.co.uk/static/a7fe13c5-1c94-43fd-9fdf8a5d18f109e4/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Jobs-fair.png",
+  "absolute": "https://www.nfrc.co.uk/static/a7fe13c5-1c94-43fd-9fdf8a5d18f109e4/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Jobs-fair.png",
+  "alt": "Jobs fair.png",
+  "bytes": 181802
+ },
+ {
+  "file": "images/img14.png",
+  "src": "https://www.nfrc.co.uk/static/861f5083-01ef-40c7-82bdc3e1d6b8b6b2/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Building-Safety-Week.png",
+  "absolute": "https://www.nfrc.co.uk/static/861f5083-01ef-40c7-82bdc3e1d6b8b6b2/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Building-Safety-Week.png",
+  "alt": "Building Safety Week.png",
+  "bytes": 191938
+ },
+ {
+  "file": "images/img15.png",
+  "src": "https://www.nfrc.co.uk/static/1c279bfd-0414-4159-8dec78a67edd02e5/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Skills-demo-eventv5.png",
+  "absolute": "https://www.nfrc.co.uk/static/1c279bfd-0414-4159-8dec78a67edd02e5/resourcegridlistingimagedefault_4d12532919c64e60a22baf03232bbf94_4a7c7e45a350/Skills-demo-eventv5.png",
+  "alt": "Skills demo event_v5.png",
+  "bytes": 282437
+ }
+]

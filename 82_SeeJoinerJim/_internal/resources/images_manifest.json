@@ -1,0 +1,47 @@
+{
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide1.jpg",
+   "size": 64845,
+   "alt": ""
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide2.jpg",
+   "size": 26616,
+   "alt": ""
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide3.jpg",
+   "size": 83697,
+   "alt": ""
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide4.jpg",
+   "size": 47488,
+   "alt": ""
+  },
+  {
+   "file": "images/img_04.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide5.jpg",
+   "size": 45125,
+   "alt": ""
+  },
+  {
+   "file": "images/img_05.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide6.jpg",
+   "size": 61555,
+   "alt": ""
+  },
+  {
+   "file": "images/img_06.jpg",
+   "source": "https://www.seejoinerjim.co.uk/Images/slide7.jpg",
+   "size": 49825,
+   "alt": ""
+  }
+ ],
+ "count": 7
+}

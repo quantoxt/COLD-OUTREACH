@@ -1,0 +1,16 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "http://clearplumbingsolutions.co.uk/wp-content/uploads/2022/09/cropped-Logo-with-a-Blue-Background.jpg",
+  "absolute": "http://clearplumbingsolutions.co.uk/wp-content/uploads/2022/09/cropped-Logo-with-a-Blue-Background.jpg",
+  "alt": "Clear Plumbing Solutions",
+  "bytes": 8586
+ },
+ {
+  "file": "images/img02.jpg",
+  "src": "http://clearplumbingsolutions.co.uk/wp-content/uploads/2022/09/Plumbing-Photo-Header-Image.jpg",
+  "absolute": "http://clearplumbingsolutions.co.uk/wp-content/uploads/2022/09/Plumbing-Photo-Header-Image.jpg",
+  "alt": "",
+  "bytes": 72164
+ }
+]

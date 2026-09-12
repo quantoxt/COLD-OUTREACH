@@ -1,0 +1,65 @@
+{
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F54-ThoroughClean_redraw-1536x508-1.png&w=640&q=75",
+   "size": 24919,
+   "alt": "ThoroughClean"
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F192-One-off-cleaning.png&w=3840&q=75",
+   "size": 283211,
+   "alt": "One-Off Cleaning"
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F198-Commercial-clean.png&w=3840&q=75",
+   "size": 124475,
+   "alt": "Commercial Cleaning"
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F49-2150453323.jpg&w=3840&q=75",
+   "size": 41385,
+   "alt": "Office Cleaning"
+  },
+  {
+   "file": "images/img_04.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F190-Deep-Clean.png&w=3840&q=75",
+   "size": 235252,
+   "alt": "Deep Cleaning"
+  },
+  {
+   "file": "images/img_05.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F188-Routine-Cleaning.png&w=3840&q=75",
+   "size": 227589,
+   "alt": "Regular Cleaning"
+  },
+  {
+   "file": "images/img_06.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F191-End-of-tennancy.png&w=3840&q=75",
+   "size": 253891,
+   "alt": "End of Tenancy Cleaning"
+  },
+  {
+   "file": "images/img_07.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F196-Home-clean.png&w=3840&q=75",
+   "size": 108258,
+   "alt": "Freshly cleaned living room"
+  },
+  {
+   "file": "images/img_08.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F198-Commercial-clean.png&w=3840&q=75",
+   "size": 124475,
+   "alt": "Professional cleaners in an office"
+  },
+  {
+   "file": "images/img_09.jpg",
+   "source": "https://thoroughcleanup.co.uk/_next/image/?url=https%3A%2F%2Fcms.thoroughcleanup.co.uk%2Fwp-content%2Fuploads%2F2026%2F08%2F196-Home-clean.png&w=3840&q=75",
+   "size": 108258,
+   "alt": "A clean and comfortable living room"
+  }
+ ],
+ "count": 10
+}

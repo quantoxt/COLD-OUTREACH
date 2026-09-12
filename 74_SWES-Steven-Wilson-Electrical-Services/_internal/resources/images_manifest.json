@@ -1,0 +1,35 @@
+{
+ "images": [
+  {
+   "file": "images/img_00.png",
+   "source": "http://sw-es.co.uk/wp-content/uploads/2024/01/swes-logo.png",
+   "size": 507200,
+   "alt": "Electrical Services Glasgow & Central Scotland"
+  },
+  {
+   "file": "images/img_01.png",
+   "source": "http://sw-es.co.uk/wp-content/uploads/2024/01/swes-logo.png",
+   "size": 507200,
+   "alt": "Electrical Services Glasgow & Central Scotland"
+  },
+  {
+   "file": "images/img_02.png",
+   "source": "http://sw-es.co.uk/wp-content/uploads/2024/01/swes-logo.png",
+   "size": 507200,
+   "alt": "Electrical Services Glasgow & Central Scotland"
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://sw-es.co.uk/wp-content/uploads/2024/01/shutterstock_2057757359.jpg",
+   "size": 454368,
+   "alt": "Portrait,Of,Group,Of,Professional,Telecommunication,Industry,Engineers,Smiles,And"
+  },
+  {
+   "file": "images/img_04.png",
+   "source": "http://sw-es.co.uk/wp-content/uploads/2024/01/swes-logo-300x212.png",
+   "size": 59545,
+   "alt": "swes-logo"
+  }
+ ],
+ "count": 5
+}

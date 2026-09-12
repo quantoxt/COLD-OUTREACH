@@ -1,0 +1,51 @@
+{
+ "page": "https://www.catherineclancy.com/",
+ "count": 9,
+ "images": [
+  {
+   "file": "images/img_00.png",
+   "source": "https://www.catherineclancy.com/wp-content/themes/catherineclancy/images/logo.png",
+   "bytes": 12561
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2025/05/home-badge1.jpg",
+   "bytes": 6530
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2025/05/home-badge3.jpg",
+   "bytes": 5373
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2025/05/home-badge4.jpg",
+   "bytes": 13478
+  },
+  {
+   "file": "images/img_04.jpeg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2022/01/catherine-clancy-lee-garden-design-client-testimonial-2.jpeg",
+   "bytes": 63803
+  },
+  {
+   "file": "images/img_05.jpeg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2022/01/catherine-clancy-garden-design-lee-client-testimonial.jpeg",
+   "bytes": 108007
+  },
+  {
+   "file": "images/img_06.jpeg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2024/04/IMG_6390-300x200.jpeg",
+   "bytes": 12898
+  },
+  {
+   "file": "images/img_07.jpeg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2022/03/3397A546-C712-485E-9572-A2F08D62E8A3_1_201_a-2-300x200.jpeg",
+   "bytes": 11260
+  },
+  {
+   "file": "images/img_08.jpeg",
+   "source": "https://www.catherineclancy.com/wp-content/uploads/2022/02/B98EB2ED-21C0-418A-8C57-4564756D5F1F_1_201_a-300x200.jpeg",
+   "bytes": 12685
+  }
+ ]
+}

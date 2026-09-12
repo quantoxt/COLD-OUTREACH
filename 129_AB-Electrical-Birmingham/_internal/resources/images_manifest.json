@@ -1,0 +1,21 @@
+{
+ "page": "https://abelectrical-birmingham.co.uk/",
+ "count": 3,
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://abelectrical-birmingham.co.uk/wp-content/uploads/2019/05/electrician-birmingham-uk-1.jpg",
+   "bytes": 81593
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://abelectrical-birmingham.co.uk/wp-content/uploads/2019/05/checkatrade-660.jpg",
+   "bytes": 80279
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://abelectrical-birmingham.co.uk/wp-content/uploads/2022/06/new-driveway-electrical-installation.jpg",
+   "bytes": 183396
+  }
+ ]
+}

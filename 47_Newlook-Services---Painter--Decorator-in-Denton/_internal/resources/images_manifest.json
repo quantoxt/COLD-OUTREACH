@@ -1,0 +1,51 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962971.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962971.jpg",
+  "alt": "New Look Services",
+  "bytes": 33711
+ },
+ {
+  "file": "images/img02.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962970.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962970.jpg",
+  "alt": "",
+  "bytes": 97100
+ },
+ {
+  "file": "images/img03.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962969.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962969.jpg",
+  "alt": "",
+  "bytes": 12828
+ },
+ {
+  "file": "images/img04.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962966.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962966.jpg",
+  "alt": "",
+  "bytes": 35283
+ },
+ {
+  "file": "images/img05.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962967.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962967.jpg",
+  "alt": "",
+  "bytes": 19409
+ },
+ {
+  "file": "images/img06.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962968.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2016/09/7962968.jpg",
+  "alt": "",
+  "bytes": 24550
+ },
+ {
+  "file": "images/img07.jpg",
+  "src": "https://newlookservices.co.uk/wp-content/uploads/2018/07/Houzz-Badge.jpg",
+  "absolute": "https://newlookservices.co.uk/wp-content/uploads/2018/07/Houzz-Badge.jpg",
+  "alt": "houzz winner logo",
+  "bytes": 11104
+ }
+]

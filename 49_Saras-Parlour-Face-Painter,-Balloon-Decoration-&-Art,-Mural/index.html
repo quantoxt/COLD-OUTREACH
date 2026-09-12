@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sara's Parlour — Award-Winning Face Painting, Balloons & Art (Birmingham)</title>
+<meta name="description" content="Sara's Parlour: award-winning face & body art, balloon decoration, murals, window art and workshops across Birmingham and the West Midlands. Winner, Amazing Artist Award 2023. 20 years a professional artist.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<style>
+  @reference "tailwindcss";
+  :root { --accent: #4da871; --accent-ink: #2f7a4e; --ink: #191c1f; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); }
+  .font-display { font-family: 'Inter Tight', 'Inter', sans-serif; }
+  .btn { display: inline-flex; align-items: center; line-height: 1.5; }
+  section { scroll-margin-top: 72px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<header class="sticky top-0 z-50 bg-white/85 backdrop-blur border-b border-neutral-200">
+  <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-2">
+      <img src="_internal/resources/images/img01.jpg" alt="Sara's Parlour logo" class="h-10 w-10 rounded-full object-cover">
+      <span class="font-display font-semibold tracking-tight text-lg">Sara's Parlour</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-7 text-sm text-neutral-600">
+      <a href="#services" class="hover:text-neutral-900">Services</a>
+      <a href="#gallery" class="hover:text-neutral-900">Gallery</a>
+      <a href="#news" class="hover:text-neutral-900">News</a>
+      <a href="#quote" class="hover:text-neutral-900">Book</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="tel:07964081325" class="btn text-sm font-medium text-white rounded-full px-4 sm:px-6 py-2.5" style="background:var(--accent)"><i class="ri-phone-line mr-2"></i><span class="hidden sm:inline">07964 081 325</span><span class="sm:hidden">Call</span></a>
+      <button id="menuBtn" class="md:hidden w-10 h-10 inline-flex items-center justify-center rounded-full border border-neutral-200" aria-label="Open menu"><i class="ri-menu-line text-xl"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-neutral-200 bg-white px-5 py-4">
+    <nav class="flex flex-col gap-1 text-base">
+      <a href="#services" class="mob-link py-2 border-b border-neutral-100">Services</a>
+      <a href="#gallery" class="mob-link py-2 border-b border-neutral-100">Gallery</a>
+      <a href="#news" class="mob-link py-2 border-b border-neutral-100">News</a>
+      <a href="#quote" class="mob-link py-2">Book Sara</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO: full-bleed baked banner at natural ratio -->
+<section id="top">
+  <img src="_internal/resources/images/img02.png" alt="Sara's Parlour — award-winning face painting, balloon decor and art" class="w-full h-auto block">
+  <div class="max-w-6xl mx-auto px-5 pt-10 pb-14 md:pt-14 md:pb-20 text-center">
+    <span class="inline-flex items-center gap-2 text-xs font-medium rounded-full px-4 py-2 bg-neutral-100"><i class="ri-trophy-line" style="color:var(--accent-ink)"></i>Winner, Amazing Artist Award 2023 · 20 years a professional artist</span>
+    <h1 class="font-display font-medium tracking-tight text-4xl md:text-6xl leading-[1.05] mt-5 max-w-3xl mx-auto">Exquisite face & body art — for parties, events, festivals & fun!</h1>
+    <p class="text-neutral-600 text-lg mt-5 max-w-2xl mx-auto">A contemporary face and body art company based in Birmingham. Beautiful designs and walking works of art, from small private parties to large corporate events.</p>
+    <div class="flex flex-col sm:flex-row gap-3 mt-8 justify-center">
+      <a href="tel:07964081325" class="btn justify-center font-medium text-white rounded-full px-8 py-3.5" style="background:var(--accent)"><i class="ri-phone-line mr-2"></i>Call Sara: 07964 081 325</a>
+      <a href="#quote" class="btn justify-center font-medium rounded-full px-8 py-3.5 border border-neutral-300"><i class="ri-calendar-check-line mr-2"></i>Check your date</a>
+    </div>
+    <p class="text-sm text-neutral-500 mt-4">10% discount on morning & weekday daytime bookings — please quote when enquiring.</p>
+  </div>
+</section>
+
+<!-- DARK STRIP -->
+<section class="text-white" style="background:var(--ink)">
+  <div class="max-w-6xl mx-auto px-5 py-10 md:py-12 flex flex-col md:flex-row md:items-center gap-5 justify-between">
+    <div class="flex items-center gap-4">
+      <span class="w-14 h-14 shrink-0 rounded-full bg-white/10 inline-flex items-center justify-center"><i class="ri-shield-check-line text-3xl"></i></span>
+      <div>
+        <p class="font-display font-medium text-xl md:text-2xl tracking-tight">Safe as well as beautiful — Barbicide certified hygiene.</p>
+        <p class="text-white/70 text-sm mt-1">Stringent health & safety at every party: cleaning between all guests, indoors and outdoors.</p>
+      </div>
+    </div>
+    <a href="tel:07964081325" class="btn shrink-0 justify-center font-medium bg-white rounded-full px-8 py-3.5" style="color:var(--ink)"><i class="ri-phone-line mr-2"></i>Book now</a>
+  </div>
+</section>
+
+<!-- SERVICES: badge-chip cards -->
+<section id="services" class="max-w-6xl mx-auto px-5 py-16 md:py-32">
+  <p class="text-sm font-medium" style="color:var(--accent-ink)">What we do</p>
+  <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3 max-w-2xl">More than face paint.</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-emotion-happy-line"></i>Most loved</span>
+      <h3 class="font-display font-medium text-xl mt-3">Face painting</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Pretty and fun children's faces, adult faces, Halloween & scary, glitter and body painting — weddings, corporate events & parties, all bookings taken.</p>
+    </div>
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-gift-line"></i>Parties</span>
+      <h3 class="font-display font-medium text-xl mt-3">Balloons & party décor</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Balloon twisting at parties, sweetie favours, character & number centrepieces delivered to your door — plus full balloon décor for any size venue.</p>
+    </div>
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-artboard-line"></i>Businesses</span>
+      <h3 class="font-display font-medium text-xl mt-3">Murals & window art</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Murals for homes and businesses, chalkboard artwork, and window painting people absolutely love — stand out from the crowd.</p>
+    </div>
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-music-line"></i>Entertainment</span>
+      <h3 class="font-display font-medium text-xl mt-3">Entertainers & extras</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Children's entertainers, craft tables, photography — and bubble performers for outdoor events. New for 2026!</p>
+    </div>
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-graduation-cap-line"></i>Learn</span>
+      <h3 class="font-display font-medium text-xl mt-3">Teaching & workshops</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Learn the art of face paint — one-to-one adult tuition, children's workshops, and general art skills. Sara is a FABATV instructor.</p>
+    </div>
+    <div class="rounded-3xl bg-neutral-50 border border-neutral-200 p-7">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold rounded-full px-3 py-1.5 text-white" style="background:var(--accent)"><i class="ri-team-line"></i>Teams</span>
+      <h3 class="font-display font-medium text-xl mt-3">Solo, duo or dream team</h3>
+      <p class="text-neutral-600 text-sm mt-2 leading-relaxed">Book Sara as a sole artist, a duo, or a larger hand-picked team — just the right artists for your event, anywhere in the Midlands and beyond.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="bg-neutral-50 border-y border-neutral-200">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-32">
+    <p class="text-sm font-medium" style="color:var(--accent-ink)">Gallery</p>
+    <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3">Walking works of art.</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-10">
+      <img src="_internal/resources/images/img04.jpg" alt="Face painting design" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img05.jpg" alt="Children's face paint" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img06.jpg" alt="Body art design" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img07.jpg" alt="Party face painting" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img08.jpg" alt="Balloon decoration" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img09.jpg" alt="Event entertainment" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img10.jpg" alt="Glitter face art" class="rounded-2xl w-full aspect-square object-cover object-top">
+      <img src="_internal/resources/images/img11.jpg" alt="Mural artwork" class="rounded-2xl w-full aspect-square object-cover object-top">
+    </div>
+  </div>
+</section>
+
+<!-- NEWS / WHY -->
+<section id="news" class="max-w-6xl mx-auto px-5 py-16 md:py-32">
+  <p class="text-sm font-medium" style="color:var(--accent-ink)">News</p>
+  <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3 max-w-2xl">Painting everywhere, from Eurovision to the Maldives.</h2>
+  <div class="grid md:grid-cols-3 gap-4 mt-10">
+    <div class="rounded-3xl border border-neutral-200 p-7"><i class="ri-trophy-line text-2xl" style="color:var(--accent-ink)"></i><p class="font-display font-medium text-lg mt-3">Artist of the Year 2023</p><p class="text-neutral-600 text-sm mt-2">Sara won at the National Dyslexia Awards — "the true meaning of dyslexic out-of-the-box thinking".</p></div>
+    <div class="rounded-3xl border border-neutral-200 p-7"><i class="ri-music-line text-2xl" style="color:var(--accent-ink)"></i><p class="font-display font-medium text-lg mt-3">Eurovision face painters</p><p class="text-neutral-600 text-sm mt-2">Plus Primark's world's-largest store opening, HSBC, nationwide cycling events and Sandwell Pride balloons.</p></div>
+    <div class="rounded-3xl border border-neutral-200 p-7"><i class="ri-heart-line text-2xl" style="color:var(--accent-ink)"></i><p class="font-display font-medium text-lg mt-3">Loved by little ones</p><p class="text-neutral-600 text-sm mt-2">"The focus of my thanks goes to Sara who did the face painting today. My little girl is 5…" — a parent's review.</p></div>
+  </div>
+  <p class="text-neutral-600 mt-8 max-w-3xl">Covering Birmingham, West Midlands, East Midlands, Warwickshire, Worcestershire, Sandwell, Dudley, Leamington Spa and Sutton Coldfield.</p>
+</section>
+
+<!-- MAP -->
+<section id="find" class="max-w-6xl mx-auto px-5 pb-16 md:pb-32">
+  <div class="rounded-3xl overflow-hidden border border-neutral-200 grid md:grid-cols-2">
+    <div class="p-7 md:p-10">
+      <p class="text-sm font-medium" style="color:var(--accent-ink)">Find us</p>
+      <h2 class="font-display font-medium tracking-tight text-2xl md:text-3xl mt-2">Birmingham based, Midlands wide.</h2>
+      <p class="mt-4 space-y-2 text-sm">
+        <a href="tel:07964081325" class="flex items-center gap-2 hover:underline"><i class="ri-phone-line" style="color:var(--accent-ink)"></i>07964 081 325</a>
+        <a href="mailto:contact@sarasparlour.co.uk" class="flex items-center gap-2 hover:underline"><i class="ri-mail-line" style="color:var(--accent-ink)"></i>contact@sarasparlour.co.uk</a>
+      </p>
+    </div>
+    <iframe title="Map — Sara's Parlour, Birmingham" src="https://maps.google.com/maps?q=Birmingham%2C%20West%20Midlands&output=embed" class="w-full h-64 md:h-full min-h-64 border-0" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="quote" class="text-white" style="background:var(--ink)">
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-32 grid md:grid-cols-2 gap-10">
+    <div>
+      <p class="text-sm font-medium text-white/60">Book Sara</p>
+      <h2 class="font-display font-medium tracking-tight text-3xl md:text-5xl leading-[1.05] mt-3">Check your party date.</h2>
+      <p class="text-white/70 mt-4">Call <a href="tel:07964081325" class="underline">07964 081 325</a> or send the form. Demo form: front-end only, nothing is sent anywhere.</p>
+    </div>
+    <form id="quoteForm" class="bg-white text-neutral-900 rounded-3xl p-6 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4" novalidate>
+      <div><label class="text-sm font-medium" for="q-name">Name</label><input id="q-name" required class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="Your name"></div>
+      <div><label class="text-sm font-medium" for="q-phone">Phone</label><input id="q-phone" type="tel" required class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="07…"></div>
+      <div><label class="text-sm font-medium" for="q-email">Email</label><input id="q-email" type="email" class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="you@example.com"></div>
+      <div><label class="text-sm font-medium" for="q-postcode">Postcode</label><input id="q-postcode" class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="B…"></div>
+      <div class="sm:col-span-2"><label class="text-sm font-medium" for="q-msg">Message</label><textarea id="q-msg" required rows="4" class="mt-1 w-full rounded-2xl border border-neutral-300 px-4 py-3 text-sm" placeholder="Event date, venue and what you'd love…"></textarea></div>
+      <p id="formError" class="hidden sm:col-span-2 text-sm text-red-600">Please fill in your name, a valid phone and a message.</p>
+      <button type="submit" class="btn sm:col-span-2 justify-center font-medium text-white rounded-full px-8 py-3.5" style="background:var(--accent)"><i class="ri-calendar-check-line mr-2"></i>Check my date</button>
+      <p id="formDone" class="hidden sm:col-span-2 text-sm rounded-2xl bg-green-50 border border-green-200 text-green-800 px-4 py-3">Thanks — that's us notified (demo). For a faster reply, call 07964 081 325.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="max-w-6xl mx-auto px-5 py-10 text-sm text-neutral-500 flex flex-col md:flex-row gap-3 md:items-center justify-between">
+  <p>© 2026 Sara's Parlour Face Painting · Birmingham, West Midlands</p>
+  <p class="flex flex-wrap gap-x-5 gap-y-1"><a href="tel:07964081325" class="hover:underline">07964 081 325</a><a href="mailto:contact@sarasparlour.co.uk" class="hover:underline">contact@sarasparlour.co.uk</a></p>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var lenis = null;
+  if (!reduce && typeof Lenis !== 'undefined') {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1.0, touchMultiplier: 1.5 });
+    function raf(t){ lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (id.length < 2) return;
+      var el = document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      document.getElementById('mobileMenu').classList.add('hidden');
+      var y = el.getBoundingClientRect().top + window.scrollY - 72;
+      if (lenis) lenis.scrollTo(y); else window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+  document.getElementById('menuBtn').addEventListener('click', function(){ document.getElementById('mobileMenu').classList.toggle('hidden'); });
+  var f = document.getElementById('quoteForm');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var ok = document.getElementById('q-name').value.trim() && /^[0-9 +]{7,}$/.test(document.getElementById('q-phone').value.trim()) && document.getElementById('q-msg').value.trim();
+    document.getElementById('formError').classList.toggle('hidden', !!ok);
+    document.getElementById('formDone').classList.toggle('hidden', !ok);
+    if (ok) f.querySelectorAll('input,textarea').forEach(function(i){ i.value=''; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+ "page": "https://redlandbuilders.com/",
+ "count": 3,
+ "images": [
+  {
+   "file": "images/img_00.webp",
+   "source": "http://redlandbuilders.com/wp-content/uploads/2024/08/RB-1-2.webp",
+   "bytes": 21574
+  },
+  {
+   "file": "images/img_01.webp",
+   "source": "http://redlandbuilders.com/wp-content/uploads/2024/08/rb-green.webp",
+   "bytes": 22554
+  },
+  {
+   "file": "images/img_02.webp",
+   "source": "http://redlandbuilders.com/wp-content/uploads/2024/08/rb-white.webp",
+   "bytes": 19264
+  }
+ ]
+}

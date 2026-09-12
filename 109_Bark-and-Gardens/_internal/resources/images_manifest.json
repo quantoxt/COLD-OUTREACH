@@ -1,0 +1,100 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/BandGLogo.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/BandGLogo.jpg",
+  "alt": "Bark and Gardens",
+  "bytes": 448487
+ },
+ {
+  "file": "images/img02.png",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/maintenance-01-960x320.png",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/maintenance-01-960x320.png",
+  "alt": "maintenance-01",
+  "bytes": 386160
+ },
+ {
+  "file": "images/img03.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/slider-1-960x320.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/slider-1-960x320.jpg",
+  "alt": "slider-1",
+  "bytes": 48806
+ },
+ {
+  "file": "images/img04.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2017/08/maintenance.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2017/08/maintenance.jpg",
+  "alt": "Maintenance",
+  "bytes": 29907
+ },
+ {
+  "file": "images/img05.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2017/08/clearance.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2017/08/clearance.jpg",
+  "alt": "Clearance",
+  "bytes": 28983
+ },
+ {
+  "file": "images/img06.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/man-cutting-down-tree-360x240.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/man-cutting-down-tree-360x240.jpg",
+  "alt": "Tree work",
+  "bytes": 23483
+ },
+ {
+  "file": "images/img07.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Spring-bulbs-1280x720-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Spring-bulbs-1280x720-1.jpg",
+  "alt": "Spring bulbs (1280×720)",
+  "bytes": 832201
+ },
+ {
+  "file": "images/img08.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Gravel-rockery-1280x720-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Gravel-rockery-1280x720-1.jpg",
+  "alt": "Gravel rockery (1280×720)",
+  "bytes": 937348
+ },
+ {
+  "file": "images/img09.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/Borders-worked-3.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/Borders-worked-3.jpg",
+  "alt": "Landscape image of Bristol garden with green lawn and borders work done by Bristol gardener Bark and Gardens",
+  "bytes": 937489
+ },
+ {
+  "file": "images/img10.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Topiary-1280x720-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Topiary-1280x720-1.jpg",
+  "alt": "Topiary (1280×720)",
+  "bytes": 894186
+ },
+ {
+  "file": "images/img11.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Shrub-working-1280x960-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Shrub-working-1280x960-1.jpg",
+  "alt": "Shrub working (1280×960)",
+  "bytes": 1102257
+ },
+ {
+  "file": "images/img12.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Jono-in-tree-colours-enhanced-1280x960-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2020/03/Jono-in-tree-colours-enhanced-1280x960-1.jpg",
+  "alt": "Jono in tree (colours enhanced) (1280×960)",
+  "bytes": 1097543
+ },
+ {
+  "file": "images/img13.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/a-Garden-maintained.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/a-Garden-maintained.jpg",
+  "alt": "Landscape image of a Bristol garden being maintained by Bristol gardener, Bark and Gardens",
+  "bytes": 512004
+ },
+ {
+  "file": "images/img14.jpg",
+  "src": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/Turf-job-1.jpg",
+  "absolute": "https://barkandgardens.co.uk/wp-content/uploads/2017/03/Turf-job-1.jpg",
+  "alt": "Landscape image of a Bristol garden being turfed by Bristol gardener, Bark and Gardens",
+  "bytes": 346360
+ }
+]

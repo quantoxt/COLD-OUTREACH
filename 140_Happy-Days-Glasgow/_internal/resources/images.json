@@ -1,0 +1,27 @@
+[
+ {
+  "src": "/images/logo-landscape.svg",
+  "absolute": "https://www.happydaysglasgow.com/images/logo-landscape.svg",
+  "alt": ""
+ },
+ {
+  "src": "/images/facebook.svg",
+  "absolute": "https://www.happydaysglasgow.com/images/facebook.svg",
+  "alt": ""
+ },
+ {
+  "src": "/images/instagram.svg",
+  "absolute": "https://www.happydaysglasgow.com/images/instagram.svg",
+  "alt": ""
+ },
+ {
+  "src": "images/background-texture-01.svg",
+  "absolute": "https://www.happydaysglasgow.com/images/background-texture-01.svg",
+  "alt": ""
+ },
+ {
+  "src": "/images/background-texture-02.svg",
+  "absolute": "https://www.happydaysglasgow.com/images/background-texture-02.svg",
+  "alt": ""
+ }
+]

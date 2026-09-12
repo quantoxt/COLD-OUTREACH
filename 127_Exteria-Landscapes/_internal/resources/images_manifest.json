@@ -1,0 +1,36 @@
+{
+ "page": "https://www.exterialandscapes.co.uk/",
+ "count": 6,
+ "images": [
+  {
+   "file": "images/img_00.jpg",
+   "source": "https://www.exterialandscapes.co.uk/wp-content/uploads/2022/11/logo3.jpg",
+   "bytes": 6386
+  },
+  {
+   "file": "images/img_01.jpg",
+   "source": "https://www.exterialandscapes.co.uk/wp-content/uploads/2022/11/1-960x320.jpg",
+   "bytes": 173989
+  },
+  {
+   "file": "images/img_02.jpg",
+   "source": "https://www.exterialandscapes.co.uk/wp-content/uploads/2017/01/deck.1-360x240.jpg",
+   "bytes": 22221
+  },
+  {
+   "file": "images/img_03.jpg",
+   "source": "https://www.exterialandscapes.co.uk/wp-content/uploads/2017/01/pave.1-360x240.jpg",
+   "bytes": 18772
+  },
+  {
+   "file": "images/img_04.jpg",
+   "source": "https://www.exterialandscapes.co.uk/wp-content/uploads/2015/07/Tollcross.1-360x240.jpg",
+   "bytes": 22325
+  },
+  {
+   "file": "images/img_05.jpg",
+   "source": "https://www.ashburnham-insurance.co.uk/wordpress/media/insured-via-ashburnham-insurance.jpg",
+   "bytes": 51876
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+[
+ {
+  "file": "images/img01.jpg",
+  "src": "/images/logo.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/logo.jpg",
+  "alt": "Manchester Plasterer P Taylor & Sons",
+  "bytes": 32616
+ },
+ {
+  "file": "images/img02.png",
+  "src": "/images/phone.fw.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/phone.fw.png",
+  "alt": "",
+  "bytes": 52880
+ },
+ {
+  "file": "images/img03.png",
+  "src": "/images/fa-twitter.fw.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/fa-twitter.fw.png",
+  "alt": "",
+  "bytes": 51522
+ },
+ {
+  "file": "images/img04.png",
+  "src": "/images/fa-facebook.fw.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/fa-facebook.fw.png",
+  "alt": "",
+  "bytes": 49041
+ },
+ {
+  "file": "images/img05.png",
+  "src": "/images/fa-google.fw.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/fa-google.fw.png",
+  "alt": "",
+  "bytes": 50483
+ },
+ {
+  "file": "images/img06.png",
+  "src": "../images/new/approvedapplogocaa.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/new/approvedapplogocaa.png",
+  "alt": "Approoved corksol specialists",
+  "bytes": 53260
+ },
+ {
+  "file": "images/img07.png",
+  "src": "/images/backgrounds/fullborderhorizontal.fw.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/backgrounds/fullborderhorizontal.fw.png",
+  "alt": "",
+  "bytes": 48726
+ },
+ {
+  "file": "images/img08.jpg",
+  "src": "/wowhome/data1/images/1.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/wowhome/data1/images/1.jpg",
+  "alt": "1",
+  "bytes": 70808
+ },
+ {
+  "file": "images/img09.jpg",
+  "src": "/wowhome/data1/images/2.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/wowhome/data1/images/2.jpg",
+  "alt": "2",
+  "bytes": 122437
+ },
+ {
+  "file": "images/img10.jpg",
+  "src": "/wowhome/data1/images/3.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/wowhome/data1/images/3.jpg",
+  "alt": "3",
+  "bytes": 86845
+ },
+ {
+  "file": "images/img11.jpg",
+  "src": "/wowhome/data1/images/4.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/wowhome/data1/images/4.jpg",
+  "alt": "4",
+  "bytes": 627673
+ },
+ {
+  "file": "images/img12.jpg",
+  "src": "/wowhome/data1/images/5.jpg",
+  "absolute": "https://www.manchester-plasterer.co.uk/wowhome/data1/images/5.jpg",
+  "alt": "5",
+  "bytes": 352299
+ },
+ {
+  "file": "images/img13.png",
+  "src": "../images/new/Corksol-Logo.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/new/Corksol-Logo.png",
+  "alt": "",
+  "bytes": 9335
+ },
+ {
+  "file": "images/img14.png",
+  "src": "../images/new/approvedapplogocaa.png",
+  "absolute": "https://www.manchester-plasterer.co.uk/images/new/approvedapplogocaa.png",
+  "alt": "Apploved Corksol Applicator",
+  "bytes": 53260
+ }
+]
