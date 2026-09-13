@@ -1,6 +1,6 @@
 # Live sites
 
-Verified live: 16 sites
+Verified live: 71 sites
 
 - 01 Advantage Emergency Plumbers (Headingley) — https://advantage-headingley.vercel.app
 - 02 Bodmin Plumbing Services — https://bodmin-plumbing.vercel.app
@@ -11,10 +11,65 @@ Verified live: 16 sites
 - 08 Cookridge Plumbing — https://cookridge-plumbing.vercel.app
 - 09 Crossgates Leeds Plumbing — https://crossgates-plumbing.vercel.app
 - 10 CTD Plumbing & Heating — https://ctd-plumbing.vercel.app
-- 11 GJB Plumbing (Pudsey) — https://11-gjb-plumbing-pudsey.vercel.app
-- 12 Graham Plumbers Merchant (Leeds) — https://12-graham-plumbers-merchant-leeds.vercel.app
-- 13 HW Plumbing (Leeds) — https://13-hwplumbing.vercel.app
-- 14 Discount Heating & Bathrooms — https://14-discount-heating-supplies.vercel.app
-- 15 Leeds Home Plumbing — https://15-leeds-home-plumbing.vercel.app
-- 16 Geoff Todd Electrical — https://16-geoff-todd-electrical-ltd.vercel.app
-- 17 LPS Heating & Plumbing — https://17-lps-heating-plumbing.vercel.app
+- 19 Heatwise Plumbing Limited — https://19-heatwise-plumbing-limited.vercel.app
+- 20 Jsl — https://20-jsl.vercel.app
+- 23 Dodsworth Gas Services Ltd — https://23-dodsworth-gas-services-ltd.vercel.app
+- 24 Gh Plumbing And Heating — https://24-gh-plumbing-and-heating.vercel.app
+- 25 Direct Heating Installations — https://25-direct-heating-installations.vercel.app
+- 31 Mck Plumbing & Heating — https://31-mck-plumbing-heating.vercel.app
+- 32 Morley Plumbing — https://32-morley-plumbing.vercel.app
+- 33 Norton Plumbing — https://33-norton-plumbing.vercel.app
+- 34 P Adams Plumbing & Heating — https://34-p-adams-plumbing-heating.vercel.app
+- 35 Plumbers Leeds — https://35-plumbers-leeds.vercel.app
+- 37 Rock Gas & Plumbing Ltd — https://37-rock-gas-plumbing-ltd.vercel.app
+- 38 Skh Plumbing — https://38-skh-plumbing.vercel.app
+- 39 Spinks Plumbing & Heating Leeds — https://39-spinks-plumbing-heating-leeds.vercel.app
+- 40 St Plumbing And Gas — https://40-st-plumbing-and-gas.vercel.app
+- 41 T.M West Plumbing & Heating — https://41-t-m-west-plumbing-heating.vercel.app
+- 42 Tps Plumbing — https://42-tps-plumbing.vercel.app
+- 43 Wb Trade — https://43-wb-trade.vercel.app
+- 44 Wl Plumbing And Heating — https://44-wl-plumbing-and-heating.vercel.app
+- 45 Wygs Ltd — https://45-wygs-ltd.vercel.app
+- 50 Halifax Plumbers Merchants — https://50-halifax-plumbers-merchants.vercel.app
+- 52 Jeffery Roofing & Building — https://52-jeffery-roofing-building.vercel.app
+- 54 Lahart Carpentry — https://54-lahart-carpentry.vercel.app
+- 56 Dcb Plastering Services — https://56-dcb-plastering-services.vercel.app
+- 57 Unique Locksmiths Chingford — https://57-unique-locksmiths-chingford.vercel.app
+- 59 Qubic Carpentry Services — https://59-qubic-carpentry-services.vercel.app
+- 60 Technical Electrical Solutions — https://60-technical-electrical-solutions.vercel.app
+- 61 Midland Air Conditioning Ltd — https://61-midland-air-conditioning-ltd.vercel.app
+- 62 J Williams Roofing Ltd — https://62-j-williams-roofing-ltd.vercel.app
+- 63 Prime Al Builders — https://63-prime-al-builders.vercel.app
+- 64 D H Joinery — https://64-d-h-joinery.vercel.app
+- 66 Deep Roofing Solutions — https://66-deep-roofing-solutions.vercel.app
+- 67 Approved Roofing & Building Ltd — https://67-approved-roofing-building-ltd.vercel.app
+- 68 Qbic Construction — https://68-qbic-construction.vercel.app
+- 70 Dynamic Plastering Ltd — https://70-dynamic-plastering-ltd.vercel.app
+- 71 Northern Grounds And Gardens Ltd — https://71-northern-grounds-and-gardens-ltd.vercel.app
+- 72 Thoroughclean — https://72-thoroughclean.vercel.app
+- 75 Bathrooms Continental — https://75-bathrooms-continental.vercel.app
+- 76 Queens Park Building Services — https://76-queens-park-building-services.vercel.app
+- 77 Building Solutions Gl — https://77-building-solutions-gl.vercel.app
+- 79 Briar Homes — https://79-briar-homes.vercel.app
+- 81 S.Fraser Joiners & Preservation — https://81-s-fraser-joiners-preservation.vercel.app
+- 82 Seejoinerjim — https://82-seejoinerjim.vercel.app
+- 83 Bryan Evans — https://83-bryan-evans.vercel.app
+- 86 Mr & Mrs Gardens Limited — https://86-mr-mrs-gardens-limited.vercel.app
+- 87 Marlie Locksmiths — https://87-marlie-locksmiths.vercel.app
+- 88 Tamsin Kelly Gardens — https://88-tamsin-kelly-gardens.vercel.app
+- 89 Mrh Plumbing Services — https://89-mrh-plumbing-services.vercel.app
+- 90 Bdp Heating And Plumbing Limited — https://90-bdp-heating-and-plumbing-limited.vercel.app
+- 91 Crc Crosby Roofing Contractors — https://91-crc-crosby-roofing-contractors.vercel.app
+- 92 Rob Byatt Joinery — https://92-rob-byatt-joinery.vercel.app
+- 94 Gecko Interiors — https://94-gecko-interiors.vercel.app
+- 95 Brookbirch Landscapes — https://95-brookbirch-landscapes.vercel.app
+- 96 Dee Stewart Garden Design — https://96-dee-stewart-garden-design.vercel.app
+- 97 Marks New Gardens — https://97-marks-new-gardens.vercel.app
+- 98 Nfrc — https://98-nfrc.vercel.app
+- 99 Touch Safe Ltd — https://99-touch-safe-ltd.vercel.app
+- 101 The Build Bristol Group — https://101-the-build-bristol-group.vercel.app
+- 102 Dovetail Design And Build — https://102-dovetail-design-and-build.vercel.app
+- 103 Hykel Carpentry — https://103-hykel-carpentry.vercel.app
+- 104 Henry Carpentry And Build Ltd — https://104-henry-carpentry-and-build-ltd.vercel.app
+- 105 Cir General Building & Carpentry — https://105-cir-general-building-carpentry.vercel.app
+- 106 M&P Joinery — https://106-m-p-joinery.vercel.app
