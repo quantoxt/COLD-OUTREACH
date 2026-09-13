@@ -1,6 +1,6 @@
 # Live sites
 
-Verified live: 71 sites
+Verified live: 75 sites
 
 - 01 Advantage Emergency Plumbers (Headingley) — https://advantage-headingley.vercel.app
 - 02 Bodmin Plumbing Services — https://bodmin-plumbing.vercel.app
@@ -73,3 +73,7 @@ Verified live: 71 sites
 - 104 Henry Carpentry And Build Ltd — https://104-henry-carpentry-and-build-ltd.vercel.app
 - 105 Cir General Building & Carpentry — https://105-cir-general-building-carpentry.vercel.app
 - 106 M&P Joinery — https://106-m-p-joinery.vercel.app
+- 21 Duftons Plumbing And Heating Supplies Leeds Branch — https://21-duftons-plumbing-and-heating-sup.vercel.app
+- 22 Dc Plumbing Building Maintenance Ltd — https://22-dc-plumbing-building-maintenance.vercel.app
+- 36 Powell S Plumbing Heating Gas Services — https://36-powell-s-plumbing-heating-gas-se.vercel.app
+- 78 R&D Loft Ladders Glasgow Edinburgh Scotland — https://78-r-d-loft-ladders-glasgow-edinbur.vercel.app
